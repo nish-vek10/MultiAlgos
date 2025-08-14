@@ -1,0 +1,32 @@
+[BOOT] Path exists? True
+
+[MT5] Connected: 52474888 | Balance: $99748.06
+
+[MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0
+
+[*] Waiting for 5m close at 18:30:00 BST ...
+[OK] New bar detected: 2025-08-14 18:25:00
+[SIGNAL] NONE | close=3337.18 | vwap=3351.76 | ema9=3336.20 | ema50=3340.00 | atr=2.27
+[POS] NONE OPEN.
+
+[*] Waiting for 5m close at 18:35:00 BST ...
+[OK] New bar detected: 2025-08-14 18:30:00
+[SIGNAL] NONE | close=3336.57 | vwap=3351.74 | ema9=3336.27 | ema50=3339.87 | atr=2.13
+[POS] NONE OPEN.
+
+[*] Waiting for 5m close at 18:40:00 BST ...
+[OK] New bar detected: 2025-08-14 18:35:00
+[SIGNAL] NONE | close=3336.61 | vwap=3351.72 | ema9=3336.34 | ema50=3339.74 | atr=2.04
+[POS] NONE OPEN.
+
+[*] Waiting for 5m close at 18:45:00 BST ...
+[OK] New bar detected: 2025-08-14 18:40:00
+[SIGNAL] NONE | close=3337.32 | vwap=3351.71 | ema9=3336.53 | ema50=3339.64 | atr=1.99
+[POS] NONE OPEN.
+
+[*] Waiting for 5m close at 18:50:00 BST ...
+[OK] New bar detected: 2025-08-14 18:45:00
+[SIGNAL] NONE | close=3337.76 | vwap=3351.70 | ema9=3336.78 | ema50=3339.57 | atr=1.96
+[POS] NONE OPEN.
+
+[*] Waiting for 5m close at 18:55:00 BST ...

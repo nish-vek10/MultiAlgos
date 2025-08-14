@@ -1,0 +1,13 @@
+algos:
+
+  BTC-XAU_1H:
+    script_path: "CEStrategy_XAU+BTC_1H.py"
+
+  CE_XAU_5M:
+    script_path: "CEStrategy_XAU_5M.py"
+
+  CE_Reverse_XAU_5M:
+    script_path: "CEStrategyReverse_XAU_5M.py"
+
+  EMA_VWAP_Scalp:
+    script_path: "EMA-VWAP_Scalp.py"
