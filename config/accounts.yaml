@@ -1,7 +1,7 @@
 algos:
 
-  BTC-XAU_1H:
-    script_path: "CEStrategy_XAU+BTC_1H.py"
+  BTC-XAU-EU50-JPY_1H:
+    script_path: "CEHourly_BTC+XAU+EU50+UJ.py"
 
   CE_XAU_5M:
     script_path: "CEStrategy_XAU_5M.py"
