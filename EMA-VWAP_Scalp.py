@@ -57,20 +57,22 @@ ASSETS = {
     "XAU": {
         "mt5_symbol": "XAUUSD",
         "oanda_symbol": "XAU_USD",
-        "sessions": [("06:00", "12:30"), ("13:00", "23:00")],
+        "sessions": [("06:00", "12:00"), ("13:00", "18:00")],
         "magic": 888101,
-        "max_total_open": 6,
+        "max_total_open": 5,
         "max_per_side":  4,
         "auto_close_at_session_end": True,
+        "close_all_magics_at_session_end": True,
     },
     "BTC": {
         "mt5_symbol": "BTCUSD",
         "oanda_symbol": "BTC_USD",
-        "sessions": [("00:00", "23:00")],
+        "sessions": [("00:30", "21:00")],
         "magic": 888102,
-        "max_total_open": 6,
+        "max_total_open": 5,
         "max_per_side":  4,
         "auto_close_at_session_end": True,
+        "close_all_magics_at_session_end": True,
     },
 }
 
@@ -321,38 +323,48 @@ def maybe_pause_for_rollover():
         print("[ROLLOVER] Pausing (22:00–22:10 UTC).")
         time.sleep(60)
 
-def close_all_positions_for_asset(mt5_symbol: str, magic: int):
-    poss = mt5.positions_get(symbol=mt5_symbol)
-    if not poss:
-        return
-    mine = [p for p in poss if p.magic == magic]
-    for p in mine:
-        # market-close each
-        action = mt5.ORDER_TYPE_SELL if p.type == mt5.ORDER_TYPE_BUY else mt5.ORDER_TYPE_BUY
-        tick = mt5.symbol_info_tick(mt5_symbol)
-        if tick is None:
-            print(f"[ERROR] ({mt5_symbol}) No tick to close position {p.ticket}")
-            continue
-        price = tick.bid if action == mt5.ORDER_TYPE_SELL else tick.ask
-        req = {
-            "action": mt5.TRADE_ACTION_DEAL,
-            "symbol": mt5_symbol,
-            "volume": p.volume,
-            "type": action,
-            "position": p.ticket,
-            "price": price,
-            "deviation": SLIPPAGE_POINTS,
-            "magic": p.magic,
-            "comment": "AutoClose_SessionEnd",
-            "type_time": mt5.ORDER_TIME_GTC,
-            "type_filling": mt5.ORDER_FILLING_IOC,
-        }
-        res = mt5.order_send(req)
-        if res is None or res.retcode != mt5.TRADE_RETCODE_DONE:
-            print(f"[ERROR] ({mt5_symbol}) Auto-close failed: ticket={p.ticket} "
-                  f"retcode={getattr(res, 'retcode', None)} comment={getattr(res, 'comment', None)}")
-        else:
-            print(f"[OK] ({mt5_symbol}) Auto-closed ticket={p.ticket}")
+def close_all_positions_for_asset(mt5_symbol: str, magic: int | None, max_rounds: int = 3, pause_s: float = 0.4):
+    """
+    Close ALL open positions for a symbol, filtered by magic if provided.
+    Retries up to max_rounds with a fresh re-read each round.
+    """
+    for attempt in range(1, max_rounds + 1):
+        poss = mt5.positions_get(symbol=mt5_symbol)
+        if not poss:
+            return
+        if magic is not None:
+            poss = [p for p in poss if p.magic == magic]
+        if not poss:
+            return
+
+        print(f"[AUTO-CLOSE] ({mt5_symbol}) Round {attempt}: closing {len(poss)} positions...")
+        for p in poss:
+            action = mt5.ORDER_TYPE_SELL if p.type == mt5.ORDER_TYPE_BUY else mt5.ORDER_TYPE_BUY
+            tick = mt5.symbol_info_tick(mt5_symbol)
+            if tick is None:
+                print(f"[ERROR] ({mt5_symbol}) No tick to close ticket={p.ticket}")
+                continue
+            price = tick.bid if action == mt5.ORDER_TYPE_SELL else tick.ask
+            req = {
+                "action": mt5.TRADE_ACTION_DEAL,
+                "symbol": mt5_symbol,
+                "volume": p.volume,
+                "type": action,
+                "position": p.ticket,
+                "price": price,
+                "deviation": SLIPPAGE_POINTS,
+                "magic": p.magic,
+                "comment": "AutoClose_SessionEnd",
+                "type_time": mt5.ORDER_TIME_GTC,
+                "type_filling": mt5.ORDER_FILLING_IOC,
+            }
+            res = mt5.order_send(req)
+            if res is None or res.retcode != mt5.TRADE_RETCODE_DONE:
+                print(f"[ERROR] ({mt5_symbol}) Close failed: ticket={p.ticket} "
+                      f"retcode={getattr(res,'retcode',None)} comment={getattr(res,'comment',None)}")
+            else:
+                print(f"[OK] ({mt5_symbol}) Auto-closed ticket={p.ticket}")
+        time.sleep(pause_s)
 
 
 # =========================
@@ -383,10 +395,26 @@ while True:
             now_local = datetime.now(LOCAL_TZ)
             curr_in_session = in_session(key, now_local)
 
-            # If we just LEFT the session, and the switch is on, flatten any open positions for this asset.
+            # Determine whether we should close *all magics* or only ours
+            close_all_magics = prof.get("close_all_magics_at_session_end", False)
+            magic_filter = None if close_all_magics else prof["magic"]
+
+            # Edge-trigger: just left session?
             if state[key]["in_session_prev"] and not curr_in_session and prof.get("auto_close_at_session_end", False):
                 print(f"[SESSION] ({prof['mt5_symbol']}) Session ended — auto-closing open positions...")
-                close_all_positions_for_asset(prof["mt5_symbol"], prof["magic"])
+                close_all_positions_for_asset(prof["mt5_symbol"], magic_filter)
+
+            # Continuous guard: if we're out of session and auto-close is on, ensure flat
+            if not curr_in_session and prof.get("auto_close_at_session_end", False):
+                # only act if there are any positions to avoid spam:
+                existing = mt5.positions_get(symbol=prof["mt5_symbol"]) or []
+                if magic_filter is None:
+                    relevant = existing
+                else:
+                    relevant = [p for p in existing if p.magic == magic_filter]
+                if relevant:
+                    print(f"[SESSION] ({prof['mt5_symbol']}) Out of session — ensuring flat...")
+                    close_all_positions_for_asset(prof["mt5_symbol"], magic_filter)
 
             # Update the state now; we'll use curr_in_session below to gate entries.
             state[key]["in_session_prev"] = curr_in_session

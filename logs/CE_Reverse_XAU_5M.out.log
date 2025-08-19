@@ -7161,3 +7161,163 @@ BALANCE: $99845.02
 {'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1755628087, 'digits': 2, 'spread': 8, 'spread_float': True, 'ticks_bookdepth': 10, 'trade_calc_mode': 0, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 1, 'swap_rollover3days': 3, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 3326.5, 'bidhigh': 3345.3, 'bidlow': 3320.93, 'ask': 3326.58, 'askhigh': 3345.35, 'asklow': 3321.03, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 1.0, 'trade_tick_value_profit': 1.0, 'trade_tick_value_loss': 1.0, 'trade_tick_size': 0.01, 'trade_contract_size': 100.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 100.0, 'volume_step': 0.01, 'volume_limit': 0.0, 'swap_long': -52.7835, 'swap_short': 28.7035, 'margin_initial': 100.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 3333.6, 'session_close': 3332.72, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 100.0, 'price_change': -0.1866, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'XAU', 'currency_profit': 'USD', 'currency_margin': 'XAU', 'bank': '', 'description': 'Gold vs US Dollar', 'exchange': '', 'formula': '', 'isin': '', 'name': 'XAUUSD', 'page': '', 'path': 'Commodities\\Metals\\XAUUSD'}
 
 [*] OUTSIDE SESSION. NEXT SESSION: 2025-08-19 18:00:00 BST
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52474878 
+BALANCE: $99845.02
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1755629705, 'digits': 2, 'spread': 5, 'spread_float': True, 'ticks_bookdepth': 10, 'trade_calc_mode': 0, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 1, 'swap_rollover3days': 3, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 3322.24, 'bidhigh': 3345.3, 'bidlow': 3320.93, 'ask': 3322.29, 'askhigh': 3345.35, 'asklow': 3321.03, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 1.0, 'trade_tick_value_profit': 1.0, 'trade_tick_value_loss': 1.0, 'trade_tick_size': 0.01, 'trade_contract_size': 100.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 100.0, 'volume_step': 0.01, 'volume_limit': 0.0, 'swap_long': -52.7835, 'swap_short': 28.7035, 'margin_initial': 100.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 3333.6, 'session_close': 3332.72, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 100.0, 'price_change': -0.3145, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'XAU', 'currency_profit': 'USD', 'currency_margin': 'XAU', 'bank': '', 'description': 'Gold vs US Dollar', 'exchange': '', 'formula': '', 'isin': '', 'name': 'XAUUSD', 'page': '', 'path': 'Commodities\\Metals\\XAUUSD'}
+
+[*] OUTSIDE SESSION. NEXT SESSION: 2025-08-19 18:00:00 BST
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52474878 
+BALANCE: $99845.02
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1755632265, 'digits': 2, 'spread': 5, 'spread_float': True, 'ticks_bookdepth': 10, 'trade_calc_mode': 0, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 1, 'swap_rollover3days': 3, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 3318.93, 'bidhigh': 3345.3, 'bidlow': 3318.17, 'ask': 3318.98, 'askhigh': 3345.35, 'asklow': 3318.25, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 1.0, 'trade_tick_value_profit': 1.0, 'trade_tick_value_loss': 1.0, 'trade_tick_size': 0.01, 'trade_contract_size': 100.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 100.0, 'volume_step': 0.01, 'volume_limit': 0.0, 'swap_long': -52.7835, 'swap_short': 28.7035, 'margin_initial': 100.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 3333.6, 'session_close': 3332.72, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 100.0, 'price_change': -0.4138, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'XAU', 'currency_profit': 'USD', 'currency_margin': 'XAU', 'bank': '', 'description': 'Gold vs US Dollar', 'exchange': '', 'formula': '', 'isin': '', 'name': 'XAUUSD', 'page': '', 'path': 'Commodities\\Metals\\XAUUSD'}
+
+[*] OUTSIDE SESSION. NEXT SESSION: 2025-08-19 18:00:00 BST
+[+] SESSION START REACHED. Waiting to enter... 
+[+] SESSION HAS STARTED!                         
+[+] IN SESSION: 18:00:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:00:00 BST ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-08-19 17:55:00
+[INFO] Ignoring pre-session bar. Waiting for first post-session-start candle...
+
+[+] IN SESSION: 18:00:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:00:00 BST ...
+TIME REMAINING: 00:00
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:05:00 BST ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-08-19 18:00:00
+[OK] Retrieved 499 candles from OANDA.
+
+= = = = =   RAW OANDA CANDLESTICK DATA (LAST 10 CANDLES)   = = = = =
+                      open      high       low     close  volume
+time                                                            
+2025-08-19 17:15  3320.950  3322.700  3320.910  3321.845     812
+2025-08-19 17:20  3321.860  3322.585  3319.735  3319.785     837
+2025-08-19 17:25  3319.800  3320.230  3318.770  3319.490    1173
+2025-08-19 17:30  3319.495  3320.810  3318.465  3318.650    1042
+2025-08-19 17:35  3318.645  3319.165  3318.135  3318.580     941
+2025-08-19 17:40  3318.595  3319.915  3318.220  3319.265     776
+2025-08-19 17:45  3319.290  3320.515  3318.570  3318.715     563
+2025-08-19 17:50  3318.675  3318.830  3317.100  3317.355    1025
+2025-08-19 17:55  3317.340  3318.790  3317.255  3317.575     820
+2025-08-19 18:00  3317.550  3318.900  3316.950  3318.170    1119
+
+= = = = =   LAST 10 HEIKIN-ASHI CANDLES WITH SIGNALS  = = = = =
+                        ha_c      ha_open      ha_high    ha_low  dir signal
+time                                                                        
+2025-08-19 17:15  3321.60125  3322.429227  3322.700000  3320.910   -1       
+2025-08-19 17:20  3320.99125  3322.015238  3322.585000  3319.735   -1       
+2025-08-19 17:25  3319.57250  3321.503244  3321.503244  3318.770   -1       
+2025-08-19 17:30  3319.35500  3320.537872  3320.810000  3318.465   -1       
+2025-08-19 17:35  3318.63125  3319.946436  3319.946436  3318.135   -1       
+2025-08-19 17:40  3318.99875  3319.288843  3319.915000  3318.220   -1       
+2025-08-19 17:45  3319.27250  3319.143797  3320.515000  3318.570   -1       
+2025-08-19 17:50  3317.99000  3319.208148  3319.208148  3317.100   -1       
+2025-08-19 17:55  3317.74000  3318.599074  3318.790000  3317.255   -1       
+2025-08-19 18:00  3317.89250  3318.169537  3318.900000  3316.950   -1       
+[INFO] No open position currently.
+
+[+] IN SESSION: 18:00:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:05:00 BST ...
+TIME REMAINING: 00:00
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:10:00 BST ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-08-19 18:05:00
+[OK] Retrieved 499 candles from OANDA.
+
+= = = = =   RAW OANDA CANDLESTICK DATA (LAST 10 CANDLES)   = = = = =
+                      open      high       low     close  volume
+time                                                            
+2025-08-19 17:20  3321.860  3322.585  3319.735  3319.785     837
+2025-08-19 17:25  3319.800  3320.230  3318.770  3319.490    1173
+2025-08-19 17:30  3319.495  3320.810  3318.465  3318.650    1042
+2025-08-19 17:35  3318.645  3319.165  3318.135  3318.580     941
+2025-08-19 17:40  3318.595  3319.915  3318.220  3319.265     776
+2025-08-19 17:45  3319.290  3320.515  3318.570  3318.715     563
+2025-08-19 17:50  3318.675  3318.830  3317.100  3317.355    1025
+2025-08-19 17:55  3317.340  3318.790  3317.255  3317.575     820
+2025-08-19 18:00  3317.550  3318.900  3316.950  3318.170    1119
+2025-08-19 18:05  3318.160  3319.060  3317.160  3318.450     872
+
+= = = = =   LAST 10 HEIKIN-ASHI CANDLES WITH SIGNALS  = = = = =
+                        ha_c      ha_open      ha_high    ha_low  dir signal
+time                                                                        
+2025-08-19 17:20  3320.99125  3322.015238  3322.585000  3319.735   -1       
+2025-08-19 17:25  3319.57250  3321.503244  3321.503244  3318.770   -1       
+2025-08-19 17:30  3319.35500  3320.537872  3320.810000  3318.465   -1       
+2025-08-19 17:35  3318.63125  3319.946436  3319.946436  3318.135   -1       
+2025-08-19 17:40  3318.99875  3319.288843  3319.915000  3318.220   -1       
+2025-08-19 17:45  3319.27250  3319.143797  3320.515000  3318.570   -1       
+2025-08-19 17:50  3317.99000  3319.208148  3319.208148  3317.100   -1       
+2025-08-19 17:55  3317.74000  3318.599074  3318.790000  3317.255   -1       
+2025-08-19 18:00  3317.89250  3318.169537  3318.900000  3316.950   -1       
+2025-08-19 18:05  3318.20750  3318.031019  3319.060000  3317.160   -1       
+[INFO] No open position currently.
+
+[+] IN SESSION: 18:00:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:10:00 BST ...
+TIME REMAINING: 00:00
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:15:00 BST ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-08-19 18:10:00
+[OK] Retrieved 499 candles from OANDA.
+
+= = = = =   RAW OANDA CANDLESTICK DATA (LAST 10 CANDLES)   = = = = =
+                      open      high       low     close  volume
+time                                                            
+2025-08-19 17:25  3319.800  3320.230  3318.770  3319.490    1173
+2025-08-19 17:30  3319.495  3320.810  3318.465  3318.650    1042
+2025-08-19 17:35  3318.645  3319.165  3318.135  3318.580     941
+2025-08-19 17:40  3318.595  3319.915  3318.220  3319.265     776
+2025-08-19 17:45  3319.290  3320.515  3318.570  3318.715     563
+2025-08-19 17:50  3318.675  3318.830  3317.100  3317.355    1025
+2025-08-19 17:55  3317.340  3318.790  3317.255  3317.575     820
+2025-08-19 18:00  3317.550  3318.900  3316.950  3318.170    1119
+2025-08-19 18:05  3318.160  3319.060  3317.160  3318.450     872
+2025-08-19 18:10  3318.455  3318.505  3317.500  3317.865     793
+
+= = = = =   LAST 10 HEIKIN-ASHI CANDLES WITH SIGNALS  = = = = =
+                        ha_c      ha_open      ha_high    ha_low  dir signal
+time                                                                        
+2025-08-19 17:25  3319.57250  3321.503244  3321.503244  3318.770   -1       
+2025-08-19 17:30  3319.35500  3320.537872  3320.810000  3318.465   -1       
+2025-08-19 17:35  3318.63125  3319.946436  3319.946436  3318.135   -1       
+2025-08-19 17:40  3318.99875  3319.288843  3319.915000  3318.220   -1       
+2025-08-19 17:45  3319.27250  3319.143797  3320.515000  3318.570   -1       
+2025-08-19 17:50  3317.99000  3319.208148  3319.208148  3317.100   -1       
+2025-08-19 17:55  3317.74000  3318.599074  3318.790000  3317.255   -1       
+2025-08-19 18:00  3317.89250  3318.169537  3318.900000  3316.950   -1       
+2025-08-19 18:05  3318.20750  3318.031019  3319.060000  3317.160   -1       
+2025-08-19 18:10  3318.08125  3318.119259  3318.505000  3317.500   -1       
+[INFO] No open position currently.
+
+[+] IN SESSION: 18:00:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:15:00 BST ...
+TIME REMAINING: 00:00
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:20:00 BST ...
