@@ -5,8 +5,8 @@ Chandelier-Direction, Fixed SL/TP (1H) for XAUUSD, BTCUSD, EURO STOXX 50, USDJPY
 - Position size: Per-asset lot sizes (configurable) to keep risk roughly aligned across symbols.
   Example: XAU $40 @ 0.1 lots ≈ $400 risk (≈0.4% on a $100k account).
 
-  ~ USDJPY: 2.00 JPY = ~200 pips. At 0.2 lots, pip value ≈ $2/pip ⇒ $400 risk (200×$2).
-  ~ STOXX50: Many brokers quote ~€1/pt/lot. With a 150‑point stop:– 2.67 lots ≈ €400 risk (150×2.67).
+  ~ USDJPY: SL = 2.00 JPY (≈ 200 pips). For 1 lot, pip ≈ $6–7 → risk per lot ≈ $1,200–1,400. Target $400 ⇒ ~0.30 lots.
+  ~ STOXX50: SL = 50 pts. If your contract is €1/pt/lot, risk per lot ≈ €50 → target ~$400 ≈ €360 ⇒ ~7.2 lots.
 """
 
 # ===== FILENAME: CEHourly_BTC+XAU+EU50+UJ =====
@@ -56,6 +56,27 @@ if account is None:
 
 print(f"\nMT5 Account Connected! \nAccount: {account.login} \nBalance: ${account.balance:.2f}\n")
 
+def get_tick_specs(symbol):
+    """
+    Return (tick_size, tick_value, unit, profit_ccy) for 1.0 lot.
+    unit = "account"  -> tick_value already in account currency (from trade_* fields)
+    unit = "profit"   -> tick_value in profit currency (from generic fields), needs FX conversion
+    """
+    info = mt5.symbol_info(symbol)
+    if info is None:
+        return (None, None, None, None)
+
+    # Prefer trade_* (usually in account currency)
+    t_size = getattr(info, "trade_tick_size", None)
+    t_val  = getattr(info, "trade_tick_value", None)
+    if t_size and t_val:
+        return (t_size, t_val, "account", getattr(info, "currency_profit", None))
+
+    # Fallback to generic fields (usually in profit currency units)
+    t_size = getattr(info, "tick_size", None) or getattr(info, "point", None)
+    t_val  = getattr(info, "tick_value", None)
+    return (t_size, t_val, "profit", getattr(info, "currency_profit", None))
+
 def convert_to_account_currency(amount, from_ccy, account_ccy="USD"):
     """
     Convert amount from 'from_ccy' to 'account_ccy' using MT5 quotes (mid).
@@ -104,35 +125,34 @@ def lots_for_target_usd(symbol, sl_distance, target_usd, account_ccy="USD"):
     if info is None:
         return None
 
-    tick_size  = getattr(info, "trade_tick_size", None) or getattr(info, "tick_size", None) or getattr(info, "point", None)
-    tick_value = getattr(info, "trade_tick_value", None) or getattr(info, "tick_value", None)
-    profit_ccy = getattr(info, "currency_profit", None) or ""
-
+    tick_size, tick_value, unit, profit_ccy = get_tick_specs(symbol)
     if not tick_size or not tick_value or tick_size == 0:
         return None
 
     ticks = sl_distance / tick_size
-    risk_per_lot_profit = ticks * tick_value  # per 1.0 lot, in profit currency
-    risk_per_lot_acct   = convert_to_account_currency(risk_per_lot_profit, profit_ccy, account_ccy)
+    risk_per_lot = ticks * float(tick_value)  # risk per 1.0 lot in 'unit' currency
+
+    # Convert only if tick_value is in profit currency
+    if unit == "profit":
+        risk_per_lot_acct = convert_to_account_currency(risk_per_lot, profit_ccy, account_ccy)
+    else:  # 'account'
+        risk_per_lot_acct = risk_per_lot
+
     if not risk_per_lot_acct or risk_per_lot_acct <= 0:
         return None
 
     raw_lots = float(target_usd) / risk_per_lot_acct
 
     # Quantize to broker constraints
-    step = info.volume_step
-    if step and step > 0:
-        raw_lots = round(raw_lots / step) * step
-
+    step = info.volume_step or 0.01
+    raw_lots = round(raw_lots / step) * step
     raw_lots = max(raw_lots, info.volume_min)
     raw_lots = min(raw_lots, info.volume_max)
 
-    # Avoid FP artifacts in prints/orders
-    # e.g., step=0.01 -> keep 2 decimals
+    # tidy formatting to step precision
     step_str = f"{step:.10f}".rstrip("0")
     dec = len(step_str.split(".")[1]) if "." in step_str else 0
     return float(f"{raw_lots:.{dec}f}")
-
 
 def estimate_risk(symbol, sl_distance, lots, account_ccy="USD"):
     """
@@ -143,17 +163,25 @@ def estimate_risk(symbol, sl_distance, lots, account_ccy="USD"):
     if info is None:
         return (None, None, None)
 
-    tick_size  = getattr(info, "trade_tick_size", None) or getattr(info, "tick_size", None) or getattr(info, "point", None)
-    tick_value = getattr(info, "trade_tick_value", None) or getattr(info, "tick_value", None)
-    profit_ccy = getattr(info, "currency_profit", None) or ""
-
+    tick_size, tick_value, unit, profit_ccy = get_tick_specs(symbol)
     if not tick_size or not tick_value or tick_size == 0:
         return (None, None, None)
 
     ticks = sl_distance / tick_size
-    risk_profit = ticks * tick_value * float(lots)
-    risk_acct   = convert_to_account_currency(risk_profit, profit_ccy, account_ccy)
+    risk_1lot = ticks * float(tick_value)
+
+    if unit == "profit":
+        risk_1lot_acct = convert_to_account_currency(risk_1lot, profit_ccy, account_ccy)
+    else:
+        risk_1lot_acct = risk_1lot
+
+    if not risk_1lot_acct:
+        return (None, profit_ccy, None)
+
+    risk_acct = risk_1lot_acct * float(lots)
+    risk_profit = None if unit == "account" else (risk_1lot * float(lots))
     return (risk_acct, profit_ccy, risk_profit)
+
 
 # Loop through all symbols to print info
 for s in symbols:
@@ -177,9 +205,12 @@ for s in symbols:
         # Risk estimates (both in account ccy and profit ccy for transparency)
         r_acct, p_ccy, r_profit = estimate_risk(s["mt5"], s["fixed_sl"], eff_lot, account.currency)
         if r_acct is not None:
-            print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+            extra = f" (≈ {r_profit:.2f} {p_ccy})" if r_profit is not None else ""
+            print(
+                f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency}{extra}")
         else:
-            print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est risk unavailable (tick specs/conversion missing)")
+            print(
+                f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est risk unavailable (tick specs/conversion missing)")
     else:
         print(f"[ERROR] Unable to fetch symbol info for {s['mt5']}")
 
@@ -553,3 +584,4 @@ while True:
             print(f"[INFO] No new trade action needed for {mt5_symbol}. Signal unchanged: {signal}")
 
     print("\n[✓] Cycle complete. Waiting for next 1-hour candle...\n")
+

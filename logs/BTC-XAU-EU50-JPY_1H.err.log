@@ -1,0 +1,1850 @@
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CEHourly_BTC+XAU+EU50+UJ.py", line 208, in <module>
+    print(f"[RISK] {s['mt5']}: lot={eff_lot} | SL={s['fixed_sl']} | TP={s['fixed_tp']} -> est ≈ {r_acct:.2f} {account.currency} (≈ {r_profit:.2f} {p_ccy})")
+                                                                                                                                   ^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
