@@ -12,6 +12,7 @@ from datetime import datetime, timedelta
 import os
 import requests
 import sys
+import math
 import pandas as pd
 from pytz import timezone
 
@@ -28,10 +29,15 @@ atr_mult = 1.85
 magic_number = 223344  # Unique ID for this EA's trades
 local_tz = timezone('Europe/London')
 
+# === RISK & STOPS CONFIG === #
+risk_per_trade_pct = 0.25      # percent of balance risked per trade
+sl_usd_distance    = 2.5       # fixed $ distance from entry
+
+
 # === SESSION FILTER (Europe/London local time) === #
 session_windows = [
-    ("00:00", "05:55"),  # Pre-London / Asian hours (choppy/mean-reverting)
-    ("18:00", "22:00"),  # After overlap fades until late US evening
+    ("00:30", "05:30"),  # Pre-London / Asian hours (choppy/mean-reverting)
+    ("18:30", "22:00"),  # After overlap fades until late US evening
 ]
 
 # session behaviour
@@ -61,6 +67,8 @@ symbol_info = mt5.symbol_info(mt5_symbol)
 if symbol_info:
     print(f"[INFO] {mt5_symbol} Lot Range: min={symbol_info.volume_min}, max={symbol_info.volume_max}, step={symbol_info.volume_step}")
     print(symbol_info._asdict())
+    min_sl_usd = (getattr(symbol_info, "trade_stops_level", 0) or 0) * symbol_info.point
+    print(f"[INFO] Min stop distance enforced by broker ≈ ${min_sl_usd:.2f}")
 else:
     print(f"[ERROR] Unable to fetch symbol info for {mt5_symbol}")
 
@@ -121,12 +129,89 @@ def get_position(symbol):
             return p
     return None
 
-def send_order(symbol, action_type, lot=lot_size):
+def _round_to_step(value, step):
+    steps = math.floor(value / step)
+    return max(steps * step, 0.0)
+
+def compute_lot_for_risk(symbol, sl_usd, risk_pct):
     """
-    Send a buy or sell order (market).
+    Compute lot size so that loss at SL ~= risk_pct% of current balance.
+    Uses tick_value/tick_size so it works across brokers.
+    Assumes tick_value is for 1.0 lot (standard in MT5).
     """
+    acct = mt5.account_info()
+    if acct is None:
+        raise RuntimeError(f"Account not available: {mt5.last_error()}")
+    balance = float(acct.balance)
+    risk_amount = balance * (float(risk_pct) / 100.0)
+    if risk_amount <= 0:
+        return None, 0.0
+
+    si = mt5.symbol_info(symbol)
+    if si is None:
+        print(f"[ERROR] Symbol info not found for {symbol}")
+        return None, 0.0
+
+    # Value of a 1.0 price unit move for 1.0 lot
+    # (e.g., for XAUUSD this is usually 1.0 / 0.01 * tick_value = 100 * tick_value)
+    if si.tick_size == 0:
+        print("[ERROR] tick_size is zero; cannot compute risk.")
+        return None, 0.0
+    value_per_1usd_per_lot = si.tick_value / si.tick_size  # $ per 1.0 price move for 1.0 lot
+
+    # Risk per lot at this SL distance
+    risk_per_lot = value_per_1usd_per_lot * float(sl_usd)
+
+    if risk_per_lot <= 0:
+        return None, 0.0
+
+    raw_lot = risk_amount / risk_per_lot
+
+    # Conform to broker lot rules
+    lot = _round_to_step(raw_lot, si.volume_step)
+    lot = max(si.volume_min, min(lot, si.volume_max))
+
+    return lot, risk_amount
+
+def compute_sl_price(symbol, action_type, entry_price, sl_usd):
+    """
+    Convert the fixed $ distance into a price level, respecting stops level.
+    """
+    si = mt5.symbol_info(symbol)
+    if si is None:
+        return None
+    digits = si.digits
+    point = si.point
+
+    if action_type == mt5.ORDER_TYPE_BUY:
+        sl = entry_price - float(sl_usd)
+    else:
+        sl = entry_price + float(sl_usd)
+
+    # Respect minimum stops distance if broker enforces it
+    stops_pts = getattr(si, "trade_stops_level", 0)
+    if stops_pts and stops_pts > 0:
+        min_dist = stops_pts * point
+        diff = abs(entry_price - sl)
+        if diff < min_dist:
+            if action_type == mt5.ORDER_TYPE_BUY:
+                sl = entry_price - min_dist
+            else:
+                sl = entry_price + min_dist
+
+    # round to symbol precision
+    sl = round(sl, digits)
+    return sl
+
+
+def send_order(symbol, action_type, lot=None):
+    """
+    Send a buy or sell market order sized by risk and with fixed $2.5 SL, no TP.
+    If 'lot' is provided, it will be used; otherwise we size from risk settings.
+    """
+
     # volume validation
-    if lot is None or lot <= 0:
+    if lot is not None and lot <= 0:
         print(f"[ERROR] Invalid trade volume: {lot}")
         return
 
@@ -135,40 +220,56 @@ def send_order(symbol, action_type, lot=lot_size):
         print(f"[ERROR] Failed to select symbol {symbol}")
         return
 
-    symbol_info = mt5.symbol_info(symbol)
-    if symbol_info is None:
+    si = mt5.symbol_info(symbol)
+    if si is None:
         print(f"[ERROR] Symbol info not found for {symbol}")
         return
 
-    if hasattr(symbol_info, "trade_allowed") and not symbol_info.trade_allowed:
+    if hasattr(si, "trade_allowed") and not si.trade_allowed:
         print(f"[ERROR] Trading is not allowed for {symbol}")
         return
 
-    # round lot to broker step
-    lot = round(lot / symbol_info.volume_step) * symbol_info.volume_step
-
-    if lot < symbol_info.volume_min or lot > symbol_info.volume_max:
-        print(f"[ERROR] Lot size {lot} out of range: min={symbol_info.volume_min}, max={symbol_info.volume_max}")
-        return
-
+    # get current price
     tick = mt5.symbol_info_tick(symbol)
     if tick is None:
         print(f"[ERROR] Failed to get tick data for {symbol}")
         return
+    entry_price = tick.ask if action_type == mt5.ORDER_TYPE_BUY else tick.bid
 
-    price = tick.ask if action_type == mt5.ORDER_TYPE_BUY else tick.bid
+    # 1) Compute SL price FIRST (respects broker min distance)
+    sl_price = compute_sl_price(symbol, action_type, entry_price, sl_usd_distance)
+    if sl_price is None:
+        print("[ERROR] Could not compute SL price.")
+        return
+
+    # 2) Use the ACTUAL distance for risk sizing
+    actual_distance = abs(entry_price - sl_price)
+
+    if lot is None:
+        lot, risk_amount = compute_lot_for_risk(symbol, actual_distance, risk_per_trade_pct)  # <-- pass actual_distance
+        if lot is None or lot <= 0:
+            print("[ERROR] Computed lot is invalid; aborting order.")
+            return
+        print(f"[RISK] Balance risked: ${risk_amount:.2f} | SL distance: ${actual_distance:.2f} | Lot: {lot}")
+
+    # round lot to broker step & validate
+    lot = _round_to_step(lot, si.volume_step)
+    if lot < si.volume_min or lot > si.volume_max:
+        print(f"[ERROR] Lot size {lot} out of range: min={si.volume_min}, max={si.volume_max}")
+        return
 
     request = {
         "action": mt5.TRADE_ACTION_DEAL,
         "symbol": symbol,
         "volume": lot,
         "type": action_type,
-        "price": price,
+        "price": entry_price,
         "deviation": slippage,
         "magic": magic_number,
         "comment": "ChandelierReverseBot",
         "type_time": mt5.ORDER_TIME_GTC,
         "type_filling": mt5.ORDER_FILLING_IOC,
+        "sl": sl_price,
     }
 
     result = mt5.order_send(request)
@@ -180,7 +281,32 @@ def send_order(symbol, action_type, lot=lot_size):
     if result.retcode != mt5.TRADE_RETCODE_DONE:
         print(f"[ERROR] ORDER FAILED: {result.retcode}, {result.comment}")
     else:
-        print(f"[OK] ORDER PLACED: {result}")
+        print(f"[OK] ORDER PLACED: ticket={result.order}, price={entry_price}, sl={sl_price}, lot={lot}")
+
+        # === (post-fill SL adjust to exactly +-$10 from FILLED price) ===
+        pos = get_position(symbol)  # your helper filters by magic+symbol
+        if pos:
+            filled = pos.price_open
+            desired_sl = compute_sl_price(symbol, action_type, filled, sl_usd_distance)
+            # if broker set a different SL (or none), bring it to desired_sl
+            current_sl = pos.sl if pos.sl and pos.sl != 0.0 else None
+            if desired_sl and (current_sl is None or abs(desired_sl - current_sl) > si.point):
+                mod = {
+                    "action": mt5.TRADE_ACTION_SLTP,
+                    "symbol": symbol,
+                    "position": pos.ticket,
+                    "sl": desired_sl,
+                    # no "tp" to keep no take-profit
+                    "magic": magic_number,
+                    "comment": "Adjust SL to filled ± $10",
+                }
+                mod_res = mt5.order_send(mod)
+                if mod_res is not None and mod_res.retcode == mt5.TRADE_RETCODE_DONE:
+                    print(f"[OK] SL ADJUSTED to {desired_sl}")
+                else:
+                    print(
+                        f"[WARN] SL adjust failed: {getattr(mod_res, 'retcode', None)}, "
+                        f"{getattr(mod_res, 'comment', None)}")
 
 def close_position(position, symbol):
     """
@@ -593,17 +719,19 @@ while True:
                 close_position(pos, mt5_symbol)
         continue
 
-    # execute according to signals
+    # execute according to signals (REVERSE execution)
     if signal == 'BUY':
         if open_position == 'SELL':
             close_position(position, mt5_symbol)
         if open_position != 'BUY':
+            print("[EXEC-REVERSE] BUY (reverse) -> sending BUY order (auto-size).")
             send_order(mt5_symbol, mt5.ORDER_TYPE_BUY)
 
     elif signal == 'SELL':
         if open_position == 'BUY':
             close_position(position, mt5_symbol)
         if open_position != 'SELL':
+            print("[EXEC-REVERSE] SELL (reverse) -> sending SELL order (auto-size).")
             send_order(mt5_symbol, mt5.ORDER_TYPE_SELL)
 
     # end-of-iteration: if session ended now, tidy up and loop to next session

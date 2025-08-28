@@ -26,6 +26,7 @@ symbols = [
     {"mt5": "BTCUSD", "oanda": "BTC_USD", "fixed_sl": 4000, "fixed_tp": 4000, "lot_size": 0.1},
     {"mt5": "STOXX50", "oanda": "EU50_EUR", "fixed_sl": 50, "fixed_tp": 50, "risk_usd": 400.0},
     {"mt5": "USDJPY", "oanda": "USD_JPY", "fixed_sl": 2, "fixed_tp": 2, "risk_usd": 400.0},
+    {"mt5": "DE40", "oanda": "DE30_EUR", "fixed_sl": 250, "fixed_tp": 250, "risk_usd": 400.0},
 ]
 
 timeframe = mt5.TIMEFRAME_H1
