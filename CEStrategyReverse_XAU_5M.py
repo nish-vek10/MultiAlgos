@@ -67,8 +67,10 @@ symbol_info = mt5.symbol_info(mt5_symbol)
 if symbol_info:
     print(f"[INFO] {mt5_symbol} Lot Range: min={symbol_info.volume_min}, max={symbol_info.volume_max}, step={symbol_info.volume_step}")
     print(symbol_info._asdict())
+
     min_sl_usd = (getattr(symbol_info, "trade_stops_level", 0) or 0) * symbol_info.point
     print(f"[INFO] Min stop distance enforced by broker ≈ ${min_sl_usd:.2f}")
+
 else:
     print(f"[ERROR] Unable to fetch symbol info for {mt5_symbol}")
 
@@ -136,8 +138,8 @@ def _round_to_step(value, step):
 def compute_lot_for_risk(symbol, sl_usd, risk_pct):
     """
     Compute lot size so that loss at SL ~= risk_pct% of current balance.
-    Uses tick_value/tick_size so it works across brokers.
-    Assumes tick_value is for 1.0 lot (standard in MT5).
+    Uses trade_tick_value/trade_tick_size when available; falls back safely.
+    Assumes these values are for 1.0 lot (standard in MT5).
     """
     acct = mt5.account_info()
     if acct is None:
@@ -152,24 +154,52 @@ def compute_lot_for_risk(symbol, sl_usd, risk_pct):
         print(f"[ERROR] Symbol info not found for {symbol}")
         return None, 0.0
 
-    # Value of a 1.0 price unit move for 1.0 lot
-    # (e.g., for XAUUSD this is usually 1.0 / 0.01 * tick_value = 100 * tick_value)
-    if si.tick_size == 0:
-        print("[ERROR] tick_size is zero; cannot compute risk.")
+    # $ value of a 1.0 price move per 1.0 lot
+    value_per_1usd_per_lot = None
+
+    # 1) Preferred: trade_tick_value / trade_tick_size
+    tv = getattr(si, "trade_tick_value", None)
+    ts = getattr(si, "trade_tick_size", None)
+    if tv not in (None, 0) and ts not in (None, 0):
+        value_per_1usd_per_lot = float(tv) / float(ts)
+
+    # 2) Fallback: tick_value / tick_size (some brokers use these names)
+    if value_per_1usd_per_lot is None:
+        tv2 = getattr(si, "tick_value", None)
+        ts2 = getattr(si, "tick_size", None)
+        if tv2 not in (None, 0) and ts2 not in (None, 0):
+            value_per_1usd_per_lot = float(tv2) / float(ts2)
+
+    # 3) Fallback: tick_value / point (rare feeds)
+    if value_per_1usd_per_lot is None:
+        tv3 = getattr(si, "tick_value", None)
+        pt  = getattr(si, "point", None)
+        if tv3 not in (None, 0) and pt not in (None, 0):
+            value_per_1usd_per_lot = float(tv3) / float(pt)
+
+    # 4) Last resort: contract size (works for XAUUSD quoted in USD)
+    if value_per_1usd_per_lot is None:
+        cs = getattr(si, "trade_contract_size", None)
+        if cs not in (None, 0):
+            value_per_1usd_per_lot = float(cs)
+
+    if value_per_1usd_per_lot in (None, 0):
+        print("[ERROR] Cannot derive $ value per $1 move for 1 lot; missing tick fields.")
         return None, 0.0
-    value_per_1usd_per_lot = si.tick_value / si.tick_size  # $ per 1.0 price move for 1.0 lot
 
-    # Risk per lot at this SL distance
+    # Risk per 1 lot for this SL distance (distance is in price dollars)
     risk_per_lot = value_per_1usd_per_lot * float(sl_usd)
-
     if risk_per_lot <= 0:
         return None, 0.0
 
     raw_lot = risk_amount / risk_per_lot
 
-    # Conform to broker lot rules
+    # Conform to broker volume constraints (floor to step to avoid over-risk)
     lot = _round_to_step(raw_lot, si.volume_step)
     lot = max(si.volume_min, min(lot, si.volume_max))
+
+    # Optional: debug
+    # print(f"[DEBUG] v_per_$1: {value_per_1usd_per_lot:.6f}, risk/lot: {risk_per_lot:.2f}, raw_lot: {raw_lot:.4f}")
 
     return lot, risk_amount
 
@@ -283,7 +313,7 @@ def send_order(symbol, action_type, lot=None):
     else:
         print(f"[OK] ORDER PLACED: ticket={result.order}, price={entry_price}, sl={sl_price}, lot={lot}")
 
-        # === (post-fill SL adjust to exactly +-$10 from FILLED price) ===
+        # === (post-fill SL adjust to exactly +-$2.50 from FILLED price) ===
         pos = get_position(symbol)  # your helper filters by magic+symbol
         if pos:
             filled = pos.price_open
@@ -298,7 +328,7 @@ def send_order(symbol, action_type, lot=None):
                     "sl": desired_sl,
                     # no "tp" to keep no take-profit
                     "magic": magic_number,
-                    "comment": "Adjust SL to filled ± $10",
+                    "comment": "Adjust SL to filled ± $2.50",
                 }
                 mod_res = mt5.order_send(mod)
                 if mod_res is not None and mod_res.retcode == mt5.TRADE_RETCODE_DONE:
