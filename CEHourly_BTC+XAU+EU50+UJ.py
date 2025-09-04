@@ -39,8 +39,8 @@ magic_number = 987654 # Unique ID for this EA's trades
 local_tz = timezone('Europe/London')
 
 # === ACCOUNT LOGIN CONFIG === #
-mt5_login = 52461477
-mt5_password = "F!3HXK2m9U22$c"
+mt5_login = 52498249
+mt5_password = "cg!rr!v26Juuh3"
 mt5_server = "ICMarketsSC-Demo"
 mt5_terminal_path = r"C:\MT5\52461477\terminal64.exe"
 

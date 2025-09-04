@@ -36,7 +36,7 @@ sl_usd_distance    = 4.5       # fixed $ distance from entry
 
 # === SESSION FILTER (Europe/London local time) === #
 session_windows = [
-    ("07:00", "12:00"),  # London morning
+    ("06:00", "12:00"),  # London morning
     ("13:00", "18:00"),  # US session + London/NY overlap
 ]
 
