@@ -31,3 +31,36 @@ BALANCE: $99475.44
 [INFO] Min stop distance enforced by broker ≈ $0.00
 
 [*] OUTSIDE SESSION. NEXT SESSION: 2025-09-09 18:30:00 BST
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52474878 
+BALANCE: $99475.44
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1757434198, 'digits': 2, 'spread': 9, 'spread_float': True, 'ticks_bookdepth': 10, 'trade_calc_mode': 0, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 1, 'swap_rollover3days': 3, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 3650.12, 'bidhigh': 3659.31, 'bidlow': 3628.18, 'ask': 3650.21, 'askhigh': 3659.37, 'asklow': 3628.3, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 1.0, 'trade_tick_value_profit': 1.0, 'trade_tick_value_loss': 1.0, 'trade_tick_size': 0.01, 'trade_contract_size': 100.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 100.0, 'volume_step': 0.01, 'volume_limit': 0.0, 'swap_long': -55.7106, 'swap_short': 30.0895, 'margin_initial': 100.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 3636.04, 'session_close': 3635.75, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 100.0, 'price_change': 0.3952, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'XAU', 'currency_profit': 'USD', 'currency_margin': 'XAU', 'bank': '', 'description': 'Gold vs US Dollar', 'exchange': '', 'formula': '', 'isin': '', 'name': 'XAUUSD', 'page': '', 'path': 'Commodities\\Metals\\XAUUSD'}
+[INFO] Min stop distance enforced by broker ≈ $0.00
+
+[*] OUTSIDE SESSION. NEXT SESSION: 2025-09-09 18:30:00 BST
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52474878 
+BALANCE: $99475.44
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1757434238, 'digits': 2, 'spread': 7, 'spread_float': True, 'ticks_bookdepth': 10, 'trade_calc_mode': 0, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 1, 'swap_rollover3days': 3, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 3649.81, 'bidhigh': 3659.31, 'bidlow': 3628.18, 'ask': 3649.88, 'askhigh': 3659.37, 'asklow': 3628.3, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 1.0, 'trade_tick_value_profit': 1.0, 'trade_tick_value_loss': 1.0, 'trade_tick_size': 0.01, 'trade_contract_size': 100.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 100.0, 'volume_step': 0.01, 'volume_limit': 0.0, 'swap_long': -55.7106, 'swap_short': 30.0895, 'margin_initial': 100.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 3636.04, 'session_close': 3635.75, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 100.0, 'price_change': 0.3867, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'XAU', 'currency_profit': 'USD', 'currency_margin': 'XAU', 'bank': '', 'description': 'Gold vs US Dollar', 'exchange': '', 'formula': '', 'isin': '', 'name': 'XAUUSD', 'page': '', 'path': 'Commodities\\Metals\\XAUUSD'}
+[INFO] Min stop distance enforced by broker ≈ $0.00
+
+[*] OUTSIDE SESSION. NEXT SESSION: 2025-09-09 18:30:00 BST
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52474878 
+BALANCE: $99475.44
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1757435272, 'digits': 2, 'spread': 10, 'spread_float': True, 'ticks_bookdepth': 10, 'trade_calc_mode': 0, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 1, 'swap_rollover3days': 3, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 3660.32, 'bidhigh': 3660.98, 'bidlow': 3628.18, 'ask': 3660.42, 'askhigh': 3661.08, 'asklow': 3628.3, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 1.0, 'trade_tick_value_profit': 1.0, 'trade_tick_value_loss': 1.0, 'trade_tick_size': 0.01, 'trade_contract_size': 100.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 100.0, 'volume_step': 0.01, 'volume_limit': 0.0, 'swap_long': -55.7106, 'swap_short': 30.0895, 'margin_initial': 100.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 3636.04, 'session_close': 3635.75, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 100.0, 'price_change': 0.6758, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'XAU', 'currency_profit': 'USD', 'currency_margin': 'XAU', 'bank': '', 'description': 'Gold vs US Dollar', 'exchange': '', 'formula': '', 'isin': '', 'name': 'XAUUSD', 'page': '', 'path': 'Commodities\\Metals\\XAUUSD'}
+[INFO] Min stop distance enforced by broker ≈ $0.00
+
+[*] OUTSIDE SESSION. NEXT SESSION: 2025-09-09 18:30:00 BST

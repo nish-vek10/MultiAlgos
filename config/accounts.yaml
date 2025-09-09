@@ -12,5 +12,5 @@ algos:
   EMA_VWAP_Scalp:
     script_path: "EMA-VWAP_Scalp.py"
 
-  Multi_Assets_And_Timeframes:
+  CE-1H-15M_MultiAssets:
     script_path: "CE-1H-15M_MultiAssets.py"
