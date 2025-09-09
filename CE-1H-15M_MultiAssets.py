@@ -99,9 +99,9 @@ strategies = [
 
     # --- NEW: M15 (independent, hedge-style) ---
     {"id": "XAU-M15",   "mt5": "XAUUSD",  "oanda": "XAU_USD",  "granularity": "M15",
-     "fixed_sl": 20,    "fixed_tp": 20,   "lot_size": None,     "risk_usd": 400.0, "magic": 98765415},
+     "fixed_sl": 10,    "fixed_tp": 40,   "lot_size": None,     "risk_usd": 400.0, "magic": 98765415},
     {"id": "BTC-M15",   "mt5": "BTCUSD",  "oanda": "BTC_USD",  "granularity": "M15",
-     "fixed_sl": 2000,  "fixed_tp": 2000, "lot_size": None,     "risk_usd": 400.0, "magic": 98765416},
+     "fixed_sl": 500,  "fixed_tp": 1750, "lot_size": None,     "risk_usd": 400.0, "magic": 98765416},
 ]
 
 # =================================================================================================
