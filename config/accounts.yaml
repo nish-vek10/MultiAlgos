@@ -1,7 +1,7 @@
 algos:
 
-  BTC-XAU-EU50-JPY_1H:
-    script_path: "CEHourly_BTC+XAU+EU50+UJ.py"
+#  BTC-XAU-EU50-JPY_1H:
+#    script_path: "CEHourly_BTC+XAU+EU50+UJ.py"
 
   CE_XAU_5M:
     script_path: "CEStrategy_XAU_5M.py"
@@ -11,3 +11,6 @@ algos:
 
   EMA_VWAP_Scalp:
     script_path: "EMA-VWAP_Scalp.py"
+
+  Multi_Assets_And_Timeframes:
+  script_path: "CE-1H-15M_MultiAssets.py"
