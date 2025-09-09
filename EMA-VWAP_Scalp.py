@@ -17,6 +17,7 @@ import pandas as pd
 import numpy as np
 from pytz import timezone
 import MetaTrader5 as mt5
+from utils.oanda_fetch import make_oanda_session, fetch_candles
 
 # =========================
 # USER CONFIG
@@ -30,6 +31,7 @@ MT5_TERMINAL_PATH = r"C:\MT5\52474888\terminal64.exe"
 
 OANDA_TOKEN       = "37ee33b35f88e073a08d533849f7a24b-524c89ef15f36cfe532f0918a6aee4c2"
 OANDA_API_URL     = "https://api-fxpractice.oanda.com/v3"
+oanda_sess = make_oanda_session(OANDA_TOKEN, host="https://api-fxpractice.oanda.com", timeout=(3.05, 10))
 
 # --- Timezone ---
 LOCAL_TZ = timezone("Europe/London")
@@ -148,33 +150,27 @@ for key, prof in ASSETS.items():
 # =========================
 
 def fetch_oanda_candles(oanda_symbol, granularity=GRANULARITY, count=NUM_CANDLES):
-    url = f"{OANDA_API_URL}/instruments/{oanda_symbol}/candles"
-    headers = {"Authorization": f"Bearer {OANDA_TOKEN}"}
-    params = {"granularity": granularity, "count": count, "price": "M"}
     try:
-        resp = requests.get(url, headers=headers, params=params, timeout=15)
+        j = fetch_candles(oanda_sess, instrument=oanda_symbol, granularity=granularity, count=count, price="M")
     except Exception as e:
-        print("[ERROR] OANDA request error:", str(e))
+        print("[ERROR] OANDA fetch:", str(e)[:200])
         return None
-    if resp.status_code != 200:
-        print("[ERROR] OANDA fetch failed:", resp.status_code, resp.text[:200])
-        return None
-    raw = resp.json().get("candles", [])
+
+    raw = j.get("candles", [])
     data = {"time": [], "open": [], "high": [], "low": [], "close": [], "volume": []}
     for c in raw:
         if c.get("complete", False):
-            utc = pd.to_datetime(c["time"], utc=True)
-            lt = utc.tz_convert(LOCAL_TZ)
+            lt = pd.to_datetime(c["time"], utc=True).tz_convert(LOCAL_TZ)
             data["time"].append(lt)
             data["open"].append(float(c["mid"]["o"]))
             data["high"].append(float(c["mid"]["h"]))
             data["low"].append(float(c["mid"]["l"]))
             data["close"].append(float(c["mid"]["c"]))
             data["volume"].append(int(c["volume"]))
-    df = pd.DataFrame(data)
-    if not df.empty:
-        df.set_index("time", inplace=True)
-    return df
+    if not data["time"]:
+        return None
+    return pd.DataFrame(data).set_index("time")
+
 
 # =========================
 # INDICATORS & SIGNALS

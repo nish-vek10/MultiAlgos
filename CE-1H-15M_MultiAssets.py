@@ -41,6 +41,8 @@ import sys
 import requests
 import pandas as pd
 from pytz import timezone
+from utils.oanda_fetch import make_oanda_session, fetch_candles
+
 
 # === CONFIGURATION === #
 # Global defaults (can be overridden per-strategy below)
@@ -79,6 +81,7 @@ print(f"\nMT5 Account Connected! \nAccount: {account.login} \nBalance: {account.
 oanda_token = "37ee33b35f88e073a08d533849f7a24b-524c89ef15f36cfe532f0918a6aee4c2"
 oanda_account_id = "101-004-35770497-001"
 oanda_api_url = "https://api-fxpractice.oanda.com/v3"
+oanda_sess = make_oanda_session(oanda_token, host="https://api-fxpractice.oanda.com", timeout=(3.05, 10))
 
 # -------------------------------------------------------------------------------------------------
 # STRATEGY MATRIX (each entry is an independent trading "lane" with its own magic/comment/state)
@@ -238,48 +241,33 @@ def fetch_oanda_candles(symbol, granularity="H1", count=500):
     granularity: M1, M5, M15, H1, D etc.
     count: number of candles to fetch
     """
-    url = f"{oanda_api_url}/instruments/{symbol}/candles"
-    headers = {"Authorization": f"Bearer {oanda_token}"}
-    params = {
-        "granularity": granularity,
-        "count": count,
-        "price": "M"
-    }
     try:
-        response = requests.get(url, headers=headers, params=params, timeout=10)
-    except requests.RequestException as e:
-        print(f"[ERROR] OANDA request exception for {symbol}: {e}")
+        j = fetch_candles(oanda_sess, instrument=symbol, granularity=granularity, count=count, price="M")
+    except Exception as e:
+        msg = str(e)
+        print(f"[ERROR] OANDA {symbol}/{granularity}: {msg[:600]}")
         return None
 
-    if response.status_code != 200:
-        print(f"[ERROR] Failed to fetch candles from OANDA {symbol}: {response.status_code} {response.text}")
+    raw_candles = j.get("candles", [])
+    if not raw_candles:
         return None
 
-    raw_candles = response.json().get("candles", [])
     data = {"time": [], "open": [], "high": [], "low": [], "close": [], "volume": []}
-
-    for candle in raw_candles:
-        if candle.get('complete'):
-            utc_time = pd.to_datetime(candle['time'])
-            # Normalize to timezone-aware then convert to local_tz
-            if utc_time.tzinfo is None:
-                utc_time = utc_time.tz_localize('UTC')
-            else:
-                utc_time = utc_time.tz_convert('UTC')
+    for c in raw_candles:
+        if c.get("complete"):
+            utc_time = pd.to_datetime(c["time"], utc=True)  # simpler & safer
             local_time = utc_time.tz_convert(local_tz)
+            data["time"].append(local_time)
+            data["open"].append(float(c["mid"]["o"]))
+            data["high"].append(float(c["mid"]["h"]))
+            data["low"].append(float(c["mid"]["l"]))
+            data["close"].append(float(c["mid"]["c"]))
+            data["volume"].append(int(c["volume"]))
 
-            data['time'].append(local_time)
-            data['open'].append(float(candle['mid']['o']))
-            data['high'].append(float(candle['mid']['h']))
-            data['low'].append(float(candle['mid']['l']))
-            data['close'].append(float(candle['mid']['c']))
-            data['volume'].append(int(candle['volume']))
-
-    if not data['time']:
+    if not data["time"]:
         return None
 
-    df = pd.DataFrame(data)
-    df.set_index("time", inplace=True)
+    df = pd.DataFrame(data).set_index("time")
     return df
 
 # =================================================================================================

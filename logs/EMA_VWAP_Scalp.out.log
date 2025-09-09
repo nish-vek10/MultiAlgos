@@ -11,6 +11,11 @@
 [OK] (XAUUSD) Auto-closed ticket=1216576855
 [OK] (XAUUSD) Auto-closed ticket=1216583804
 [OK] (XAUUSD) Auto-closed ticket=1216589559
+[OK] (XAUUSD) Placed BUY 0.70 lots @ 3653.46 | SL=3649.81 TP=3660.49
+[OK] (XAUUSD) Placed BUY 0.69 lots @ 3654.45 | SL=3651.06 TP=3661.87
+MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
+[MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
+[RUN] Multi-asset EMA+VWAP scalper started.
 [BOOT] MT5 path exists? True
 [BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
 
@@ -19,3 +24,5 @@
 [MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
 [MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
 [RUN] Multi-asset EMA+VWAP scalper started.
+[OK] (XAUUSD) Placed BUY 0.70 lots @ 3653.56 | SL=3649.81 TP=3660.49
+[OK] (XAUUSD) Placed BUY 0.69 lots @ 3654.31 | SL=3651.06 TP=3661.87

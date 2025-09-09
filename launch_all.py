@@ -45,7 +45,8 @@ def main():
             for name, p in list(procs.items()):
                 if p.poll() is not None:
                     code = p.returncode
-                    print(f"{name} exited ({code}); restarting…")
+                    print(f"{name} exited ({code}); restarting in 3s…")
+                    time.sleep(3)
                     procs[name] = spawn(name, algos[name])
     except KeyboardInterrupt:
         print("\nStopping…")

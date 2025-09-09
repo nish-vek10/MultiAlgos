@@ -15,6 +15,7 @@ import sys
 import math
 import pandas as pd
 from pytz import timezone
+from utils.oanda_fetch import make_oanda_session, fetch_candles
 
 # === CONFIGURATION === #
 mt5_symbol = "XAUUSD"
@@ -77,6 +78,7 @@ else:
 oanda_token = "37ee33b35f88e073a08d533849f7a24b-524c89ef15f36cfe532f0918a6aee4c2"
 oanda_account_id = "101-004-35770497-001"
 oanda_api_url = "https://api-fxpractice.oanda.com/v3"
+oanda_sess = make_oanda_session(oanda_token, host="https://api-fxpractice.oanda.com", timeout=(3.05, 10))
 
 def fetch_oanda_candles(symbol=oanda_symbol, granularity="M5", count=num_candles):
     """
@@ -85,37 +87,27 @@ def fetch_oanda_candles(symbol=oanda_symbol, granularity="M5", count=num_candles
     granularity: M1, M5, M15, H1, D etc.
     count: number of candles to fetch
     """
-    url = f"{oanda_api_url}/instruments/{symbol}/candles"
-    headers = {"Authorization": f"Bearer {oanda_token}"}
-    params = {
-        "granularity": granularity,
-        "count": count,
-        "price": "M"  # Midpoint prices
-    }
-
-    response = requests.get(url, headers=headers, params=params)
-    if response.status_code != 200:
-        print("[ERROR] Failed to fetch candles from OANDA:", response.status_code, response.text)
+    try:
+        j = fetch_candles(oanda_sess, instrument=symbol, granularity=granularity, count=count, price="M")
+    except Exception as e:
+        print(f"[ERROR] OANDA {symbol}/{granularity}: {str(e)[:600]}")
         return None
 
-    raw_candles = response.json().get("candles", [])
+    raw = j.get("candles", [])
     data = {"time": [], "open": [], "high": [], "low": [], "close": [], "volume": []}
+    for c in raw:
+        if c.get("complete", False):
+            lt = pd.to_datetime(c["time"], utc=True).tz_convert(local_tz)
+            data["time"].append(lt)
+            data["open"].append(float(c["mid"]["o"]))
+            data["high"].append(float(c["mid"]["h"]))
+            data["low"].append(float(c["mid"]["l"]))
+            data["close"].append(float(c["mid"]["c"]))
+            data["volume"].append(int(c["volume"]))
+    if not data["time"]:
+        return None
+    return pd.DataFrame(data).set_index("time")
 
-    for candle in raw_candles:
-        if candle.get('complete', False):
-            utc_time = pd.to_datetime(candle['time'], utc=True)
-            local_time = utc_time.tz_convert(local_tz)
-            data['time'].append(local_time)
-            data['open'].append(float(candle['mid']['o']))
-            data['high'].append(float(candle['mid']['h']))
-            data['low'].append(float(candle['mid']['l']))
-            data['close'].append(float(candle['mid']['c']))
-            data['volume'].append(int(candle['volume']))
-
-    df = pd.DataFrame(data)
-    if not df.empty:
-        df.set_index("time", inplace=True)
-    return df
 
 # === UTILITY FUNCTIONS === #
 def get_position(symbol):
