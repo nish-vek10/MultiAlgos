@@ -66,3 +66,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="preload" as=
+[ERROR] OANDA fetch failed: 520 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Internal Server Error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preload" as=
+[ERROR] OANDA fetch failed: 520 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Internal Server Error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preload" as=
+[ERROR] OANDA fetch failed: 520 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Internal Server Error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preload" as=
+[ERROR] OANDA fetch failed: 520 <!DOCTYPE html>
+<html>
+<head>
+ [OK] (BTCUSD) Placed SELL 1.40 lots @ 111248.13 | SL=111435.17 TP=110914.46
+[OK] (BTCUSD) Placed SELL 1.43 lots @ 111034.25 | SL=111210.82 TP=110699.26
+[OK] (BTCUSD) Placed SELL 1.34 lots @ 111165.88 | SL=111324.35 TP=110782.10
+[OK] (BTCUSD) Placed SELL 1.26 lots @ 111114.63 | SL=111276.64 TP=110699.03
+[OK] (BTCUSD) Placed SELL 1.18 lots @ 110953.13 | SL=111165.71 TP=110550.37
+[OK] (XAUUSD) Placed BUY 1.11 lots @ 3644.15 | SL=3641.89 TP=3648.40
+[OK] (XAUUSD) Placed BUY 1.09 lots @ 3644.33 | SL=3642.05 TP=3648.69
+[OK] (XAUUSD) Placed BUY 0.93 lots @ 3643.11 | SL=3640.46 TP=3648.20
+[OK] (XAUUSD) Placed BUY 0.79 lots @ 3644.27 | SL=3641.21 TP=3650.25
+[OK] (XAUUSD) Placed BUY 0.76 lots @ 3646.08 | SL=3643.10 TP=3652.59
+[OK] (XAUUSD) Placed BUY 0.73 lots @ 3647.01 | SL=3643.59 TP=3653.38
+[OK] (BTCUSD) Placed BUY 1.13 lots @ 111778.75 | SL=111552.37 TP=112187.26
+[OK] (BTCUSD) Placed BUY 1.13 lots @ 111752.63 | SL=111529.58 TP=112159.64
+[OK] (XAUUSD) Placed BUY 0.61 lots @ 3645.07 | SL=3641.16 TP=3652.74
+[OK] (BTCUSD) Placed BUY 1.07 lots @ 111882.50 | SL=111658.79 TP=112325.43
+[OK] (XAUUSD) Placed BUY 0.60 lots @ 3645.75 | SL=3641.42 TP=3653.25
+[OK] (XAUUSD) Placed BUY 0.59 lots @ 3645.27 | SL=3641.33 TP=3653.37
+[OK] (XAUUSD) Placed BUY 0.53 lots @ 3647.08 | SL=3642.23 TP=3655.71
+[OK] (BTCUSD) Placed BUY 1.11 lots @ 111836.38 | SL=111612.80 TP=112252.99
+[OK] (XAUUSD) Placed BUY 0.53 lots @ 3645.69 | SL=3641.22 TP=3654.70
+[OK] (BTCUSD) Placed BUY 1.15 lots @ 112280.63 | SL=112023.62 TP=112648.45
+[OK] (BTCUSD) Placed BUY 1.09 lots @ 112178.63 | SL=111950.61 TP=112610.57
+[OK] (XAUUSD) Placed BUY 0.51 lots @ 3646.94 | SL=3642.13 TP=3656.23
+[OK] (BTCUSD) Placed BUY 1.19 lots @ 112398.00 | SL=112146.64 TP=112756.13
+[OK] (XAUUSD) Placed BUY 0.63 lots @ 3645.05 | SL=3640.98 TP=3652.59
+[OK] (XAUUSD) Placed BUY 0.65 lots @ 3644.58 | SL=3640.90 TP=3652.25
+[OK] (BTCUSD) Placed BUY 0.98 lots @ 112646.88 | SL=112407.62 TP=113153.95
+[OK] (BTCUSD) Placed BUY 1.16 lots @ 112390.50 | SL=112140.30 TP=112767.89
+[OK] (BTCUSD) Placed BUY 1.24 lots @ 112422.63 | SL=112220.90 TP=112807.99
+[OK] (BTCUSD) Placed BUY 1.37 lots @ 112310.13 | SL=112124.38 TP=112666.54
+[OK] (BTCUSD) Placed BUY 1.33 lots @ 112334.25 | SL=112144.66 TP=112703.08
+[OK] (XAUUSD) Placed BUY 0.80 lots @ 3655.66 | SL=3652.39 TP=3661.70
+[OK] (BTCUSD) Placed BUY 1.34 lots @ 112353.13 | SL=112147.87 TP=112701.46
+[OK] (XAUUSD) Placed BUY 0.78 lots @ 3654.55 | SL=3651.26 TP=3660.85
+[OK] (XAUUSD) Placed BUY 0.73 lots @ 3657.04 | SL=3653.57 TP=3663.78
+[OK] (XAUUSD) Placed BUY 0.73 lots @ 3656.50 | SL=3652.98 TP=3663.22
+[SESSION] (XAUUSD) Session ended — auto-closing open positions...
+[AUTO-CLOSE] (XAUUSD) Round 1: closing 4 positions...
+[OK] (XAUUSD) Auto-closed ticket=1218285301
+[OK] (XAUUSD) Auto-closed ticket=1218289875
+[OK] (XAUUSD) Auto-closed ticket=1218300858
+[OK] (XAUUSD) Auto-closed ticket=1218309935
+[OK] (BTCUSD) Placed BUY 2.07 lots @ 112329.50 | SL=112194.05 TP=112549.39
+[OK] (BTCUSD) Placed BUY 1.97 lots @ 112399.25 | SL=112269.82 TP=112643.26
+[OK] (BTCUSD) Placed BUY 1.94 lots @ 112438.75 | SL=112299.87 TP=112678.26
+[OK] (BTCUSD) Placed BUY 1.59 lots @ 112671.25 | SL=112504.06 TP=112976.37
+[OK] (BTCUSD) Placed BUY 1.55 lots @ 112652.13 | SL=112488.74 TP=112970.43
+[ERROR] (BTCUSD) Order failed: retcode=10031 comment=Request rejected due to absence of network connection
+[ERROR] (BTCUSD) Order failed: retcode=10031 comment=Request rejected due to absence of network connection
+o attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[SESSION] (XAUUSD) Session ended — auto-closing open positions...
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'

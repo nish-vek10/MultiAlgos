@@ -14,3 +14,6 @@ algos:
 
   CE-1H-15M_MultiAssets:
     script_path: "CE-1H-15M_MultiAssets.py"
+
+  CEHourly_BTC+XAU_2HR:
+    script_path: "CEHourly_BTC+XAU_2HR.py"
