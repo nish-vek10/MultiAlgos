@@ -41,7 +41,7 @@ PRINT_LAST_N = 20
 mt5_login = 52512991
 mt5_password = "s8yQu6pE5!grDc"
 mt5_server = "ICMarketsSC-Demo"
-mt5_terminal_path = r"C:\MT5\52461477\terminal64.exe"
+mt5_terminal_path = r"C:\MT5\52512991\terminal64.exe"
 
 print("MT5 Path Exists?", os.path.exists(mt5_terminal_path))
 
