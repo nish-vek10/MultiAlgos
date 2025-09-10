@@ -22,37 +22,47 @@
 [EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
 [EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
 [EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
-.31 | SL=3651.06 TP=3661.87
-[BOOT] MT5 path exists? True
-[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[SESSION] (XAUUSD) Session ended — auto-closing open positions...
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[SESSION] (BTCUSD) Session ended — auto-closing open positions...
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[ERROR] OANDA fetch failed: 520 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Internal Server Error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-[MT5] Connected: 52474888 | Balance: $98945.51
+    <link rel="preload" as=
+[ERROR] OANDA fetch failed: 520 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Internal Server Error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-[MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
-[MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
-[RUN] Multi-asset EMA+VWAP scalper started.
-[BOOT] MT5 path exists? True
-[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
+    <link rel="preload" as=
+[ERROR] OANDA fetch failed: 520 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Internal Server Error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-[MT5] Connected: 52474888 | Balance: $98945.51
-
-[MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
-[MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
-[RUN] Multi-asset EMA+VWAP scalper started.
-[OK] (XAUUSD) Placed BUY 0.44 lots @ 3654.13 | SL=3648.18 TP=3665.12
-[BOOT] MT5 path exists? True
-[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
-
-[MT5] Connected: 52474888 | Balance: $98943.97
-
-[MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
-[MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
-[RUN] Multi-asset EMA+VWAP scalper started.
-[OK] (BTCUSD) Placed BUY 0.94 lots @ 112810.25 | SL=112533.44 TP=113326.53
-[OK] (BTCUSD) Placed BUY 0.91 lots @ 112873.63 | SL=112555.35 TP=113373.00
-[OK] (BTCUSD) Placed BUY 0.91 lots @ 112914.38 | SL=112632.82 TP=113455.96
-[OK] (XAUUSD) Placed BUY 0.39 lots @ 3664.89 | SL=3658.39 TP=3677.72
-[OK] (BTCUSD) Placed SELL 0.54 lots @ 111782.75 | SL=112151.16 TP=110789.88
-[OK] (BTCUSD) Placed SELL 0.48 lots @ 111632.00 | SL=112149.56 TP=110626.89
-[OK] (BTCUSD) Placed SELL 0.49 lots @ 111508.88 | SL=112047.98 TP=110528.24
-[OK] (BTCUSD) Placed SELL 0.69 lots @ 110791.88 | SL=111172.30 TP=110097.09
+    <link rel="preload" as=
