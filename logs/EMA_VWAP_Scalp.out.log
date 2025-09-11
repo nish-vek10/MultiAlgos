@@ -200,17 +200,83 @@ o attribute 'balance'
 [EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
 [EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
 [EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
-[BOOT] MT5 path exists? True
-[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
-[ERROR] MT5 initialization failed: (-6, 'Terminal: Authorization failed')
-[BOOT] MT5 path exists? True
-[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
-[ERROR] MT5 initialization failed: (-6, 'Terminal: Authorization failed')
-[BOOT] MT5 path exists? True
-[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[SESSION] (XAUUSD) Session ended — auto-closing open positions...
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[E[SESSION] (BTCUSD) Session ended — auto-closing open positions...
+[AUTO-CLOSE] (BTCUSD) Round 1: closing 1 positions...
+[OK] (BTCUSD) Auto-closed ticket=1218569877
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[OK] (BTCUSD) Placed BUY 1.76 lots @ 114019.75 | SL=113865.62 TP=114286.46
+[OK] (BTCUSD) Placed BUY 1.58 lots @ 1139[EXCEPTION] AttributeError 'NoneTyp[OK] (BTCUSD) Placed BUY 1.60 lots @ 113998.38 | SL=113841.36 TP=114303.19
+[OK] (BTCUSD) Placed BUY 1.59 lots [EXCEPTION] AttributeError 'NoneType' obj[OK] (BTCUSD) Placed BUY 1.42 lots @ 113918.75 | SL=113738.15 TP=114254.59
+[OK] (BTCUSD) Placed BUY 1.59 lots @ 113921.50 | SL=113764.22 TP=114225.56
+[OK] (BTCUSD) Placed BUY 1.69 lots @ 113969.75 | SL=113817.06 TP=114251.28
+[OK] (BTCUSD) Placed BUY 1.74 lots @ 113995.00 | SL=113842.37 TP=114263.06
+[OK] (BTCUSD) Placed BUY 1.43 lots @ 113953.38 | SL=113795.98 TP=114307.24
+[OK] (BTCUSD) Placed BUY 1.75 lots @ 113986.25 | SL=113843.26 TP=114257.39
+[OK] (BTCUSD) Placed BUY 1.79 lots @ 114056.50 | SL=113921.70 TP=114326.09
+[OK] (BTCUSD) Placed BUY 1.70 lots @ 114228.50 | SL=114086.92 TP=114518.56
+[OK] (BTCUSD) Placed BUY 1.44 lots @ 114327.00 | SL=114154.32 TP=114664.85
+[OK] (BTCUSD) Placed BUY 1.38 lots @ 114335.00 | SL=114154.39 TP=114686.61
+[OK] (BTCUSD) Placed BUY 1.39 lots @ 114294.50 | SL=114104.66 TP=114633.67
+[OK] (XAUUSD) Placed SELL 1.14 lots @ 3630.99 | SL=3633.21 TP=3626.78
+[OK] (BTCUSD) Placed BUY 1.47 lots @ 114259.13 | SL=114086.05 TP=114582.11
+[OK] (XAUUSD) Placed SELL 1.17 lots @ 3630.18 | SL=3632.19 TP=3625.99
+[OK] (BTCUSD) Placed BUY 1.43 lots @ 114152.00 | SL=113988.26 TP=114495.99
+[OK] (XAUUSD) Placed SELL 0.91 lots @ 3630.52 | SL=3633.20 TP=3625.15
+[OK] (BTCUSD) Placed BUY 1.46 lots @ 114283.75 | SL=114111.38 TP=114613.64
+[OK] (BTCUSD) Placed BUY 1.41 lots @ 114325.00 | SL=114148.11 TP=114669.18
+[OK] (XAUUSD) Placed SELL 0.75 lots @ 3629.20 | SL=3632.69 TP=3622.97
+[OK] (BTCUSD) Placed BUY 1.50 lots @ 114327.50 | SL=114156.47 TP=114[EXCEPTI[OK] (XAUUSD) Placed SELL 0.75 lots @ 3628.66 | SL=3631.80 TP=362[EXCEP[OK] (XAUUSD) Placed SELL 0.65 lots @ 3625.20 | SL=3628.82 TP=3617.[EXC[OK] (XAUUSD) Placed SELL 0.59 lots @ 3626.36 | SL=3630.68 TP=3618.29[E[OK] (BTCUSD) Placed BUY 1.62 lots @ 114249.00 | SL=114087.56 TP=114532[EXCE[OK] (BTCUSD) Placed BUY 1.70 lots @ 114313.38 | SL=114166.19 TP=114[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION][OK] (XAUUSD) Placed SELL 0.47 lots @ 3629.21 | SL=3634.69 TP=3619.52
+[OK] (XAUUSD) Placed SELL 0.47 lots @ 3626.28 | SL=3631.47 TP=3616.30
+[OK] (XAUUSD) Placed SELL 0.51 lots @ 3625.39 | SL=3630.08 TP=3615.99
+[OK] (XAUUSD) Placed SELL 0.45 lots @ 3626.75 | SL=3632.27 TP=3616.41
+[OK] (XAUUSD) Placed SELL 0.47 lots @ 3627.90 | SL=3633.10 TP=3617.78
+[OK] (XAUUSD) Placed SELL 0.64 lots @ 3629.25 | SL=3633.15 TP=3622.05
+[OK] (XAUUSD) Placed SELL 0.69 lots @ 3621.49 | SL=3624.93 TP=3614.56
+[OK] (XAUUSD) Placed SELL 0.56 lots @ 3619.16 | SL=3623.81 TP=3610.80
+ce'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+[EXCEPTION] AttributeError 'NoneType' object has no attribute 'balance'
+USD/BTC_USD)
 
-[MT5] Connected: 52474888 | Balance: $100814.45
+[MT5] Connected: 52474888 | Balance: $97501.49
 
 [MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
 [MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
 [RUN] Multi-asset EMA+VWAP scalper started.
+[OK] (XAUUSD) Placed SELL 0.56 lots @ 3620.92 | SL=3625.22 TP=3612.24
