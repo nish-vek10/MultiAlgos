@@ -230,54 +230,53 @@ def send_order(symbol, action_type, lot=None):
     Send a buy or sell market order sized by risk and with fixed $4.50 SL, no TP.
     If 'lot' is provided, it will be used; otherwise we size from risk settings.
     """
-
     # volume validation
     if lot is not None and lot <= 0:
         print(f"[ERROR] Invalid trade volume: {lot}")
-        return
+        return False
 
     # ensure symbol is selected
     if not mt5.symbol_select(symbol, True):
         print(f"[ERROR] Failed to select symbol {symbol}")
-        return
+        return False
 
     si = mt5.symbol_info(symbol)
     if si is None:
         print(f"[ERROR] Symbol info not found for {symbol}")
-        return
+        return False
 
     if hasattr(si, "trade_allowed") and not si.trade_allowed:
         print(f"[ERROR] Trading is not allowed for {symbol}")
-        return
+        return False
 
     # get current price
     tick = mt5.symbol_info_tick(symbol)
     if tick is None:
         print(f"[ERROR] Failed to get tick data for {symbol}")
-        return
+        return False
     entry_price = tick.ask if action_type == mt5.ORDER_TYPE_BUY else tick.bid
 
     # 1) Compute SL price FIRST (respects broker min distance)
     sl_price = compute_sl_price(symbol, action_type, entry_price, sl_usd_distance)
     if sl_price is None:
         print("[ERROR] Could not compute SL price.")
-        return
+        return False
 
     # 2) Use the ACTUAL distance for risk sizing
     actual_distance = abs(entry_price - sl_price)
 
     if lot is None:
-        lot, risk_amount = compute_lot_for_risk(symbol, actual_distance, risk_per_trade_pct)  # <-- pass actual_distance
+        lot, risk_amount = compute_lot_for_risk(symbol, actual_distance, risk_per_trade_pct)
         if lot is None or lot <= 0:
             print("[ERROR] Computed lot is invalid; aborting order.")
-            return
+            return False
         print(f"[RISK] Balance risked: ${risk_amount:.2f} | SL distance: ${actual_distance:.2f} | Lot: {lot}")
 
     # round lot to broker step & validate
     lot = _round_to_step(lot, si.volume_step)
     if lot < si.volume_min or lot > si.volume_max:
         print(f"[ERROR] Lot size {lot} out of range: min={si.volume_min}, max={si.volume_max}")
-        return
+        return False
 
     request = {
         "action": mt5.TRADE_ACTION_DEAL,
@@ -297,37 +296,37 @@ def send_order(symbol, action_type, lot=None):
 
     if result is None:
         print(f"[ERROR] order_send() returned None. Last error: {mt5.last_error()}")
-        return
+        return False
 
     if result.retcode != mt5.TRADE_RETCODE_DONE:
         print(f"[ERROR] ORDER FAILED: {result.retcode}, {result.comment}")
-    else:
-        print(f"[OK] ORDER PLACED: ticket={result.order}, price={entry_price}, sl={sl_price}, lot={lot}")
+        return False
 
-        # === (post-fill SL adjust to exactly +-$4.5 from FILLED price) ===
-        pos = get_position(symbol)  # your helper filters by magic+symbol
-        if pos:
-            filled = pos.price_open
-            desired_sl = compute_sl_price(symbol, action_type, filled, sl_usd_distance)
-            # if broker set a different SL (or none), bring it to desired_sl
-            current_sl = pos.sl if pos.sl and pos.sl != 0.0 else None
-            if desired_sl and (current_sl is None or abs(desired_sl - current_sl) > si.point):
-                mod = {
-                    "action": mt5.TRADE_ACTION_SLTP,
-                    "symbol": symbol,
-                    "position": pos.ticket,
-                    "sl": desired_sl,
-                    # no "tp" to keep no take-profit
-                    "magic": magic_number,
-                    "comment": "Adjust SL to filled ± $4.50",
-                }
-                mod_res = mt5.order_send(mod)
-                if mod_res is not None and mod_res.retcode == mt5.TRADE_RETCODE_DONE:
-                    print(f"[OK] SL ADJUSTED to {desired_sl}")
-                else:
-                    print(
-                        f"[WARN] SL adjust failed: {getattr(mod_res, 'retcode', None)}, "
-                        f"{getattr(mod_res, 'comment', None)}")
+    print(f"[OK] ORDER PLACED: ticket={result.order}, price={entry_price}, sl={sl_price}, lot={lot}")
+
+    # === (post-fill SL adjust to exactly +-$4.5 from FILLED price) ===
+    pos = get_position(symbol)  # filters by magic+symbol
+    if pos:
+        filled = pos.price_open
+        desired_sl = compute_sl_price(symbol, action_type, filled, sl_usd_distance)
+        current_sl = pos.sl if pos.sl and pos.sl != 0.0 else None
+        if desired_sl and (current_sl is None or abs(desired_sl - current_sl) > si.point):
+            mod = {
+                "action": mt5.TRADE_ACTION_SLTP,
+                "symbol": symbol,
+                "position": pos.ticket,
+                "sl": desired_sl,
+                "magic": magic_number,
+                "comment": "Adjust SL to filled ± $4.50",
+            }
+            mod_res = mt5.order_send(mod)
+            if mod_res is not None and mod_res.retcode == mt5.TRADE_RETCODE_DONE:
+                print(f"[OK] SL ADJUSTED to {desired_sl}")
+            else:
+                print(f"[WARN] SL adjust failed: {getattr(mod_res, 'retcode', None)}, {getattr(mod_res, 'comment', None)}")
+
+    return True
+
 
 def close_position(position, symbol):
     """
@@ -360,6 +359,58 @@ def close_position(position, symbol):
         print(f"[ERROR] Failed to close position: {getattr(result, 'retcode', None)}, {getattr(result, 'comment', None)}")
     else:
         print(f"[OK] POSITION CLOSED: {result}")
+
+def _attempt_execution_for_signal(desired_side: str) -> bool:
+    """
+    Try to realize the desired 'BUY'/'SELL' for mt5_symbol.
+    Closes the opposite if needed, then places a market order (auto-sized).
+    Returns True if we either already had the correct side or successfully placed the order.
+    """
+    position = get_position(mt5_symbol)
+    open_pos = None
+    if position:
+        open_pos = 'BUY' if position.type == mt5.ORDER_TYPE_BUY else 'SELL'
+
+    # Already correct side
+    if open_pos == desired_side:
+        return True
+
+    # Close opposite first
+    if open_pos and open_pos != desired_side:
+        close_position(position, mt5_symbol)
+        time.sleep(0.5)  # small pause for server update
+
+    # Place order (auto-size via send_order)
+    order_type = mt5.ORDER_TYPE_BUY if desired_side == 'BUY' else mt5.ORDER_TYPE_SELL
+    ok = send_order(mt5_symbol, order_type)
+    return bool(ok)
+
+def _maybe_retry_pending():
+    """
+    If there's a pending BUY/SELL, retry it on a throttle while we're waiting
+    (countdowns, data waits, outside the 'new candle' moments).
+    Respects session windows.
+    """
+    global pending_signal, pending_since, last_retry_at
+
+    if not pending_signal:
+        return
+
+    now_local = datetime.now(local_tz)
+    if not in_session(now_local):
+        return
+
+    if last_retry_at and (now_local - last_retry_at).total_seconds() < RETRY_EVERY_SECS:
+        return
+
+    print(f"[RETRY] XAU-5M: attempting pending {pending_signal} execution...")
+    ok = _attempt_execution_for_signal(pending_signal)
+    last_retry_at = now_local
+    if ok:
+        print(f"[OK] XAU-5M: pending {pending_signal} executed.")
+        pending_signal = None
+        pending_since  = None
+        last_retry_at  = None
 
 def _make_dt(base_dt, hhmm, tz):
     h, m = map(int, hhmm.split(":"))
@@ -546,6 +597,7 @@ def countdown_to_next_5m(tz, until_dt=None):
         m, s = divmod(int(remain + 0.5), 60)
         # sys.stdout.write(f"\r    TIME REMAINING: {m:02d}:{s:02d}")      # Timer Countdown
         # sys.stdout.flush()
+        _maybe_retry_pending()
         time.sleep(0.25)
     # print("\rTIME REMAINING: 00:00")
     time.sleep(2)  # allow OANDA to finalize the bar
@@ -561,6 +613,7 @@ def countdown_to(target_dt, tz):
         m, s = divmod(int(remain + 0.5), 60)
         # sys.stdout.write(f"\r    TIME REMAINING: {m:02d}:{s:02d}")      # Timer Countdown
         # sys.stdout.flush()
+        _maybe_retry_pending()
         time.sleep(0.25)
     print("\rTIME REMAINING: 00:00")
     time.sleep(2)
@@ -568,6 +621,13 @@ def countdown_to(target_dt, tz):
 # === MAIN TRADING LOOP === #
 last_candle_time = None
 last_signal = None
+
+# --- NEW: pending trade state for auto-retry/backfill ---
+pending_signal = None        # 'BUY' or 'SELL' that still needs to be executed
+pending_since  = None        # datetime when it was queued
+last_retry_at  = None        # last retry timestamp
+RETRY_EVERY_SECS = 15        # retry cadence; safe within your 0.25–1.0s waits
+
 
 # session state
 current_session_start = None
@@ -602,10 +662,12 @@ while True:
             if remaining <= 0:
                 sys.stdout.write("\r[+] SESSION START REACHED. Waiting to enter... \n")
                 sys.stdout.flush()
+                _maybe_retry_pending()
                 time.sleep(1)
                 continue
-            # sys.stdout.write(f"\rTIME UNTIL NEXT SESSION: {_fmt_hms(remaining)} ")
-            # sys.stdout.flush()
+            sys.stdout.write(f"\rTIME UNTIL NEXT SESSION: {_fmt_hms(remaining)} ")
+            sys.stdout.flush()
+            _maybe_retry_pending()
             time.sleep(1)
 
         # once here, we're in session; break outer while True to proceed
@@ -627,6 +689,12 @@ while True:
     # if we hit session end, skip trading this cycle
     if datetime.now(local_tz) >= current_session_end:
         print("[INFO] SESSION ENDED BEFORE THE NEXT BAR CLOSE. HANDLING SESSION END...")
+
+        # also clear pending for next session
+        pending_signal = None
+        pending_since  = None
+        last_retry_at  = None
+
         if auto_close_at_session_end:
             pos = get_position(mt5_symbol)
             if pos:
@@ -649,6 +717,7 @@ while True:
         if df is None or df.empty:
             print("[ERROR] Failed to retrieve data from OANDA.")
             time.sleep(2)
+            _maybe_retry_pending()
             # timeout check (timezone-aware on both sides)
             if datetime.now(local_tz) - start_time > retry_timeout:
                 print(f"[TIMEOUT] No new candle after {retry_timeout.seconds} seconds. Skipping this cycle.")
@@ -661,6 +730,12 @@ while True:
         # bail out if session ends during retries
         if datetime.now(local_tz) >= current_session_end:
             print("[INFO] SESSION ENDED DURING DATA WAIT. HANDLING SESSION END...")
+
+            # also clear pending for next session
+            pending_signal = None
+            pending_since = None
+            last_retry_at = None
+
             if auto_close_at_session_end:
                 pos = get_position(mt5_symbol)
                 if pos:
@@ -677,6 +752,7 @@ while True:
         else:
             print(f"[WAIT] No new candle yet. Latest: {latest_candle_time.strftime('%H:%M:%S')} | Retrying in 2 seconds...")
             time.sleep(2)
+            _maybe_retry_pending()
 
         # timeout check — keep both sides timezone-aware
         if datetime.now(local_tz) - start_time > retry_timeout:
@@ -707,19 +783,25 @@ while True:
     tr = calculate_indicators(df, useHeikinAshi=use_heikin_ashi, atrPeriod=atr_period, atrMult=atr_mult)
     latest = tr.iloc[-1]
 
-    # HA debug (last 30)
+    # decide current signal
+    signal = 'BUY' if latest['buy_signal'] else ('SELL' if latest['sell_signal'] else None)
+
+    # previous-bar signal for backfill (if we apparently missed one)
+    prev_signal = None
+    if len(tr) >= 2:
+        prev = tr.iloc[-2]
+        if prev['buy_signal']:
+            prev_signal = 'BUY'
+        elif prev['sell_signal']:
+            prev_signal = 'SELL'
+
+
+    # HA debug (last 10)
     print("\n= = = = =   LAST 10 HEIKIN-ASHI CANDLES WITH SIGNALS  = = = = =")
     debug_df = tr[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'buy_signal', 'sell_signal']].copy()
     debug_df.index = debug_df.index.strftime('%Y-%m-%d %H:%M')
     debug_df['signal'] = debug_df.apply(lambda row: 'BUY' if row['buy_signal'] else ('SELL' if row['sell_signal'] else ''), axis=1)
     print(debug_df[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'signal']].tail(30))
-
-    # decide signal
-    signal = None
-    if latest['buy_signal']:
-        signal = 'BUY'
-    elif latest['sell_signal']:
-        signal = 'SELL'
 
     # current open position
     position = get_position(mt5_symbol)
@@ -730,34 +812,84 @@ while True:
     else:
         print("[INFO] No open position currently.")
 
+    # execute according to signals (with pending/backfill/override)
+    now_local = datetime.now(local_tz)
+
     # final session guard before trading
-    if datetime.now(local_tz) >= current_session_end:
+    if now_local >= current_session_end:
         print("[INFO] SESSION ENDED BEFORE TRADE EXECUTION (post-calc guard).")
         if auto_close_at_session_end:
             pos = get_position(mt5_symbol)
             if pos:
                 print("[ACTION] CLOSING OPEN POSITION AT SESSION END...")
                 close_position(pos, mt5_symbol)
+        # clear any pending for the next session
+        pending_signal = None
+        pending_since = None
+        last_retry_at = None
         continue
 
-    # execute according to signals
-    if signal == 'BUY':
-        if open_position == 'SELL':
-            close_position(position, mt5_symbol)
-        if open_position != 'BUY':
-            print("[EXEC] BUY signal → sending order (auto-size).")
-            send_order(mt5_symbol, mt5.ORDER_TYPE_BUY)
+    # 5A) Fresh latest-bar signal: act now; on failure, queue pending
+    if signal:
+        # If a pending exists and the live signal is opposite, override it
+        if pending_signal and signal != pending_signal:
+            print(f"[CANCELLED] XAU-5M: live signal {signal} overrides pending {pending_signal}.")
+            ok = _attempt_execution_for_signal(signal)
+            last_signal = signal
+            if ok:
+                pending_signal = None
+                pending_since = None
+                last_retry_at = None
+            else:
+                pending_signal = signal
+                if pending_since is None:
+                    pending_since = now_local
 
-    elif signal == 'SELL':
-        if open_position == 'BUY':
-            close_position(position, mt5_symbol)
-        if open_position != 'SELL':
-            print("[EXEC] SELL signal → sending order (auto-size).")
-            send_order(mt5_symbol, mt5.ORDER_TYPE_SELL)
+        else:
+            # Normal path
+            if signal != last_signal or open_position != signal:
+                prev_sig = last_signal if last_signal else "NONE"
+                print(f"[TRADE] XAU-5M: new signal={signal} | prev={prev_sig} | open={open_position or 'NONE'}")
+                last_signal = signal
+
+                ok = _attempt_execution_for_signal(signal)
+                if ok:
+                    pending_signal = None
+                    pending_since = None
+                    last_retry_at = None
+                else:
+                    if not pending_signal:
+                        pending_signal = signal
+                        pending_since = now_local
+                        print(f"[PENDING] XAU-5M: queued {signal} execution (will retry).")
+
+    # 5B) No fresh latest signal: backfill previous bar if it looks missed
+    else:
+        if prev_signal and (last_signal != prev_signal or open_position != prev_signal):
+            if not pending_signal:
+                print(f"[BACKFILL] XAU-5M: previous bar had {prev_signal} — attempting execution now.")
+                ok = _attempt_execution_for_signal(prev_signal)
+                if ok:
+                    last_signal = prev_signal
+                    pending_signal = None
+                    pending_since = None
+                    last_retry_at = None
+                else:
+                    pending_signal = prev_signal
+                    pending_since = now_local
+                    print(f"[PENDING] XAU-5M: queued {prev_signal} from previous bar (will retry).")
+        else:
+            print("[INFO] No actionable signal.")
 
     # end-of-iteration: if session ended now, tidy up and loop to next session
     if datetime.now(local_tz) >= current_session_end:
         print("[INFO] SESSION JUST ENDED!")
+
+        # also clear pending for next session
+        pending_signal = None
+        pending_since  = None
+        last_retry_at  = None
+
         if auto_close_at_session_end:
             pos = get_position(mt5_symbol)
             if pos:

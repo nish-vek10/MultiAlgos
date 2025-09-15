@@ -339,16 +339,21 @@ def send_order(symbol, action_type, lot, sl_distance, tp_distance=None, magic=No
         "type_time": mt5.ORDER_TIME_GTC,
         "type_filling": mt5.ORDER_FILLING_IOC,
     }
+
     if tp_price is not None:
         request["tp"] = tp_price
 
     result = mt5.order_send(request)
     if result is None:
         print(f"[ERROR] No response from order_send for {symbol}")
+        return False
     elif result.retcode != mt5.TRADE_RETCODE_DONE:
         print(f"[ERROR] Order failed on {symbol}: Retcode={result.retcode}, Comment={result.comment}")
+        return False
     else:
         print(f"[OK] Order placed on {symbol}: Ticket={result.order} | Comment={comment}")
+        return True
+
 
 def close_position(position, symbol):
     """
@@ -462,6 +467,42 @@ def calculate_indicators(df: pd.DataFrame) -> pd.DataFrame:
     tr['sell_signal'] = (tr['dir'] == -1) & (tr['dir_prev'] == 1)
     return tr
 
+def _attempt_execution_for_signal(s, signal, m_sym, position, account_currency):
+    """
+    Try to realize the desired 'signal' on symbol m_sym.
+    Returns True if we ended up in the desired side or placed the order successfully.
+    """
+    open_pos = None
+    if position:
+        open_pos = 'BUY' if position.type == mt5.ORDER_TYPE_BUY else 'SELL'
+
+    # Already correct side?
+    if open_pos == signal:
+        return True
+
+    # Opposite side open? Close first.
+    if open_pos and open_pos != signal:
+        close_position(position, m_sym)
+        time.sleep(0.5)  # small pause for server update
+        position = get_position(m_sym, magic=s['magic'])
+        open_pos = 'BUY' if (position and position.type == mt5.ORDER_TYPE_BUY) else ('SELL' if position else None)
+
+    # Not in desired side -> place order
+    if open_pos != signal:
+        use_lot = s.get('lot_size') or lot_size_default
+        if s.get('risk_usd') is not None:
+            dyn = lots_for_target_usd(m_sym, s['fixed_sl'], s['risk_usd'], account_currency)
+            use_lot = dyn if dyn is not None else use_lot
+
+        order_type = mt5.ORDER_TYPE_BUY if signal == 'BUY' else mt5.ORDER_TYPE_SELL
+        ok = send_order(m_sym, order_type, use_lot, s['fixed_sl'], s['fixed_tp'],
+                        magic=s['magic'], comment=f"CEB:{s['id']}")
+        if ok:
+            return True
+
+    return False
+
+
 # =================================================================================================
 # ====== Startup: show symbol info and risk examples (once)
 # =================================================================================================
@@ -501,6 +542,12 @@ last_candle_time = {s['id']: None for s in strategies}
 last_signal      = {s['id']: None for s in strategies}
 last_signal_info = {s['id']: None for s in strategies}
 
+# --- NEW: pending trade state for auto-retry/backfill ---
+pending_signal   = {s['id']: None for s in strategies}   # 'BUY'/'SELL' we still need to execute
+pending_since    = {s['id']: None for s in strategies}   # datetime when it was queued
+last_retry_at    = {s['id']: None for s in strategies}   # last retry timestamp
+RETRY_EVERY_SECS = 20                                    # align with loop sleep
+
 # =================================================================================================
 # ====== MAIN HEARTBEAT LOOP
 # - Checks each strategy independently
@@ -519,18 +566,58 @@ while True:
         df = fetch_oanda_candles(symbol=o_sym, granularity=tf, count=num_candles)
         if df is None or df.empty:
             print(f"[ERROR] {sid}: no data")
+
+            # Retry pending even without fresh data
+            if pending_signal.get(sid):
+                now_ts = datetime.now()
+                if last_retry_at[sid] is None or (now_ts - last_retry_at[sid]).total_seconds() >= RETRY_EVERY_SECS:
+                    position = get_position(m_sym, magic=s['magic'])
+                    print(f"[RETRY] {sid}: attempting pending {pending_signal[sid]} execution (no new data)...")
+                    ok = _attempt_execution_for_signal(s, pending_signal[sid], m_sym, position, account.currency)
+                    last_retry_at[sid] = now_ts
+                    if ok:
+                        print(f"[OK] {sid}: pending {pending_signal[sid]} executed.")
+                        pending_signal[sid] = None
+                        pending_since[sid] = None
+                        last_retry_at[sid] = None
             continue
 
         latest_candle_time = df.index[-1]
         if last_candle_time[sid] is not None and latest_candle_time <= last_candle_time[sid]:
-            # No new candle for this TF yet
+            # --- ALWAYS-ON pending retry even if no new candle ---
+            if pending_signal.get(sid):
+                now_ts = datetime.now()
+                if last_retry_at[sid] is None or (now_ts - last_retry_at[sid]).total_seconds() >= RETRY_EVERY_SECS:
+                    position = get_position(m_sym, magic=s['magic'])
+                    print(f"[RETRY] {sid}: attempting pending {pending_signal[sid]} execution...")
+                    ok = _attempt_execution_for_signal(s, pending_signal[sid], m_sym, position, account.currency)
+                    last_retry_at[sid] = now_ts
+                    if ok:
+                        print(f"[OK] {sid}: pending {pending_signal[sid]} executed.")
+                        pending_signal[sid] = None
+                        pending_since[sid] = None
+                        last_retry_at[sid] = None
             continue
+
         last_candle_time[sid] = latest_candle_time
         print(f"[OK] {sid}: new {tf} candle @ {latest_candle_time.strftime('%Y-%m-%d %H:%M')}")
 
         # Calculate indicators FIRST (so we can log HA tables)
         tr = calculate_indicators(df)
         latest = tr.iloc[-1]
+
+        # Current bar signal
+        signal = 'BUY' if latest['buy_signal'] else ('SELL' if latest['sell_signal'] else None)
+
+        # Previous bar signal (backfill)
+        prev_signal = None
+        if len(tr) >= 2:
+            prev = tr.iloc[-2]
+            if prev['buy_signal']:
+                prev_signal = 'BUY'
+            elif prev['sell_signal']:
+                prev_signal = 'SELL'
+
 
         # ===== Detailed logging (optional) =====
         if VERBOSE_LOG:
@@ -548,53 +635,67 @@ while True:
             print(dbg[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'signal']].tail(PRINT_LAST_N))
             print()  # spacer
 
-        # Decide signal after logging
-        signal = 'BUY' if latest['buy_signal'] else ('SELL' if latest['sell_signal'] else None)
-
-        # Fetch existing position for this strategy (by magic for hedging accounts)
+        # Snapshot position for this strategy (magic)
         position = get_position(m_sym, magic=s['magic'])
         open_pos = None
         if position:
             open_pos = 'BUY' if position.type == mt5.ORDER_TYPE_BUY else 'SELL'
 
-        if not signal:
-            print(f"[INFO] {sid}: no actionable signal.")
-            continue
+        # === A) Fresh latest-bar signal: act immediately; if order fails -> queue pending ===
+        if signal:
+            if signal != last_signal[sid] or open_pos != signal:
+                prev_sig = last_signal[sid] if last_signal[sid] else "NONE"
+                print(f"[TRADE] {sid}: new signal={signal} | prev={prev_sig} | open={open_pos or 'NONE'}")
 
-        # Trade only on fresh flip or if actual open position differs from desired side
-        if signal != last_signal[sid] or open_pos != signal:
-            prev_sig = last_signal[sid] if last_signal[sid] else "NONE"
-            print(f"[TRADE] {sid}: new signal={signal} | prev={prev_sig} | open={open_pos or 'NONE'}")
+                last_signal[sid] = signal
+                last_signal_info[sid] = f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | {signal}"
 
+                ok = _attempt_execution_for_signal(s, signal, m_sym, position, account.currency)
+                if ok:
+                    pending_signal[sid] = None
+                    pending_since[sid] = None
+                    last_retry_at[sid] = None
+                else:
+                    if not pending_signal[sid]:
+                        pending_signal[sid] = signal
+                        pending_since[sid] = datetime.now()
+                        print(f"[PENDING] {sid}: queued {signal} execution (will retry).")
+            else:
+                print(f"[INFO] {sid}: signal unchanged ({signal}).")
+
+        # === B) No fresh latest signal: backfill previous bar if we appear to have missed it ===
+        else:
+            if prev_signal and (last_signal[sid] != prev_signal or open_pos != prev_signal):
+                if not pending_signal[sid]:
+                    print(f"[BACKFILL] {sid}: previous bar had {prev_signal} — attempting execution now.")
+                    ok = _attempt_execution_for_signal(s, prev_signal, m_sym, position, account.currency)
+                    if ok:
+                        last_signal[sid] = prev_signal
+                        last_signal_info[sid] = f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | {prev_signal}"
+                        pending_signal[sid] = None
+                        pending_since[sid] = None
+                        last_retry_at[sid] = None
+                    else:
+                        pending_signal[sid] = prev_signal
+                        pending_since[sid] = datetime.now()
+                        print(f"[PENDING] {sid}: queued {prev_signal} from previous bar (will retry).")
+            else:
+                print(f"[INFO] {sid}: no actionable signal.")
+
+        # === C) If something is pending and a new *opposite* live signal appears now, override ===
+        if pending_signal[sid] and signal and signal != pending_signal[sid]:
+            print(f"[CANCELLED] {sid}: live signal {signal} overrides pending {pending_signal[sid]}.")
+            ok = _attempt_execution_for_signal(s, signal, m_sym, position, account.currency)
             last_signal[sid] = signal
             last_signal_info[sid] = f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | {signal}"
-
-            # If flipping from opposite side, close that leg first (keeps clean per-strategy tickets on hedging accounts)
-            if signal == 'BUY':
-                if open_pos == 'SELL':
-                    close_position(position, m_sym)
-                if open_pos != 'BUY':
-                    use_lot = s.get('lot_size') or lot_size_default
-                    if s.get('risk_usd') is not None:
-                        dyn = lots_for_target_usd(m_sym, s['fixed_sl'], s['risk_usd'], account.currency)
-                        use_lot = dyn if dyn is not None else use_lot
-
-                    send_order(m_sym, mt5.ORDER_TYPE_BUY, use_lot, s['fixed_sl'], s['fixed_tp'],
-                               magic=s['magic'], comment=f"CEB:{sid}")
-
-            elif signal == 'SELL':
-                if open_pos == 'BUY':
-                    close_position(position, m_sym)
-                if open_pos != 'SELL':
-                    use_lot = s.get('lot_size') or lot_size_default
-                    if s.get('risk_usd') is not None:
-                        dyn = lots_for_target_usd(m_sym, s['fixed_sl'], s['risk_usd'], account.currency)
-                        use_lot = dyn if dyn is not None else use_lot
-
-                    send_order(m_sym, mt5.ORDER_TYPE_SELL, use_lot, s['fixed_sl'], s['fixed_tp'],
-                               magic=s['magic'], comment=f"CEB:{sid}")
-        else:
-            print(f"[INFO] {sid}: signal unchanged ({signal}).")
+            if ok:
+                pending_signal[sid] = None
+                pending_since[sid] = None
+                last_retry_at[sid] = None
+            else:
+                pending_signal[sid] = signal
+                if pending_since[sid] is None:
+                    pending_since[sid] = datetime.now()
 
     # Throttle API calls. M15 candles close every 15 minutes; 20s polling is more than enough.
     time.sleep(20)
