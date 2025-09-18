@@ -17,3 +17,9 @@ algos:
 
   CEHourly_BTC+XAU_2HR:
     script_path: "CEHourly_BTC+XAU_2HR.py"
+
+  CEStrategy_BTC_5M:
+    script_path: "CEStrategy_BTC_5M"
+
+  CEStrategyReverse_BTC_5M:
+    script_path: "CEStrategyReverse_BTC_5M"
