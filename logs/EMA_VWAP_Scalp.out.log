@@ -258,3 +258,19 @@
 [OK] (XAUUSD) Auto-closed ticket=1230611150
 [OK] (XAUUSD) Auto-closed ticket=1230759830
 [OK] (XAUUSD) Auto-closed ticket=1230775775
+[BOOT] MT5 path exists? True
+[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
+
+[MT5] Connected: 52474888 | Balance: $84548.13
+
+[MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
+[MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
+[RUN] Multi-asset EMA+VWAP scalper started.
+[BOOT] MT5 path exists? True
+[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
+
+[MT5] Connected: 52474888 | Balance: $84548.13
+
+[MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
+[MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
+[RUN] Multi-asset EMA+VWAP scalper started.

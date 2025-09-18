@@ -12458,3 +12458,84 @@ time
 [INFO] SESSION ENDED BEFORE THE NEXT BAR CLOSE. HANDLING SESSION END...
 
 [*] OUTSIDE SESSION. NEXT SESSION: 2025-09-18 18:30:00 BST
+[+] SESSION START REACHED. Waiting to enter... 
+[+] SESSION HAS STARTED!                         
+[+] IN SESSION: 18:30:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:30:00 BST ...
+
+[OK] New 5-min candle detected: 2025-09-18 18:25:00
+[INFO] Ignoring pre-session bar. Waiting for first post-session-start candle...
+
+[+] IN SESSION: 18:30:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:30:00 BST ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:35:00 BST ...
+
+[OK] New 5-min candle detected: 2025-09-18 18:30:00
+[OK] Retrieved 499 candles from OANDA.
+
+= = = = =   RAW OANDA CANDLESTICK DATA (LAST 10 CANDLES)   = = = = =
+                      open      high       low     close  volume
+time                                                            
+2025-09-18 17:45  3643.950  3645.215  3643.500  3644.495    1473
+2025-09-18 17:50  3644.520  3646.890  3644.150  3646.740    2097
+2025-09-18 17:55  3646.745  3647.330  3645.650  3646.290    2417
+2025-09-18 18:00  3646.280  3646.655  3644.840  3645.595    2131
+2025-09-18 18:05  3645.590  3646.845  3644.245  3644.575    2521
+2025-09-18 18:10  3644.570  3645.870  3643.820  3644.310    2166
+2025-09-18 18:15  3644.320  3644.590  3643.575  3644.145    1926
+2025-09-18 18:20  3644.155  3645.485  3644.155  3645.125    2231
+2025-09-18 18:25  3645.110  3646.020  3643.580  3644.985    2638
+2025-09-18 18:30  3645.060  3645.715  3644.155  3644.830    1978
+
+= = = = =   LAST 10 HEIKIN-ASHI CANDLES WITH SIGNALS  = = = = =
+                        ha_c      ha_open      ha_high       ha_low  dir signal
+time                                                                           
+2025-09-18 17:45  3644.29000  3644.390870  3645.215000  3643.500000    1       
+2025-09-18 17:50  3645.57500  3644.340435  3646.890000  3644.150000    1       
+2025-09-18 17:55  3646.50375  3644.957717  3647.330000  3644.957717    1       
+2025-09-18 18:00  3645.84250  3645.730734  3646.655000  3644.840000    1       
+2025-09-18 18:05  3645.31375  3645.786617  3646.845000  3644.245000    1       
+2025-09-18 18:10  3644.64250  3645.550183  3645.870000  3643.820000    1       
+2025-09-18 18:15  3644.15750  3645.096342  3645.096342  3643.575000    1       
+2025-09-18 18:20  3644.73000  3644.626921  3645.485000  3644.155000    1       
+2025-09-18 18:25  3644.92375  3644.678460  3646.020000  3643.580000    1       
+2025-09-18 18:30  3644.94000  3644.801105  3645.715000  3644.155000    1       
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 18:30:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:35:00 BST ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:40:00 BST ...
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52474878 
+BALANCE: $100414.10
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1758227773, 'digits': 2, 'spread': 5, 'spread_float': True, 'ticks_bookdepth': 10, 'trade_calc_mode': 0, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 1, 'swap_rollover3days': 3, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 3645.04, 'bidhigh': 3672.98, 'bidlow': 3628.03, 'ask': 3645.09, 'askhigh': 3673.09, 'asklow': 3628.17, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 1.0, 'trade_tick_value_profit': 1.0, 'trade_tick_value_loss': 1.0, 'trade_tick_size': 0.01, 'trade_contract_size': 100.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 100.0, 'volume_step': 0.01, 'volume_limit': 0.0, 'swap_long': -54.797, 'swap_short': 29.642, 'margin_initial': 100.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 3659.0, 'session_close': 3659.84, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 100.0, 'price_change': -0.4044, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'XAU', 'currency_profit': 'USD', 'currency_margin': 'XAU', 'bank': '', 'description': 'Gold vs US Dollar', 'exchange': '', 'formula': '', 'isin': '', 'name': 'XAUUSD', 'page': '', 'path': 'Commodities\\Metals\\XAUUSD'}
+[INFO] Min stop distance enforced by broker ≈ $0.00
+
+[+] IN SESSION: 18:30:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:40:00 BST ...
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52474878 
+BALANCE: $100414.10
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1758227891, 'digits': 2, 'spread': 7, 'spread_float': True, 'ticks_bookdepth': 10, 'trade_calc_mode': 0, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 1, 'swap_rollover3days': 3, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 3644.17, 'bidhigh': 3672.98, 'bidlow': 3628.03, 'ask': 3644.24, 'askhigh': 3673.09, 'asklow': 3628.17, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 1.0, 'trade_tick_value_profit': 1.0, 'trade_tick_value_loss': 1.0, 'trade_tick_size': 0.01, 'trade_contract_size': 100.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 100.0, 'volume_step': 0.01, 'volume_limit': 0.0, 'swap_long': -54.797, 'swap_short': 29.642, 'margin_initial': 100.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 3659.0, 'session_close': 3659.84, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 100.0, 'price_change': -0.4282, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'XAU', 'currency_profit': 'USD', 'currency_margin': 'XAU', 'bank': '', 'description': 'Gold vs US Dollar', 'exchange': '', 'formula': '', 'isin': '', 'name': 'XAUUSD', 'page': '', 'path': 'Commodities\\Metals\\XAUUSD'}
+[INFO] Min stop distance enforced by broker ≈ $0.00
+
+[+] IN SESSION: 18:30:00–22:00:00 BST
+
+[*] Waiting until next 5-min candle close at 18:40:00 BST ...
