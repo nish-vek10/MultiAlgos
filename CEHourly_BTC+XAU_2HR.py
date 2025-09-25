@@ -74,10 +74,13 @@ strategies = [
      "fixed_sl": None, "fixed_tp": None, "lot_size": 0.5, "risk_usd": None, "magic": 98765422},
 
     {"id": "SPX-H2", "mt5": "US500",  "oanda": "SPX500_USD", "granularity": "H2",
-     "fixed_sl": None, "fixed_tp": None, "lot_size": 10.0, "risk_usd": None, "magic": 98765423},
+     "fixed_sl": None, "fixed_tp": None, "lot_size": 25.0, "risk_usd": None, "magic": 98765423},
 
     {"id": "EURUSD-H2", "mt5": "EURUSD",  "oanda": "EUR_USD", "granularity": "H2",
      "fixed_sl": None, "fixed_tp": None, "lot_size": 0.5, "risk_usd": None, "magic": 98765424},
+
+    {"id": "EURUSD-H2", "mt5": "USDJPY", "oanda": "USD_JPY", "granularity": "H2",
+     "fixed_sl": None, "fixed_tp": None, "lot_size": 1.0, "risk_usd": None, "magic": 98765425},
 ]
 
 # =================================================================================================
