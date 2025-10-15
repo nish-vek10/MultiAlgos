@@ -2,7 +2,7 @@
 XAUUSD | M5 | Heikin-Ashi + Chandelier (NORMAL+REVERSE auto-switch via PO3-style regime)
 - Always-on (sessions optional; default = None => 24/5)
 - Risk = 0.50% of CURRENT ACCOUNT BALANCE per trade
-- NORMAL (trend):   SL=5.5,  TP1=6.0,  TP1=60%, then SL -> BE + buffer (>= spread)
+- NORMAL (trend):   SL=5.5,  TP1=6.5,  TP1=60%, then SL -> BE + buffer (>= spread)
 - REVERSE (mean-rv): SL=3.0,  TP1=3.5,  TP1=60%, then SL -> BE + buffer (>= spread)
 - Pending/retry, backfill prev bar, post-fill SL adjust to filled price
 - Clean logs; easy to tweak constants below
@@ -78,17 +78,13 @@ REQUIRE_POST_START_CANDLE = False
 # AND manipulation/sweep checks (recent sweep of prior high/low and close back inside).
 # If trendiness strong and no fresh sweep → NORMAL (trend). Else → REVERSE (mean-revert).
 
-# Persistence: require 6/6 same CE direction (≈ K=6)
-REG_DIR_LOOKBACK          = 12
-REG_TREND_FRAC_THRESH     = 0.90   # 100% same dir in the last 6 bars
+# === PO3 constants to match the backtest exactly ===
+PERSISTENCE_K   = 12      # run-length of unbroken CE direction
+SMA_LEN         = 20
+ATR_TREND_LEN   = 20
+DIST_ATR_MULT   = 1.00
+SWEEP_LOOKBACK  = 288     # ~24h on M5
 
-REG_EMA_PERIOD            = 20     # slope baseline
-REG_SLOPE_MIN_PER_BAR     = 0.00   # min $/bar slope threshold to consider "moving"
-REG_DISPLACEMENT_ATR_WIN  = 14     # ATR window for displacement normalization
-REG_DISPLACEMENT_MIN_ATR  = 1.00   # |close - ema| >= 1.0 * ATR → displacement
-
-REG_SWEEP_LOOKBACK        = 288     # detect sweep within last N bars
-REG_SWEEP_BODY_IN_RANGE   = False   # require body close back inside prior range (sweep/SMT-like)
 
 # =========================
 # ====== LOG HELPER =======
@@ -120,6 +116,7 @@ if si:
     print(f"[INFO] Approx. min stop distance enforced by broker ≈ ${min_sl_usd:.2f}")
 else:
     print(f"[ERROR] Unable to fetch symbol info for {MT5_SYMBOL}")
+
 
 # =========================
 # ===== OANDA FETCH =======
@@ -250,98 +247,101 @@ def calculate_indicators(df, useHeikinAshi=True, atrPeriod=1, atrMult=1.85):
 
     return tr
 
+
+# ======= Backtest-accurate helpers =======
+
+def _rma(series: pd.Series, length: int) -> pd.Series:
+    """Wilder's RMA with SMA seed — same as the backtest."""
+    if length <= 1:
+        return series.copy()
+    alpha = 1.0 / length
+    out = series.copy().astype(float)
+    seed = series.rolling(length, min_periods=length).mean()
+    out.iloc[:length-1] = float('nan')
+    out.iloc[length-1] = seed.iloc[length-1]
+    for i in range(length, len(series)):
+        out.iloc[i] = out.iloc[i-1] + alpha * (series.iloc[i] - out.iloc[i-1])
+    return out.ffill()
+
+def _true_range_from_ohlc(df: pd.DataFrame) -> pd.Series:
+    c = df['close']
+    h = df['high']; l = df['low']; c_prev = c.shift(1)
+    tr1 = (h - l)
+    tr2 = (h - c_prev).abs()
+    tr3 = (l - c_prev).abs()
+    return pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
+
+def _sweep_recent_by_prev_day_hilo(df: pd.DataFrame, lookback: int) -> bool:
+    """
+    Backtest-like 'sweep' of PRIOR-DAY high/low.
+    We compute prev-day high/low per bar, then flag if any of last `lookback` bars
+    took out that prev-day level.
+    """
+    if len(df) < max(3, lookback + 2):
+        return False
+    # group by UTC day (stable across DST)
+    day = df.index.tz_convert("UTC").floor("D")
+    daily_high_prev = df["high"].groupby(day).transform("max").shift(1)
+    daily_low_prev  = df["low"].groupby(day).transform("min").shift(1)
+    swept = (df["high"] > daily_high_prev) | (df["low"] < daily_low_prev)
+    # any sweep in recent window?
+    return bool(swept.tail(lookback).max())
+
+
 # =========================
 # ==== PO3 REGIME DET =====
 # =========================
-def _ema(series: pd.Series, period: int) -> pd.Series:
-    return series.ewm(span=period, adjust=False).mean()
-
-def _rolling_atr_like(df: pd.DataFrame, window: int) -> pd.Series:
-    # quick ATR: classic Wilder (RMA) or simple here using true range mean
-    c = df['close']; h = df['high']; l = df['low']
-    prev_c = c.shift(1)
-    tr1 = (h - l).abs()
-    tr2 = (h - prev_c).abs()
-    tr3 = (l - prev_c).abs()
-    tr = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
-    return tr.rolling(window=window, min_periods=window).mean()
-
-def _recent_sweep(df: pd.DataFrame, lookback: int, body_back_inside: bool) -> bool:
+def detect_regime(df_raw: pd.DataFrame, ce_df: pd.DataFrame):
     """
-    Detects a recent sweep of previous swing high/low followed by close back inside prior range.
-    - If last bar's high > prior max(high[-lookback-1:-1]) and close < that prior max -> sweep high
-    - If last bar's low  < prior min(low[-lookback-1:-1]) and close > that prior min -> sweep low
-    """
-    if len(df) < lookback + 2:
-        return False
-    prior = df.iloc[-(lookback+1):-1]
-    last  = df.iloc[-1]
-    prev_hi = prior['high'].max()
-    prev_lo = prior['low'].min()
-    swept_high = last['high'] > prev_hi
-    swept_low  = last['low']  < prev_lo
-
-    if not (swept_high or swept_low):
-        return False
-
-    if not body_back_inside:
-        return True
-
-    # require close back inside range
-    if swept_high and (last['close'] < prev_hi):
-        return True
-    if swept_low and (last['close'] > prev_lo):
-        return True
-    return False
-
-def detect_regime(df_raw: pd.DataFrame, tr: pd.DataFrame):
-    """
-    Return ("NORMAL" | "REVERSE", diagnostics_dict)
-    Trendiness via:
-      - fraction of last REG_DIR_LOOKBACK bars with same 'dir'
-      - EMA slope magnitude (EMA34)
-      - displacement |close - EMA| vs ATR (14)
-    Manipulation via:
-      - recent sweep of prior range and close back inside
+    EXACT match to backtest heuristic:
+      - Persistence (run-length) of CE dir >= PERSISTENCE_K
+      - Displacement: |close - SMA20| >= ATR20 * DIST_ATR_MULT
+      - Sweep nudge: if recent sweep of prior-day H/L within SWEEP_LOOKBACK -> NORMAL
+    Returns: ("NORMAL" | "REVERSE", diagnostics_dict)
     """
     diag = {}
     try:
+        if df_raw is None or df_raw.empty or ce_df is None or ce_df.empty:
+            return "NORMAL", {"error": "empty df"}
+
+        # --- Persistence via run-length on ce_df['dir'] ---
+        dir_series = ce_df['dir'].fillna(0).astype(int)
+        # build run lengths
+        switches = (dir_series != dir_series.shift(1)).cumsum()
+        run_lengths = switches.groupby(switches).transform('count')
+        persistence_ok = bool(run_lengths.iloc[-1] >= PERSISTENCE_K)
+        diag['persistence_run'] = int(run_lengths.iloc[-1])
+
+        # --- Displacement vs ATR20 using SMA20 and RMA(TR,20) ---
         c = df_raw['close']
-        ema = _ema(c, REG_EMA_PERIOD)
-        slope = (ema.iloc[-1] - ema.iloc[-REG_DIR_LOOKBACK]) / max(1, REG_DIR_LOOKBACK)
-        slope_per_bar = abs(slope)
-        diag['ema34_slope_per_bar'] = float(slope_per_bar)
+        sma20 = c.rolling(SMA_LEN, min_periods=1).mean()
+        tr = _true_range_from_ohlc(df_raw)
+        atr20 = _rma(tr, ATR_TREND_LEN)
+        last_disp = abs(c.iloc[-1] - sma20.iloc[-1])
+        last_atr  = float(atr20.iloc[-1]) if pd.notna(atr20.iloc[-1]) else 0.0
+        disp_ok = (last_atr > 0.0) and (last_disp >= last_atr * DIST_ATR_MULT)
 
-        # direction consistency
-        if len(tr) >= REG_DIR_LOOKBACK:
-            lastdir = tr['dir'].iloc[-REG_DIR_LOOKBACK:]
-            frac_same = max(lastdir.mean(), 1 - lastdir.mean())  # treat 1/-1; crude "consistency"
-            frac_same = float(abs(lastdir.sum()) / REG_DIR_LOOKBACK)
-        else:
-            frac_same = 0.0
-        diag['dir_consistency_frac'] = frac_same
+        diag['disp_abs'] = float(last_disp)
+        diag['atr20']    = float(last_atr)
+        diag['disp_ok']  = bool(disp_ok)
 
-        # displacement vs ATR
-        atrN = _rolling_atr_like(df_raw, REG_DISPLACEMENT_ATR_WIN)
-        disp  = abs(c.iloc[-1] - ema.iloc[-1])
-        atrv  = float(atrN.iloc[-1]) if pd.notna(atrN.iloc[-1]) else 0.0
-        disp_atr = (disp / atrv) if atrv > 0 else 0.0
-        diag['displacement_atr'] = float(disp_atr)
+        # --- Sweep nudge (if recent sweep -> NORMAL) ---
+        swept_recent = _sweep_recent_by_prev_day_hilo(df_raw, SWEEP_LOOKBACK)
+        diag['sweep_recent'] = bool(swept_recent)
 
-        # sweep check (manipulation)
-        swept = _recent_sweep(df_raw, REG_SWEEP_LOOKBACK, REG_SWEEP_BODY_IN_RANGE)
-        diag['recent_sweep'] = bool(swept)
+        trend_ok = persistence_ok and disp_ok
+        regime = "NORMAL" if (trend_ok or swept_recent) else "REVERSE"
 
-        # decision
-        trend_ok = (frac_same >= REG_TREND_FRAC_THRESH) and (slope_per_bar >= REG_SLOPE_MIN_PER_BAR) and (disp_atr >= REG_DISPLACEMENT_MIN_ATR)
-        if trend_ok and not swept:
-            regime = "NORMAL"
-        else:
-            regime = "REVERSE"
+        diag['trend_ok'] = bool(trend_ok)
+        diag['decision'] = regime
         return regime, diag
+
     except Exception as e:
         diag['error'] = str(e)
-        return "NORMAL", diag  # default to NORMAL on failure, but log
+        # neutral default like backtest (leans NORMAL)
+        return "NORMAL", diag
+
+
 # =========================
 # ==== SESSION HELPERS ====
 # =========================
@@ -394,6 +394,17 @@ def _value_per_1usd_per_lot(si):
     if getattr(si, "trade_contract_size", 0):
         return float(si.trade_contract_size)
     return None
+
+# Sanity: $ per $1 move at 1.0 lot
+try:
+    v = _value_per_1usd_per_lot(si)
+    if v:
+        print(f"[CHECK] $ per $1 move (1 lot) detected: {v:.2f}")
+        if not (98.0 <= v <= 102.0):
+            print("[WARN] Detected contract value differs from backtest's $100. "
+                  "Forward position sizes will not match backtest exactly.")
+except Exception as _e:
+    print(f"[WARN] Could not compute $/lot check: {_e}")
 
 def compute_lot_for_risk_dynamic_balance(symbol, sl_usd, risk_pct_of_balance: float):
     si = mt5.symbol_info(symbol)
@@ -524,8 +535,7 @@ def _move_sl_to_breakeven(position, buffer_usd=0.0):
     stops_pts = getattr(si, "trade_stops_level", 0) or 0
     min_dist = stops_pts * point
 
-    spread = (tick.ask - tick.bid)
-    be_buf = max(float(buffer_usd), spread)
+    be_buf = float(buffer_usd)
 
     if position.type == mt5.ORDER_TYPE_BUY:
         desired_sl = round(entry + be_buf, si.digits)
@@ -720,7 +730,7 @@ def _price_side_touched(tick, target_price, pos_type):
     return tick.ask <= target_price
 
 # pending retry state
-pending_signal = {"signal": None, "since": None, "last_retry": None}
+pending_signal = {"signal": None, "since": None, "last_retry": None, "sl_usd": None}
 
 def _maybe_retry_pending():
     if not pending_signal["signal"]:
@@ -730,21 +740,18 @@ def _maybe_retry_pending():
         return
     if pending_signal["last_retry"] and (now_local - pending_signal["last_retry"]).total_seconds() < RETRY_EVERY_SECS:
         return
+
     print(f"[RETRY] Pending {pending_signal['signal']} — attempting execution…")
-    # choose SL based on *current* regime to avoid stale mismatch
-    # (safe default: NORMAL_SL if we cannot recompute)
-    df = fetch_oanda_candles()
-    if df is not None and not df.empty:
-        tr = calculate_indicators(df, useHeikinAshi=USE_HEIKIN_ASHI, atrPeriod=ATR_PERIOD, atrMult=ATR_MULT)
-        regime, _ = detect_regime(df[['open','high','low','close','volume']], tr)
-        sl_cur = NORMAL_SL_USD if regime == "NORMAL" else REVERSE_SL_USD
-    else:
-        sl_cur = NORMAL_SL_USD
+
+    # Use the SL distance captured when the signal was queued (parity with backtest)
+    sl_cur = pending_signal.get("sl_usd", NORMAL_SL_USD)
     ok = _attempt_execution_for_signal(pending_signal["signal"], sl_usd=sl_cur)
+
     pending_signal["last_retry"] = now_local
     if ok:
         print(f"[OK] Pending {pending_signal['signal']} executed.")
-        pending_signal.update({"signal": None, "since": None, "last_retry": None})
+        pending_signal.update({"signal": None, "since": None, "last_retry": None, "sl_usd": None})
+
 
 # =========================
 # ===== MAIN LOOPING ======
@@ -975,7 +982,7 @@ try:
                             pos_state[pos.ticket] = {"partial60_done": False, "moved_to_be": False, "regime_at_entry": regime}
                     else:
                         if not pending_signal["signal"]:
-                            pending_signal.update({"signal": signal, "since": now_local})
+                            pending_signal.update({"signal": signal, "since": now_local, "sl_usd": SL_USD})
                             print(f"[PENDING] Queued {signal} (will retry).")
         else:
             # consider backfill prev bar
@@ -988,7 +995,7 @@ try:
                     if pos:
                         pos_state[pos.ticket] = {"partial60_done": False, "moved_to_be": False, "regime_at_entry": regime}
                 else:
-                    pending_signal.update({"signal": prev_signal, "since": now_local})
+                    pending_signal.update({"signal": prev_signal, "since": now_local, "sl_usd": SL_USD})
                     print(f"[PENDING] Queued {prev_signal} from previous bar (will retry).")
             else:
                 print("[INFO] No actionable signal.")
