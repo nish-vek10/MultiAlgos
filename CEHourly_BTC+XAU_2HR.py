@@ -81,6 +81,9 @@ strategies = [
 
     {"id": "USDJPY-H2", "mt5": "USDJPY", "oanda": "USD_JPY", "granularity": "H2",
      "fixed_sl": None, "fixed_tp": None, "lot_size": 1.0, "risk_usd": None, "magic": 98765425},
+
+    {"id": "EUSTOX-H2", "mt5": "STOXX50", "oanda": "EU50_EUR", "granularity": "H2",
+     "fixed_sl": None, "fixed_tp": None, "lot_size": 28.0, "risk_usd": None, "magic": 98765426},
 ]
 
 # =================================================================================================
