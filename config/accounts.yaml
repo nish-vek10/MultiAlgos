@@ -3,29 +3,29 @@ algos:
 #  BTC-XAU-EU50-JPY_1H:
 #    script_path: "CEHourly_BTC+XAU+EU50+UJ.py"
 
-  EMA_VWAP_Scalp:
+  EMA_VWAP_Scalp: # 52474888
     script_path: "EMA-VWAP_Scalp.py"
 
-  CE-1H-15M_MultiAssets:
+  CE-1H-15M_MultiAssets: # 52498249
     script_path: "CE-1H-15M_MultiAssets.py"
 
-  CEHourly_BTC+XAU_2HR:
+  CEHourly_BTC+XAU_2HR: # 52512991
     script_path: "CEHourly_BTC+XAU_2HR.py"
 
-  CEStrategy_BTC_5M:
+  CEStrategy_BTC_5M: # 52526820
     script_path: "CEStrategy_BTC_5M.py"
 
-  CEStrategyReverse_BTC_5M:
+  CEStrategyReverse_BTC_5M: # 52526821
     script_path: "CEStrategyReverse_BTC_5M.py"
 
-  CE_XAU_5M:
+  CE_XAU_5M: # 52474875
     script_path: "CEStrategy_XAU_5M.py"
 
-  CE_Reverse_XAU_5M:
+  CE_Reverse_XAU_5M: # 52474878
     script_path: "CEStrategyReverse_XAU_5M.py"
 
-  CEStrategy_XAU_PO3:
+  CEStrategy_XAU_PO3: # 52561010
     script_path: "CEStrategyHybrid_XAU_5M-PO3.py"
 
-  CE-XAU-5M-Partials:
+  CE-XAU-5M-Partials: # 52535447
     script_path: "CE_XAU-5M-TP_Partials.py"
