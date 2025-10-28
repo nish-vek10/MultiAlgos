@@ -624,15 +624,15 @@ while True:
             # Raw OANDA OHLCV (last N)
             raw_tail = df[['open', 'high', 'low', 'close', 'volume']].copy().tail(PRINT_LAST_N)
             raw_tail.index = raw_tail.index.strftime('%Y-%m-%d %H:%M')
-            print(f"\n===== RAW OANDA CANDLESTICK ({sid}, {tf}) — last {PRINT_LAST_N} =====")
-            print(raw_tail)
+            # print(f"\n===== RAW OANDA CANDLESTICK ({sid}, {tf}) — last {PRINT_LAST_N} =====")
+            # print(raw_tail)
 
             # Heikin-Ashi + direction/signal (last N)
             dbg = tr[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'buy_signal', 'sell_signal']].copy()
             dbg['signal'] = dbg.apply(lambda r: 'BUY' if r['buy_signal'] else ('SELL' if r['sell_signal'] else ''), axis=1)
             dbg.index = dbg.index.strftime('%Y-%m-%d %H:%M')
-            print(f"\n===== HEIKIN-ASHI + SIGNALS ({sid}, {tf}) — last {PRINT_LAST_N} =====")
-            print(dbg[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'signal']].tail(PRINT_LAST_N))
+            # print(f"\n===== HEIKIN-ASHI + SIGNALS ({sid}, {tf}) — last {PRINT_LAST_N} =====")
+            # print(dbg[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'signal']].tail(PRINT_LAST_N))
             print()  # spacer
 
         # Snapshot position for this strategy (magic)

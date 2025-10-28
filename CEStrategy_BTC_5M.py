@@ -665,7 +665,7 @@ while True:
                 _maybe_retry_pending()
                 time.sleep(1)
                 continue
-            sys.stdout.write(f"\rTIME UNTIL NEXT SESSION: {_fmt_hms(remaining)} ")
+            # sys.stdout.write(f"\rTIME UNTIL NEXT SESSION: {_fmt_hms(remaining)} ")
             sys.stdout.flush()
             _maybe_retry_pending()
             time.sleep(1)
@@ -776,8 +776,8 @@ while True:
     print(f"[OK] Retrieved {len(df)} candles from OANDA.")
 
     # raw candles (last 10)
-    print("\n= = = = =   RAW OANDA CANDLESTICK DATA (LAST 10 CANDLES)   = = = = =")
-    print(df.assign(time=df.index.strftime('%Y-%m-%d %H:%M')).set_index('time').tail(10))
+    # print("\n= = = = =   RAW OANDA CANDLESTICK DATA (LAST 10 CANDLES)   = = = = =")
+    # print(df.assign(time=df.index.strftime('%Y-%m-%d %H:%M')).set_index('time').tail(10))
 
     # indicators & signals
     tr = calculate_indicators(df, useHeikinAshi=use_heikin_ashi, atrPeriod=atr_period, atrMult=atr_mult)
@@ -797,11 +797,11 @@ while True:
 
 
     # HA debug (last 10)
-    print("\n= = = = =   LAST 10 HEIKIN-ASHI CANDLES WITH SIGNALS  = = = = =")
+    # print("\n= = = = =   LAST 10 HEIKIN-ASHI CANDLES WITH SIGNALS  = = = = =")
     debug_df = tr[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'buy_signal', 'sell_signal']].copy()
     debug_df.index = debug_df.index.strftime('%Y-%m-%d %H:%M')
     debug_df['signal'] = debug_df.apply(lambda row: 'BUY' if row['buy_signal'] else ('SELL' if row['sell_signal'] else ''), axis=1)
-    print(debug_df[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'signal']].tail(30))
+    # print(debug_df[['ha_c', 'ha_open', 'ha_high', 'ha_low', 'dir', 'signal']].tail(30))
 
     # current open position
     position = get_position(mt5_symbol)

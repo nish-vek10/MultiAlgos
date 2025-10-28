@@ -887,8 +887,8 @@ try:
         try:
             raw_to_show = df[['open','high','low','close','volume']].copy()
             raw_to_show.index = raw_to_show.index.strftime('%Y-%m-%d %H:%M')
-            print("\n===== RAW OANDA M5 DATA — last 10 =====")
-            print(raw_to_show.tail(10))
+            # print("\n===== RAW OANDA M5 DATA — last 10 =====")
+            # print(raw_to_show.tail(10))
         except Exception as e:
             log(f"[DEBUG] Raw candle print failed: {e}")
 
@@ -898,8 +898,8 @@ try:
             debug_df = tr[['ha_c','ha_open','ha_high','ha_low','dir','buy_signal','sell_signal']].copy()
             debug_df['signal'] = debug_df.apply(lambda row: 'BUY' if row['buy_signal'] else ('SELL' if row['sell_signal'] else ''), axis=1)
             debug_df.index = debug_df.index.strftime('%Y-%m-%d %H:%M')
-            print("\n===== HA + SIGNALS (M5) — last 10 =====")
-            print(debug_df[['ha_c','ha_open','ha_high','ha_low','dir','signal']].tail(10))
+            # print("\n===== HA + SIGNALS (M5) — last 10 =====")
+            # print(debug_df[['ha_c','ha_open','ha_high','ha_low','dir','signal']].tail(10))
         except Exception as e:
             log(f"[DEBUG] HA table print failed: {e}")
 
