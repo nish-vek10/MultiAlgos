@@ -270,19 +270,29 @@ def fetch_oanda_candles_safe(oanda_symbol, granularity, count=NUM_CANDLES):
 def session_vwap(df, sessions, tz):
     v = df.copy()
     local = v.index.tz_convert(tz)
+
+    # build per-day sessions robustly
     sess_id = np.zeros(len(v), dtype=int)
     sid = 0
-    # iterate unique dates in index (local)
-    for day in pd.to_datetime(pd.Series(local.date).unique()):
+
+    # iterate unique local days (keeps tz)
+    for day in pd.unique(local.normalize()):
         for s, e in sessions:
             sid += 1
-            s_dt = pd.Timestamp.combine(day, pd.to_datetime(s).time()).tz_localize(tz)
-            e_dt = pd.Timestamp.combine(day, pd.to_datetime(e).time()).tz_localize(tz)
-            mask = (local >= s_dt) & (local < e_dt)
-            sess_id[mask.values] = sid
-    v["sess_id"] = sess_id
+            h_s, m_s = map(int, s.split(":"))
+            h_e, m_e = map(int, e.split(":"))
+            s_dt = day + pd.Timedelta(hours=h_s, minutes=m_s)
+            e_dt = day + pd.Timedelta(hours=h_e, minutes=m_e)
+
+            mask = (local >= s_dt) & (local < e_dt)   # <-- this is a NumPy bool array
+            sess_id[mask] = sid                        # <-- use it directly
+
+    # store with index to be safe for groupby alignment
+    v["sess_id"] = pd.Series(sess_id, index=v.index)
+
     typical = (v["high"] + v["low"] + v["close"]) / 3.0
     vol = v["volume"].replace(0, np.nan).ffill()
+
     num = (typical * vol).groupby(v["sess_id"]).cumsum()
     den = vol.groupby(v["sess_id"]).cumsum()
     v["vwap"] = num / den

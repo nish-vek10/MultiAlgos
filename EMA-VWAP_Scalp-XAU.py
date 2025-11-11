@@ -177,17 +177,26 @@ def fetch_oanda_candles(oanda_symbol, granularity=GRANULARITY, count=NUM_CANDLES
 def session_vwap(df, sessions, tz):
     v = df.copy()
     local = v.index.tz_convert(tz)
+
     # Build a session id that increments at each session start (per day)
     sess_id = np.zeros(len(v), dtype=int)
     sid = 0
-    for day in pd.to_datetime(pd.Series(local.date).unique()):
+
+    # Keep tz info; avoid temp Series construction
+    for day in pd.unique(local.normalize()):
         for s, e in sessions:
             sid += 1
-            s_dt = pd.Timestamp.combine(day, pd.to_datetime(s).time()).tz_localize(tz)
-            e_dt = pd.Timestamp.combine(day, pd.to_datetime(e).time()).tz_localize(tz)
-            mask = (local >= s_dt) & (local < e_dt)
-            sess_id[mask.values] = sid
-    v["sess_id"] = sess_id
+            h_s, m_s = map(int, s.split(":"))
+            h_e, m_e = map(int, e.split(":"))
+            s_dt = day + pd.Timedelta(hours=h_s, minutes=m_s)
+            e_dt = day + pd.Timedelta(hours=h_e, minutes=m_e)
+
+            mask = (local >= s_dt) & (local < e_dt)   # NumPy bool array
+            sess_id[mask] = sid                        # <-- no .values
+
+    # Store with index to keep alignment for groupby
+    v["sess_id"] = pd.Series(sess_id, index=v.index)
+
     typical = (v["high"] + v["low"] + v["close"]) / 3.0
     vol = v["volume"].replace(0, np.nan).ffill()
     num = (typical * vol).groupby(v["sess_id"]).cumsum()
