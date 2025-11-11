@@ -48,8 +48,8 @@ auto_close_at_session_end = True       # close any open position when session en
 require_post_start_candle = True       # first trade only after the first candle formed AFTER session start
 
 # === ACCOUNT LOGIN CONFIG === #
-mt5_login = 52498279
-mt5_password = "eQSX7dfh!nIZOy"
+mt5_login = 52421640
+mt5_password = "M3Bgywv9$n8mr1"
 mt5_server = "ICMarketsSC-Demo"
 mt5_terminal_path = r"C:\MT5\52480967\terminal64.exe"
 

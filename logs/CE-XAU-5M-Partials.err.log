@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CE_XAU-5M-TP_Partials.py", line 1277, in <module>
+    next_close = countdown_to_next_5m(local_tz, until_dt=current_session_end, prop_obj=prop)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "CE_XAU-5M-TP_Partials.py", line 625, in countdown_to_next_5m
+    prop_obj.enforce_breaches()
+  File "CE_XAU-5M-TP_Partials.py", line 516, in enforce_breaches
+    overall_breached, eq, min_eq = self.breached_overall()
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "CE_XAU-5M-TP_Partials.py", line 491, in breached_overall
+    eq = self.get_mt5_equity()
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "CE_XAU-5M-TP_Partials.py", line 386, in get_mt5_equity
+    raise RuntimeError("[PROP] Account info unavailable")
+RuntimeError: [PROP] Account info unavailable
+Traceback (most recent call last):
+  File "C:\Users\anish\PycharmProjects\E2T_Algos\shim_run.py", line 31, in <module>
+    runpy.run_path(target, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "CE_XAU-5M-TP_Partials.py", line 1277, in <module>
+    next_close = countdown_to_next_5m(local_tz, until_dt=current_session_end, prop_obj=prop)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "CE_XAU-5M-TP_Partials.py", line 625, in countdown_to_next_5m
+    prop_obj.enforce_breaches()
+  File "CE_XAU-5M-TP_Partials.py", line 516, in enforce_breaches
+    overall_breached, eq, min_eq = self.breached_overall()
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "CE_XAU-5M-TP_Partials.py", line 491, in breached_overall
+    eq = self.get_mt5_equity()
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "CE_XAU-5M-TP_Partials.py", line 386, in get_mt5_equity
+    raise RuntimeError("[PROP] Account info unavailable")
+RuntimeError: [PROP] Account info unavailable

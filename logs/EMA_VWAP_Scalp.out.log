@@ -1,0 +1,60 @@
+[BOOT] MT5 path exists? True
+[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
+
+[MT5] Connected: 52474888 | Balance: $123857.37
+
+[MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
+[MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
+[RUN] Multi-asset EMA+VWAP scalper started.
+[OK] (XAUUSD) Placed BUY 0.37 lots @ 4092.96 | SL=4084.52 TP=4109.74
+[OK] (XAUUSD) Placed BUY 0.50 lots @ 4094.18 | SL=4087.84 TP=4106.20
+[OK] (XAUUSD) Placed BUY 0.58 lots @ 4095.39 | SL=4089.93 TP=4105.66
+[OK] (XAUUSD) Placed BUY 0.63 lots @ 4097.52 | SL=4092.50 TP=4107.05
+[OK] (XAUUSD) Placed BUY 0.69 lots @ 4095.33 | SL=4090.45 TP=4103.75
+[BOOT] MT5 path exists? True
+[BOOT] Assets: XAU(XAUUSD/XAU_USD), BTC(BTCUSD/BTC_USD)
+
+[MT5] Connected: 52474888 | Balance: $122565.36
+
+[MT5] XAUUSD lot: min=0.01, max=100.0, step=0.01, contract_size=100.0, digits=2
+[MT5] BTCUSD lot: min=0.01, max=10.0, step=0.01, contract_size=1.0, digits=2
+[RUN] Multi-asset EMA+VWAP scalper started.
+[SESSION] (XAUUSD) Session ended — auto-closing open positions...
+[AUTO-CLOSE] (XAUUSD) Round 1: closing 4 positions...
+[OK] (XAUUSD) Auto-closed ticket=1311092909
+[OK] (XAUUSD) Auto-closed ticket=1311103082
+[OK] (XAUUSD) Auto-closed ticket=1311128243
+[OK] (XAUUSD) Auto-closed ticket=1311145512
+[OK] (BTCUSD) Placed BUY 1.12 lots @ 105856.94 | SL=105586.64 TP=106417.53
+[OK] (BTCUSD) Placed BUY 1.07 lots @ 106006.46 | SL=105705.35 TP=106579.70
+[OK] (BTCUSD) Placed BUY 1.10 lots @ 105867.83 | SL=105598.92 TP=106445.46
+[OK] (BTCUSD) Placed BUY 1.12 lots @ 105864.70 | SL=105581.65 TP=106415.21
+[OK] (BTCUSD) Placed BUY 1.22 lots @ 105732.51 | SL=105466.16 TP=106220.17
+[OK] (BTCUSD) Placed BUY 1.13 lots @ 105852.30 | SL=105545.06 TP=106356.67
+[OK] (BTCUSD) Placed BUY 1.15 lots @ 105789.97 | SL=105512.60 TP=106310.61
+[OK] (BTCUSD) Placed BUY 1.12 lots @ 105991.07 | SL=105720.31 TP=106543.17
+[OK] (BTCUSD) Placed BUY 1.05 lots @ 105926.99 | SL=105635.88 TP=106508.04
+[SESSION] (BTCUSD) Session ended — auto-closing open positions...
+[AUTO-CLOSE] (BTCUSD) Round 1: closing 4 positions...
+[OK] (BTCUSD) Auto-closed ticket=1311370935
+[OK] (BTCUSD) Auto-closed ticket=1311379977
+[OK] (BTCUSD) Auto-closed ticket=1311395448
+[OK] (BTCUSD) Auto-closed ticket=1311410723
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[ROLLOVER] Pausing (22:00–22:10 UTC).
+[OK] (BTCUSD) Placed BUY 1.02 lots @ 106155.51 | SL=105839.48 TP=106745.55
+[OK] (BTCUSD) Placed BUY 1.08 lots @ 106076.08 | SL=105769.77 TP=106629.05
+[OK] (BTCUSD) Placed BUY 0.78 lots @ 107428.55 | SL=106932.17 TP=108133.76
+[OK] (BTCUSD) Placed BUY 0.74 lots @ 106994.56 | SL=106539.11 TP=107804.77
+[OK] (BTCUSD) Placed BUY 0.63 lots @ 106563.04 | SL=106097.81 TP=107573.17
+[OK] (BTCUSD) Placed BUY 0.52 lots @ 106193.94 | SL=105581.84 TP=107347.22
+[OK] (BTCUSD) Placed BUY 0.63 lots @ 106355.13 | SL=105860.24 TP=107339.13
+[OK] (BTCUSD) Placed BUY 0.65 lots @ 106693.75 | SL=106202.09 TP=107624.41
+[OK] (BTCUSD) Placed BUY 0.64 lots @ 106847.12 | SL=106370.96 TP=107821.89
+[OK] (XAUUSD) Placed BUY 0.54 lots @ 4134.41 | SL=4129.14 TP=4146.17
+[OK] (XAUUSD) Placed BUY 0.54 lots @ 4134.94 | SL=4129.58 TP=4146.63
+[OK] (XAUUSD) Placed BUY 0.56 lots @ 4136.65 | SL=4131.43 TP=4147.86
+[OK] (XAUUSD) Placed BUY 0.55 lots @ 4141.50 | SL=4136.11 TP=4152.81
+[OK] (XAUUSD) Placed BUY 0.55 lots @ 4142.95 | SL=4137.47 TP=4154.21
+[OK] (XAUUSD) Placed BUY 0.76 lots @ 4141.14 | SL=4137.47 TP=4149.40

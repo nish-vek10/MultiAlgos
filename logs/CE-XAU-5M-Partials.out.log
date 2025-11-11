@@ -1,0 +1,3121 @@
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED!
+ACCOUNT: 52535447
+BALANCE: $98841.40
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+[INFO] Min stop distance enforced by broker ≈ $0.00
+[SMTP] Test email sent successfully.
+[BOOT] PropRules engine active. Phase: 1  | Targets → P1: $10000  P2: $5000  | Limits → Daily: $5000  Overall: $10000
+[PROP] Daily anchor initialized at 98841.40 Europe/Prague
+2025-11-10 13:38:55 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 13:38:55 | [*] Waiting until next 5-min close at 13:40:00 GMT ...
+2025-11-10 13:40:02 | [OK] New 5-min candle: 2025-11-10 13:35:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-10 13:40:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 13:40:02 | [*] Waiting until next 5-min close at 13:45:00 GMT ...
+2025-11-10 13:45:02 | [OK] New 5-min candle: 2025-11-10 13:40:00 GMT
+[INFO] No open position currently.
+2025-11-10 13:45:02 | [DIAG] Remaining daily risk: $3,438.50 | Daily loss so far: $1,561.50 (closed=$-1,561.50, open=$0.00)
+[TRADE] New signal=SELL | open=NONE
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1310587022, price=4097.73, lot=0.9
+[OK] SL SET to 4103.23
+2025-11-10 13:45:03 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 13:45:03 | [*] Waiting until next 5-min close at 13:50:00 GMT ...
+2025-11-10 13:50:02 | [OK] New 5-min candle: 2025-11-10 13:45:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4097.73
+[INFO] Managing ticket 1310587022: entry=4097.73, TP1(50%)=4091.73, TP2(25%)=4087.73
+[INFO] No actionable signal.
+2025-11-10 13:50:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 13:50:02 | [*] Waiting until next 5-min close at 13:55:00 GMT ...
+[OK] Partial closed 0.45 from ticket 1310587022
+[OK] SL moved to BE+buffer at 4097.53 (sell).
+2025-11-10 13:55:02 | [OK] New 5-min candle: 2025-11-10 13:50:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.45, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 13:55:03 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 13:55:03 | [*] Waiting until next 5-min close at 14:00:00 GMT ...
+2025-11-10 14:00:02 | [OK] New 5-min candle: 2025-11-10 13:55:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.45, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:00:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:00:02 | [*] Waiting until next 5-min close at 14:05:00 GMT ...
+[OK] Partial closed 0.11 from ticket 1310587022
+2025-11-10 14:05:02 | [OK] New 5-min candle: 2025-11-10 14:00:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:05:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:05:02 | [*] Waiting until next 5-min close at 14:10:00 GMT ...
+2025-11-10 14:10:02 | [OK] New 5-min candle: 2025-11-10 14:05:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:10:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:10:02 | [*] Waiting until next 5-min close at 14:15:00 GMT ...
+2025-11-10 14:15:02 | [OK] New 5-min candle: 2025-11-10 14:10:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:15:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:15:02 | [*] Waiting until next 5-min close at 14:20:00 GMT ...
+2025-11-10 14:20:02 | [OK] New 5-min candle: 2025-11-10 14:15:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:20:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:20:02 | [*] Waiting until next 5-min close at 14:25:00 GMT ...
+2025-11-10 14:25:02 | [OK] New 5-min candle: 2025-11-10 14:20:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:25:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:25:02 | [*] Waiting until next 5-min close at 14:30:00 GMT ...
+2025-11-10 14:30:02 | [OK] New 5-min candle: 2025-11-10 14:25:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:30:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:30:02 | [*] Waiting until next 5-min close at 14:35:00 GMT ...
+2025-11-10 14:35:02 | [OK] New 5-min candle: 2025-11-10 14:30:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:35:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:35:02 | [*] Waiting until next 5-min close at 14:40:00 GMT ...
+2025-11-10 14:40:02 | [OK] New 5-min candle: 2025-11-10 14:35:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:40:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:40:02 | [*] Waiting until next 5-min close at 14:45:00 GMT ...
+2025-11-10 14:45:02 | [OK] New 5-min candle: 2025-11-10 14:40:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:45:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:45:02 | [*] Waiting until next 5-min close at 14:50:00 GMT ...
+2025-11-10 14:50:02 | [OK] New 5-min candle: 2025-11-10 14:45:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:50:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:50:02 | [*] Waiting until next 5-min close at 14:55:00 GMT ...
+2025-11-10 14:55:02 | [OK] New 5-min candle: 2025-11-10 14:50:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 14:55:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 14:55:02 | [*] Waiting until next 5-min close at 15:00:00 GMT ...
+2025-11-10 15:00:02 | [OK] New 5-min candle: 2025-11-10 14:55:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+[INFO] No actionable signal.
+2025-11-10 15:00:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:00:02 | [*] Waiting until next 5-min close at 15:05:00 GMT ...
+2025-11-10 15:05:02 | [OK] New 5-min candle: 2025-11-10 15:00:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.34, entry: 4097.73
+2025-11-10 15:05:02 | [DIAG] Remaining daily risk: $3,931.80 | Daily loss so far: $1,068.20 (closed=$-1,311.30, open=$243.10)
+[TRADE] New signal=BUY | open=SELL
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1071226427, order=1310828879, volume=0.34, price=4090.59, bid=4090.54, ask=4090.59, comment='Request executed', request_id=3197288397, retcode_external=0, request=TradeRequest(action=1, magic=114477, order=0, symbol='XAUUSD', volume=0.34, price=4090.58, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='PropRules Close', position=1310587022, position_by=0))
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1310828935, price=4090.8, lot=0.9
+[OK] SL SET to 4085.3
+2025-11-10 15:05:04 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:05:04 | [*] Waiting until next 5-min close at 15:10:00 GMT ...
+2025-11-10 15:10:02 | [OK] New 5-min candle: 2025-11-10 15:05:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4090.8
+[INFO] Managing ticket 1310828935: entry=4090.8, TP1(50%)=4096.8, TP2(25%)=4100.8
+[INFO] No actionable signal.
+2025-11-10 15:10:03 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:10:03 | [*] Waiting until next 5-min close at 15:15:00 GMT ...
+2025-11-10 15:15:02 | [OK] New 5-min candle: 2025-11-10 15:10:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4090.8
+[INFO] No actionable signal.
+2025-11-10 15:15:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:15:02 | [*] Waiting until next 5-min close at 15:20:00 GMT ...
+2025-11-10 15:20:02 | [OK] New 5-min candle: 2025-11-10 15:15:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4090.8
+[INFO] No actionable signal.
+2025-11-10 15:20:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:20:02 | [*] Waiting until next 5-min close at 15:25:00 GMT ...
+2025-11-10 15:25:02 | [OK] New 5-min candle: 2025-11-10 15:20:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4090.8
+[INFO] No actionable signal.
+2025-11-10 15:25:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:25:02 | [*] Waiting until next 5-min close at 15:30:00 GMT ...
+2025-11-10 15:30:02 | [OK] New 5-min candle: 2025-11-10 15:25:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4090.8
+[INFO] No actionable signal.
+2025-11-10 15:30:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:30:02 | [*] Waiting until next 5-min close at 15:35:00 GMT ...
+2025-11-10 15:35:02 | [OK] New 5-min candle: 2025-11-10 15:30:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-10 15:35:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:35:02 | [*] Waiting until next 5-min close at 15:40:00 GMT ...
+2025-11-10 15:40:02 | [OK] New 5-min candle: 2025-11-10 15:35:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-10 15:40:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:40:02 | [*] Waiting until next 5-min close at 15:45:00 GMT ...
+2025-11-10 15:45:02 | [OK] New 5-min candle: 2025-11-10 15:40:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-10 15:45:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:45:02 | [*] Waiting until next 5-min close at 15:50:00 GMT ...
+2025-11-10 15:50:02 | [OK] New 5-min candle: 2025-11-10 15:45:00 GMT
+[INFO] No open position currently.
+2025-11-10 15:50:02 | [DIAG] Remaining daily risk: $3,688.70 | Daily loss so far: $1,311.30 (closed=$-1,311.30, open=$0.00)
+[TRADE] New signal=SELL | open=NONE
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1310946646, price=4080.2, lot=0.9
+[OK] SL SET to 4085.72
+2025-11-10 15:50:03 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:50:03 | [*] Waiting until next 5-min close at 15:55:00 GMT ...
+2025-11-10 15:55:02 | [OK] New 5-min candle: 2025-11-10 15:50:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4080.22
+[INFO] Managing ticket 1310946646: entry=4080.22, TP1(50%)=4074.22, TP2(25%)=4070.22
+[INFO] No actionable signal.
+2025-11-10 15:55:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 15:55:02 | [*] Waiting until next 5-min close at 16:00:00 GMT ...
+2025-11-10 16:00:02 | [OK] New 5-min candle: 2025-11-10 15:55:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-10 16:00:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:00:02 | [*] Waiting until next 5-min close at 16:05:00 GMT ...
+2025-11-10 16:05:02 | [OK] New 5-min candle: 2025-11-10 16:00:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-10 16:05:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:05:02 | [*] Waiting until next 5-min close at 16:10:00 GMT ...
+2025-11-10 16:10:02 | [OK] New 5-min candle: 2025-11-10 16:05:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-10 16:10:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:10:02 | [*] Waiting until next 5-min close at 16:15:00 GMT ...
+2025-11-10 16:15:02 | [OK] New 5-min candle: 2025-11-10 16:10:00 GMT
+[INFO] No open position currently.
+2025-11-10 16:15:02 | [DIAG] Remaining daily risk: $4,062.17 | Daily loss so far: $937.83 (closed=$-937.83, open=$0.00)
+[TRADE] New signal=BUY | open=NONE
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1311013254, price=4091.65, lot=0.9
+[OK] SL SET to 4086.15
+2025-11-10 16:15:03 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:15:03 | [*] Waiting until next 5-min close at 16:20:00 GMT ...
+2025-11-10 16:20:02 | [OK] New 5-min candle: 2025-11-10 16:15:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] Managing ticket 1311013254: entry=4091.65, TP1(50%)=4097.65, TP2(25%)=4101.65
+[INFO] No actionable signal.
+2025-11-10 16:20:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:20:02 | [*] Waiting until next 5-min close at 16:25:00 GMT ...
+2025-11-10 16:25:02 | [OK] New 5-min candle: 2025-11-10 16:20:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 16:25:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:25:02 | [*] Waiting until next 5-min close at 16:30:00 GMT ...
+2025-11-10 16:30:02 | [OK] New 5-min candle: 2025-11-10 16:25:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 16:30:03 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:30:03 | [*] Waiting until next 5-min close at 16:35:00 GMT ...
+2025-11-10 16:35:02 | [OK] New 5-min candle: 2025-11-10 16:30:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 16:35:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:35:02 | [*] Waiting until next 5-min close at 16:40:00 GMT ...
+2025-11-10 16:40:02 | [OK] New 5-min candle: 2025-11-10 16:35:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 16:40:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:40:02 | [*] Waiting until next 5-min close at 16:45:00 GMT ...
+2025-11-10 16:45:02 | [OK] New 5-min candle: 2025-11-10 16:40:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 16:45:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:45:02 | [*] Waiting until next 5-min close at 16:50:00 GMT ...
+2025-11-10 16:50:02 | [OK] New 5-min candle: 2025-11-10 16:45:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 16:50:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:50:02 | [*] Waiting until next 5-min close at 16:55:00 GMT ...
+2025-11-10 16:55:02 | [OK] New 5-min candle: 2025-11-10 16:50:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 16:55:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 16:55:02 | [*] Waiting until next 5-min close at 17:00:00 GMT ...
+2025-11-10 17:00:02 | [OK] New 5-min candle: 2025-11-10 16:55:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:00:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:00:02 | [*] Waiting until next 5-min close at 17:05:00 GMT ...
+2025-11-10 17:05:02 | [OK] New 5-min candle: 2025-11-10 17:00:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:05:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:05:02 | [*] Waiting until next 5-min close at 17:10:00 GMT ...
+[OK] Partial closed 0.45 from ticket 1311013254
+[OK] SL moved to BE+buffer at 4091.85 (buy).
+2025-11-10 17:10:02 | [OK] New 5-min candle: 2025-11-10 17:05:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:10:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:10:02 | [*] Waiting until next 5-min close at 17:15:00 GMT ...
+2025-11-10 17:15:02 | [OK] New 5-min candle: 2025-11-10 17:10:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:15:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:15:02 | [*] Waiting until next 5-min close at 17:20:00 GMT ...
+2025-11-10 17:20:02 | [OK] New 5-min candle: 2025-11-10 17:15:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:20:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:20:02 | [*] Waiting until next 5-min close at 17:25:00 GMT ...
+2025-11-10 17:25:02 | [OK] New 5-min candle: 2025-11-10 17:20:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:25:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:25:02 | [*] Waiting until next 5-min close at 17:30:00 GMT ...
+2025-11-10 17:30:03 | [OK] New 5-min candle: 2025-11-10 17:25:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:30:03 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:30:03 | [*] Waiting until next 5-min close at 17:35:00 GMT ...
+2025-11-10 17:35:02 | [OK] New 5-min candle: 2025-11-10 17:30:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:35:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:35:02 | [*] Waiting until next 5-min close at 17:40:00 GMT ...
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED!
+ACCOUNT: 52535447
+BALANCE: $98725.24
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+[INFO] Min stop distance enforced by broker ≈ $0.00
+[SMTP] Test email sent successfully.
+[BOOT] PropRules engine active. Phase: 1  | Targets → P1: $10000  P2: $5000  | Limits → Daily: $5000  Overall: $10000
+[PROP] Daily anchor initialized at 98945.29 Europe/Prague
+2025-11-10 17:37:16 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:37:16 | [*] Waiting until next 5-min close at 17:40:00 GMT ...
+2025-11-10 17:40:02 | [OK] New 5-min candle: 2025-11-10 17:35:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4091.65
+[INFO] Managing ticket 1311013254: entry=4091.65, TP1(50%)=4097.65, TP2(25%)=4101.65
+[INFO] No actionable signal.
+2025-11-10 17:40:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:40:02 | [*] Waiting until next 5-min close at 17:45:00 GMT ...
+2025-11-10 17:45:02 | [OK] New 5-min candle: 2025-11-10 17:40:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4091.65
+[INFO] No actionable signal.
+2025-11-10 17:45:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:45:02 | [*] Waiting until next 5-min close at 17:50:00 GMT ...
+[OK] Partial closed 0.22 from ticket 1311013254
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+2025-11-10 17:50:02 | [OK] New 5-min candle: 2025-11-10 17:45:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.23, entry: 4091.65
+[WARN] BE SL set failed: 10025 No changes
+[INFO] No actionable signal.
+2025-11-10 17:50:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:50:02 | [*] Waiting until next 5-min close at 17:55:00 GMT ...
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+2025-11-10 17:55:02 | [OK] New 5-min candle: 2025-11-10 17:50:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.23, entry: 4091.65
+[WARN] BE SL set failed: 10025 No changes
+[INFO] No actionable signal.
+2025-11-10 17:55:02 | [+] IN SESSION: 13:00:00 GMT–18:00:00 GMT
+2025-11-10 17:55:02 | [*] Waiting until next 5-min close at 18:00:00 GMT ...
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[OK] Partial closed 0.05 from ticket 1311013254
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+[WARN] BE SL set failed: 10025 No changes
+2025-11-10 18:00:02 | [INFO] SESSION ENDED BEFORE NEXT BAR CLOSE.
+2025-11-10 18:00:02 | [ACTION] CLOSING OPEN POSITION AT SESSION END…
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1071571780, order=1311217787, volume=0.18, price=4102.66, bid=4102.66, ask=4102.71, comment='Request executed', request_id=3197288408, retcode_external=0, request=TradeRequest(action=1, magic=114477, order=0, symbol='XAUUSD', volume=0.18, price=4102.65, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=1, type_filling=1, type_time=0, expiration=0, comment='PropRules Close', position=1311013254, position_by=0))
+[REPORT] Saved daily report → C:\Users\anish\OneDrive\Desktop\Anish\A - EAs Reports\LIVE_daily_20251110.csv (closed_realized=$-1,022.29, open=$0.00, daily_sum=$-1,022.29)
+[ALERT] LIVE ACCOUNT Daily Report — 2025-11-10 | Window: 2025-11-10 00:00 CET → 2025-11-11 00:00 CET | Closed PnL today:  $-1,022.29 | Open PnL now:      $0.00 | Daily sum (C+O):   $-1,022.29 | Max Daily Loss:    $5,000.00 | Remaining today:   $3,977.71 | Start equity:       $98,945.29 | End equity now:    $99,105.19 | Change (end-start): $159.90 |  | Net PnL (Closed+Open at send time): $-1,022.29 | File: C:\Users\anish\OneDrive\Desktop\Anish\A - EAs Reports\LIVE_daily_20251110.csv | 
+[ALERT] Email sent.
+[PROP] Daily anchor RESET → 99105.19 at 2025-11-11T00:00:00+01:00
+2025-11-11 06:00:00 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:00:00 | [*] Waiting until next 5-min close at 06:05:00 GMT ...
+2025-11-11 06:05:02 | [OK] New 5-min candle: 2025-11-11 06:00:00 GMT
+2025-11-11 06:05:02 | [WAIT] First bar after session open not closed yet; waiting for the next close…
+2025-11-11 06:05:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:05:02 | [*] Waiting until next 5-min close at 06:10:00 GMT ...
+2025-11-11 06:10:02 | [OK] New 5-min candle: 2025-11-11 06:05:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-11 06:10:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:10:02 | [*] Waiting until next 5-min close at 06:15:00 GMT ...
+2025-11-11 06:15:02 | [OK] New 5-min candle: 2025-11-11 06:10:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-11 06:15:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:15:02 | [*] Waiting until next 5-min close at 06:20:00 GMT ...
+2025-11-11 06:20:02 | [OK] New 5-min candle: 2025-11-11 06:15:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-11 06:20:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:20:02 | [*] Waiting until next 5-min close at 06:25:00 GMT ...
+2025-11-11 06:25:02 | [OK] New 5-min candle: 2025-11-11 06:20:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-11 06:25:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:25:02 | [*] Waiting until next 5-min close at 06:30:00 GMT ...
+2025-11-11 06:30:02 | [OK] New 5-min candle: 2025-11-11 06:25:00 GMT
+[INFO] No open position currently.
+2025-11-11 06:30:02 | [DIAG] Remaining daily risk: $5,000.00 | Daily loss so far: $-0.00 (closed=$0.00, open=$0.00)
+[TRADE] New signal=BUY | open=NONE
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1312119804, price=4137.52, lot=0.9
+[OK] SL SET to 4131.97
+2025-11-11 06:30:03 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:30:03 | [*] Waiting until next 5-min close at 06:35:00 GMT ...
+2025-11-11 06:35:02 | [OK] New 5-min candle: 2025-11-11 06:30:00 GMT
+[INFO] No open position currently.
+[BACKFILL] Previous bar had BUY — attempting execution now.
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1312127903, price=4130.75, lot=0.9
+[OK] SL SET to 4124.92
+2025-11-11 06:35:03 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:35:03 | [*] Waiting until next 5-min close at 06:40:00 GMT ...
+2025-11-11 06:40:02 | [OK] New 5-min candle: 2025-11-11 06:35:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4130.42
+[INFO] Managing ticket 1312127903: entry=4130.42, TP1(50%)=4136.42, TP2(25%)=4140.42
+2025-11-11 06:40:02 | [DIAG] Remaining daily risk: $5,000.00 | Daily loss so far: $-46.80 (closed=$0.00, open=$46.80)
+[TRADE] New signal=SELL | open=BUY
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1072334562, order=1312131616, volume=0.9, price=4130.94, bid=4130.94, ask=4131.01, comment='Request executed', request_id=3197288413, retcode_external=0, request=TradeRequest(action=1, magic=114477, order=0, symbol='XAUUSD', volume=0.9, price=4130.94, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=1, type_filling=1, type_time=0, expiration=0, comment='PropRules Close', position=1312127903, position_by=0))
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1312131642, price=4130.9, lot=0.9
+[OK] SL SET to 4136.25
+2025-11-11 06:40:04 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:40:04 | [*] Waiting until next 5-min close at 06:45:00 GMT ...
+2025-11-11 06:45:02 | [OK] New 5-min candle: 2025-11-11 06:40:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] Managing ticket 1312131642: entry=4130.75, TP1(50%)=4124.75, TP2(25%)=4120.75
+[INFO] No actionable signal.
+2025-11-11 06:45:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:45:02 | [*] Waiting until next 5-min close at 06:50:00 GMT ...
+2025-11-11 06:50:02 | [OK] New 5-min candle: 2025-11-11 06:45:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 06:50:03 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:50:03 | [*] Waiting until next 5-min close at 06:55:00 GMT ...
+2025-11-11 06:55:02 | [OK] New 5-min candle: 2025-11-11 06:50:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 06:55:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 06:55:02 | [*] Waiting until next 5-min close at 07:00:00 GMT ...
+2025-11-11 07:00:02 | [OK] New 5-min candle: 2025-11-11 06:55:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:00:03 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:00:03 | [*] Waiting until next 5-min close at 07:05:00 GMT ...
+2025-11-11 07:05:02 | [OK] New 5-min candle: 2025-11-11 07:00:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:05:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:05:02 | [*] Waiting until next 5-min close at 07:10:00 GMT ...
+2025-11-11 07:10:02 | [OK] New 5-min candle: 2025-11-11 07:05:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:10:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:10:02 | [*] Waiting until next 5-min close at 07:15:00 GMT ...
+2025-11-11 07:15:02 | [OK] New 5-min candle: 2025-11-11 07:10:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:15:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:15:02 | [*] Waiting until next 5-min close at 07:20:00 GMT ...
+2025-11-11 07:20:02 | [OK] New 5-min candle: 2025-11-11 07:15:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:20:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:20:02 | [*] Waiting until next 5-min close at 07:25:00 GMT ...
+2025-11-11 07:25:02 | [OK] New 5-min candle: 2025-11-11 07:20:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:25:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:25:02 | [*] Waiting until next 5-min close at 07:30:00 GMT ...
+2025-11-11 07:30:02 | [OK] New 5-min candle: 2025-11-11 07:25:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:30:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:30:02 | [*] Waiting until next 5-min close at 07:35:00 GMT ...
+2025-11-11 07:35:02 | [OK] New 5-min candle: 2025-11-11 07:30:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:35:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:35:02 | [*] Waiting until next 5-min close at 07:40:00 GMT ...
+2025-11-11 07:40:02 | [OK] New 5-min candle: 2025-11-11 07:35:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:40:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:40:02 | [*] Waiting until next 5-min close at 07:45:00 GMT ...
+2025-11-11 07:45:02 | [OK] New 5-min candle: 2025-11-11 07:40:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:45:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:45:02 | [*] Waiting until next 5-min close at 07:50:00 GMT ...
+2025-11-11 07:50:02 | [OK] New 5-min candle: 2025-11-11 07:45:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:50:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:50:02 | [*] Waiting until next 5-min close at 07:55:00 GMT ...
+2025-11-11 07:55:02 | [OK] New 5-min candle: 2025-11-11 07:50:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 07:55:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 07:55:02 | [*] Waiting until next 5-min close at 08:00:00 GMT ...
+2025-11-11 08:00:02 | [OK] New 5-min candle: 2025-11-11 07:55:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 08:00:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:00:02 | [*] Waiting until next 5-min close at 08:05:00 GMT ...
+2025-11-11 08:05:02 | [OK] New 5-min candle: 2025-11-11 08:00:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+[INFO] No actionable signal.
+2025-11-11 08:05:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:05:02 | [*] Waiting until next 5-min close at 08:10:00 GMT ...
+2025-11-11 08:10:02 | [OK] New 5-min candle: 2025-11-11 08:05:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4130.75
+2025-11-11 08:10:02 | [DIAG] Remaining daily risk: $4,699.40 | Daily loss so far: $300.60 (closed=$0.00, open=$-300.60)
+[TRADE] New signal=BUY | open=SELL
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1072434223, order=1312247874, volume=0.9, price=4134.2, bid=4134.13, ask=4134.2, comment='Request executed', request_id=3197288416, retcode_external=0, request=TradeRequest(action=1, magic=114477, order=0, symbol='XAUUSD', volume=0.9, price=4134.09, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='PropRules Close', position=1312131642, position_by=0))
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1312247897, price=4134.26, lot=0.9
+[OK] SL SET to 4128.79
+2025-11-11 08:10:04 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:10:04 | [*] Waiting until next 5-min close at 08:15:00 GMT ...
+2025-11-11 08:15:02 | [OK] New 5-min candle: 2025-11-11 08:10:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4134.29
+[INFO] Managing ticket 1312247897: entry=4134.29, TP1(50%)=4140.29, TP2(25%)=4144.29
+[INFO] No actionable signal.
+2025-11-11 08:15:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:15:02 | [*] Waiting until next 5-min close at 08:20:00 GMT ...
+2025-11-11 08:20:02 | [OK] New 5-min candle: 2025-11-11 08:15:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4134.29
+[INFO] No actionable signal.
+2025-11-11 08:20:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:20:02 | [*] Waiting until next 5-min close at 08:25:00 GMT ...
+2025-11-11 08:25:02 | [OK] New 5-min candle: 2025-11-11 08:20:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4134.29
+[INFO] No actionable signal.
+2025-11-11 08:25:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:25:02 | [*] Waiting until next 5-min close at 08:30:00 GMT ...
+2025-11-11 08:30:02 | [OK] New 5-min candle: 2025-11-11 08:25:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4134.29
+[INFO] No actionable signal.
+2025-11-11 08:30:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:30:02 | [*] Waiting until next 5-min close at 08:35:00 GMT ...
+2025-11-11 08:35:02 | [OK] New 5-min candle: 2025-11-11 08:30:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4134.29
+[INFO] No actionable signal.
+2025-11-11 08:35:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:35:02 | [*] Waiting until next 5-min close at 08:40:00 GMT ...
+2025-11-11 08:40:02 | [OK] New 5-min candle: 2025-11-11 08:35:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4134.29
+2025-11-11 08:40:02 | [DIAG] Remaining daily risk: $4,273.70 | Daily loss so far: $726.30 (closed=$-509.40, open=$-216.90)
+[TRADE] New signal=SELL | open=BUY
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1072467186, order=1312286191, volume=0.9, price=4131.93, bid=4131.93, ask=4132.0, comment='Request executed', request_id=3197288419, retcode_external=0, request=TradeRequest(action=1, magic=114477, order=0, symbol='XAUUSD', volume=0.9, price=4131.88, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=1, type_filling=1, type_time=0, expiration=0, comment='PropRules Close', position=1312247897, position_by=0))
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1312286228, price=4131.92, lot=0.9
+[OK] SL SET to 4137.43
+2025-11-11 08:40:04 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:40:04 | [*] Waiting until next 5-min close at 08:45:00 GMT ...
+2025-11-11 08:45:02 | [OK] New 5-min candle: 2025-11-11 08:40:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4131.93
+[INFO] Managing ticket 1312286228: entry=4131.93, TP1(50%)=4125.93, TP2(25%)=4121.93
+[INFO] No actionable signal.
+2025-11-11 08:45:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:45:02 | [*] Waiting until next 5-min close at 08:50:00 GMT ...
+2025-11-11 08:50:02 | [OK] New 5-min candle: 2025-11-11 08:45:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4131.93
+[INFO] No actionable signal.
+2025-11-11 08:50:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:50:02 | [*] Waiting until next 5-min close at 08:55:00 GMT ...
+2025-11-11 08:55:02 | [OK] New 5-min candle: 2025-11-11 08:50:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4131.93
+[INFO] No actionable signal.
+2025-11-11 08:55:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 08:55:02 | [*] Waiting until next 5-min close at 09:00:00 GMT ...
+2025-11-11 09:00:04 | [OK] New 5-min candle: 2025-11-11 08:55:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4131.93
+2025-11-11 09:00:04 | [DIAG] Remaining daily risk: $4,141.40 | Daily loss so far: $858.60 (closed=$-462.60, open=$-396.00)
+[TRADE] New signal=BUY | open=SELL
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1072487460, order=1312310246, volume=0.9, price=4136.36, bid=4136.29, ask=4136.36, comment='Request executed', request_id=3197288422, retcode_external=0, request=TradeRequest(action=1, magic=114477, order=0, symbol='XAUUSD', volume=0.9, price=4136.33, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='PropRules Close', position=1312286228, position_by=0))
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1312310319, price=4136.38, lot=0.9
+[OK] SL SET to 4130.91
+2025-11-11 09:00:06 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:00:06 | [*] Waiting until next 5-min close at 09:05:00 GMT ...
+2025-11-11 09:05:02 | [OK] New 5-min candle: 2025-11-11 09:00:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.9, entry: 4136.41
+[INFO] Managing ticket 1312310319: entry=4136.41, TP1(50%)=4142.41, TP2(25%)=4146.41
+[INFO] No actionable signal.
+2025-11-11 09:05:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:05:02 | [*] Waiting until next 5-min close at 09:10:00 GMT ...
+[OK] Partial closed 0.45 from ticket 1312310319
+[OK] SL moved to BE+buffer at 4136.61 (buy).
+2025-11-11 09:10:02 | [OK] New 5-min candle: 2025-11-11 09:05:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:10:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:10:02 | [*] Waiting until next 5-min close at 09:15:00 GMT ...
+2025-11-11 09:15:02 | [OK] New 5-min candle: 2025-11-11 09:10:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:15:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:15:02 | [*] Waiting until next 5-min close at 09:20:00 GMT ...
+2025-11-11 09:20:02 | [OK] New 5-min candle: 2025-11-11 09:15:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:20:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:20:02 | [*] Waiting until next 5-min close at 09:25:00 GMT ...
+2025-11-11 09:25:02 | [OK] New 5-min candle: 2025-11-11 09:20:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:25:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:25:02 | [*] Waiting until next 5-min close at 09:30:00 GMT ...
+2025-11-11 09:30:02 | [OK] New 5-min candle: 2025-11-11 09:25:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:30:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:30:02 | [*] Waiting until next 5-min close at 09:35:00 GMT ...
+2025-11-11 09:35:02 | [OK] New 5-min candle: 2025-11-11 09:30:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:35:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:35:02 | [*] Waiting until next 5-min close at 09:40:00 GMT ...
+2025-11-11 09:40:02 | [OK] New 5-min candle: 2025-11-11 09:35:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:40:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:40:02 | [*] Waiting until next 5-min close at 09:45:00 GMT ...
+2025-11-11 09:45:02 | [OK] New 5-min candle: 2025-11-11 09:40:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:45:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:45:02 | [*] Waiting until next 5-min close at 09:50:00 GMT ...
+2025-11-11 09:50:02 | [OK] New 5-min candle: 2025-11-11 09:45:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:50:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:50:02 | [*] Waiting until next 5-min close at 09:55:00 GMT ...
+2025-11-11 09:55:02 | [OK] New 5-min candle: 2025-11-11 09:50:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 09:55:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 09:55:02 | [*] Waiting until next 5-min close at 10:00:00 GMT ...
+2025-11-11 10:00:02 | [OK] New 5-min candle: 2025-11-11 09:55:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+[INFO] No actionable signal.
+2025-11-11 10:00:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:00:02 | [*] Waiting until next 5-min close at 10:05:00 GMT ...
+2025-11-11 10:05:02 | [OK] New 5-min candle: 2025-11-11 10:00:00 GMT
+[INFO] OPEN POSITION: BUY, vol: 0.45, entry: 4136.41
+2025-11-11 10:05:02 | [DIAG] Remaining daily risk: $4,607.60 | Daily loss so far: $392.40 (closed=$-462.60, open=$70.20)
+[TRADE] New signal=SELL | open=BUY
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1072556520, order=1312390746, volume=0.45, price=4138.0, bid=4138.0, ask=4138.07, comment='Request executed', request_id=3197288427, retcode_external=0, request=TradeRequest(action=1, magic=114477, order=0, symbol='XAUUSD', volume=0.45, price=4137.97, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=1, type_filling=1, type_time=0, expiration=0, comment='PropRules Close', position=1312310319, position_by=0))
+[RISK] Initial risk: $500.00 | SL distance: $5.50 | Lot: 0.9
+[OK] ORDER PLACED (fill_mode=1): ticket=1312390787, price=4138.0, lot=0.9
+[OK] SL SET to 4143.62
+2025-11-11 10:05:04 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:05:04 | [*] Waiting until next 5-min close at 10:10:00 GMT ...
+2025-11-11 10:10:02 | [OK] New 5-min candle: 2025-11-11 10:05:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4138.12
+[INFO] Managing ticket 1312390787: entry=4138.12, TP1(50%)=4132.12, TP2(25%)=4128.12
+[INFO] No actionable signal.
+2025-11-11 10:10:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:10:02 | [*] Waiting until next 5-min close at 10:15:00 GMT ...
+2025-11-11 10:15:02 | [OK] New 5-min candle: 2025-11-11 10:10:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4138.12
+[INFO] No actionable signal.
+2025-11-11 10:15:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:15:02 | [*] Waiting until next 5-min close at 10:20:00 GMT ...
+2025-11-11 10:20:02 | [OK] New 5-min candle: 2025-11-11 10:15:00 GMT
+[INFO] OPEN POSITION: SELL, vol: 0.9, entry: 4138.12
+[INFO] No actionable signal.
+2025-11-11 10:20:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:20:02 | [*] Waiting until next 5-min close at 10:25:00 GMT ...
+2025-11-11 10:25:02 | [OK] New 5-min candle: 2025-11-11 10:20:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-11 10:25:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:25:02 | [*] Waiting until next 5-min close at 10:30:00 GMT ...
+2025-11-11 10:30:02 | [OK] New 5-min candle: 2025-11-11 10:25:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-11 10:30:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:30:02 | [*] Waiting until next 5-min close at 10:35:00 GMT ...
+2025-11-11 10:32:16 | [INFO] MT5 shutdown complete.
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED!
+ACCOUNT: 52535447
+BALANCE: $97498.23
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+[INFO] Min stop distance enforced by broker ≈ $0.00
+[SMTP] Test email sent successfully.
+[BOOT] PropRules engine active. Phase: 1  | Targets → P1: $10000  P2: $5000  | Limits → Daily: $5000  Overall: $10000
+[PROP] Daily anchor initialized at 97498.23 Europe/Prague
+2025-11-11 10:32:28 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:32:28 | [*] Waiting until next 5-min close at 10:35:00 GMT ...
+2025-11-11 10:32:51 | [INFO] MT5 shutdown complete.
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED!
+ACCOUNT: 52535447
+BALANCE: $97498.23
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+[INFO] Min stop distance enforced by broker ≈ $0.00
+[SMTP] Test email sent successfully.
+[BOOT] PropRules engine active. Phase: 1  | Targets → P1: $10000  P2: $5000  | Limits → Daily: $5000  Overall: $10000
+[PROP] Daily anchor initialized at 97498.23 Europe/Prague
+2025-11-11 10:33:03 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:33:03 | [*] Waiting until next 5-min close at 10:35:00 GMT ...
+2025-11-11 10:35:02 | [OK] New 5-min candle: 2025-11-11 10:30:00 GMT
+[INFO] No open position currently.
+[INFO] No actionable signal.
+2025-11-11 10:35:02 | [+] IN SESSION: 06:00:00 GMT–12:00:00 GMT
+2025-11-11 10:35:02 | [*] Waiting until next 5-min close at 10:40:00 GMT ...

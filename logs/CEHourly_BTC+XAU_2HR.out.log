@@ -1,0 +1,277 @@
+MT5 Path Exists? True
+
+MT5 Account Connected! 
+Account: 52512991 
+Balance: 104412.65 USD
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+[INFO] BTCUSD Lot Range: min=0.01, max=10.0, step=0.01
+[INFO] US500 Lot Range: min=0.1, max=250.0, step=0.1
+[INFO] EURUSD Lot Range: min=0.01, max=200.0, step=0.01
+[INFO] USDJPY Lot Range: min=0.01, max=200.0, step=0.01
+[INFO] STOXX50 Lot Range: min=0.1, max=250.0, step=0.1
+[RISK] XAU-H2: lot=0.5 | SL=None | TP=None (no SL/TP)
+[RISK] BTC-H2: lot=0.5 | SL=None | TP=None (no SL/TP)
+[RISK] SPX-H2: lot=28.0 | SL=None | TP=None (no SL/TP)
+[RISK] EURUSD-H2: lot=0.5 | SL=None | TP=None (no SL/TP)
+[RISK] USDJPY-H2: lot=1.0 | SL=None | TP=None (no SL/TP)
+[RISK] EUSTOX-H2: lot=28.0 | SL=None | TP=None (no SL/TP)
+
+[Engine] Multi-timeframe mode: watching for new H2 candles...
+
+[OK] XAU-H2: new H2 candle @ 2025-11-10 10:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-10 10:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-10 10:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-10 10:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-10 10:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-10 10:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-10 12:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-10 12:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-10 12:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-10 12:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-10 12:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-10 12:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+MT5 Path Exists? True
+
+MT5 Account Connected! 
+Account: 52512991 
+Balance: 104412.65 USD
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+[INFO] BTCUSD Lot Range: min=0.01, max=10.0, step=0.01
+[INFO] US500 Lot Range: min=0.1, max=250.0, step=0.1
+[INFO] EURUSD Lot Range: min=0.01, max=200.0, step=0.01
+[INFO] USDJPY Lot Range: min=0.01, max=200.0, step=0.01
+[INFO] STOXX50 Lot Range: min=0.1, max=250.0, step=0.1
+[RISK] XAU-H2: lot=0.5 | SL=None | TP=None (no SL/TP)
+[RISK] BTC-H2: lot=0.5 | SL=None | TP=None (no SL/TP)
+[RISK] SPX-H2: lot=28.0 | SL=None | TP=None (no SL/TP)
+[RISK] EURUSD-H2: lot=0.5 | SL=None | TP=None (no SL/TP)
+[RISK] USDJPY-H2: lot=1.0 | SL=None | TP=None (no SL/TP)
+[RISK] EUSTOX-H2: lot=28.0 | SL=None | TP=None (no SL/TP)
+
+[Engine] Multi-timeframe mode: watching for new H2 candles...
+
+[OK] XAU-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-10 14:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-10 16:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-10 16:00
+
+[TRADE] BTC-H2: new signal=SELL | prev=NONE | open=BUY
+[OK] Position closed: 1311218532
+[OK] Order placed on BTCUSD: Ticket=1311218559 | Comment=CEB:BTC-H2
+[OK] SPX-H2: new H2 candle @ 2025-11-10 16:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-10 16:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-10 16:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-10 16:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-10 18:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-10 18:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-10 18:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-10 18:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-10 18:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-10 18:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-10 20:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-10 20:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-10 20:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-10 20:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-10 20:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-10 20:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-10 22:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-10 22:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-10 22:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-10 22:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-10 22:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-11 00:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-11 00:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-11 00:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-11 00:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-11 00:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-11 00:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-11 02:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-11 02:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-11 02:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-11 02:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-11 02:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-11 02:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-11 04:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-11 04:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-11 04:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-11 04:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-11 04:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-11 04:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-11 06:00
+
+[TRADE] SPX-H2: new signal=SELL | prev=NONE | open=BUY
+[OK] Position closed: 1312231748
+[OK] Order placed on US500: Ticket=1312231954 | Comment=CEB:SPX-H2
+[OK] EURUSD-H2: new H2 candle @ 2025-11-11 06:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-11 06:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-11 06:00
+
+[INFO] EUSTOX-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-11 06:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-11 06:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] XAU-H2: new H2 candle @ 2025-11-11 08:00
+
+[INFO] XAU-H2: no actionable signal.
+[OK] BTC-H2: new H2 candle @ 2025-11-11 08:00
+
+[INFO] BTC-H2: no actionable signal.
+[OK] SPX-H2: new H2 candle @ 2025-11-11 08:00
+
+[INFO] SPX-H2: no actionable signal.
+[OK] EURUSD-H2: new H2 candle @ 2025-11-11 08:00
+
+[INFO] EURUSD-H2: no actionable signal.
+[OK] USDJPY-H2: new H2 candle @ 2025-11-11 08:00
+
+[INFO] USDJPY-H2: no actionable signal.
+[OK] EUSTOX-H2: new H2 candle @ 2025-11-11 08:00
+
+[INFO] EUSTOX-H2: no actionable signal.

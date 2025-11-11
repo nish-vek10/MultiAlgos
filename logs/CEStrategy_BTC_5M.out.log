@@ -1,0 +1,1141 @@
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52526820 
+BALANCE: $91673.59
+
+[INFO] BTCUSD Lot Range: min=0.01, max=10.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1762789134, 'digits': 2, 'spread': 1200, 'spread_float': True, 'ticks_bookdepth': 0, 'trade_calc_mode': 2, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 5, 'swap_rollover3days': 5, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 106517.48, 'bidhigh': 106654.13, 'bidlow': 104087.37, 'ask': 106529.48, 'askhigh': 106669.44, 'asklow': 104118.09, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 0.01, 'trade_tick_value_profit': 0.01, 'trade_tick_value_loss': 0.01, 'trade_tick_size': 0.01, 'trade_contract_size': 1.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 10.0, 'volume_step': 0.01, 'volume_limit': 1000.0, 'swap_long': -20.0, 'swap_short': 0.0, 'margin_initial': 0.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 104386.76, 'session_close': 104537.71, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 0.0, 'price_change': 1.8938000000000001, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'USD', 'currency_profit': 'USD', 'currency_margin': 'USD', 'bank': '', 'description': 'Bitcoin (USD)', 'exchange': '', 'formula': '', 'isin': '', 'name': 'BTCUSD', 'page': '', 'path': 'Crypto\\BTCUSD'}
+[INFO] Min stop distance enforced by broker ≈ $0.00
+
+[*] OUTSIDE SESSION. NEXT SESSION: 2025-11-10 14:00:00 GMT
+[+] SESSION START REACHED. Waiting to enter... 
+[+] SESSION HAS STARTED!                         
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:00:00 GMT ...
+
+[OK] New 5-min candle detected: 2025-11-10 13:55:00
+[INFO] Ignoring pre-session bar. Waiting for first post-session-start candle...
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:00:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:05:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:00:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:05:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:10:00 GMT ...
+TIME REMAINING: 00:00
+[WAIT] No new candle yet. Latest: 14:00:00 | Retrying in 2 seconds...
+
+[OK] New 5-min candle detected: 2025-11-10 14:05:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:10:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:15:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:10:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:15:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:20:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:15:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[TRADE] BTC-5M: new signal=SELL | prev=NONE | open=NONE
+[RISK] Balance risked: $229.18 | SL distance: $250.00 | Lot: 0.91
+[OK] ORDER PLACED: ticket=1310675804, price=106264.96, sl=106514.96, lot=0.91
+[OK] SL ADJUSTED to 106514.11
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:20:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:25:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:20:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:25:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:30:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:25:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:30:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:35:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:30:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:35:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:40:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:35:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:40:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:45:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:40:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:45:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:50:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:45:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:50:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 14:55:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:50:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 14:55:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:00:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 14:55:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:00:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:05:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:00:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:05:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:10:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:05:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:10:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:15:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:10:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:15:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:20:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:15:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:20:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:25:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:20:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:25:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:30:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:25:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:30:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:35:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:30:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 106264.11
+[TRADE] BTC-5M: new signal=BUY | prev=SELL | open=SELL
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1071294646, order=1310905353, volume=0.91, price=105415.9, bid=105403.9, ask=105415.9, comment='Request executed', request_id=1241622619, retcode_external=0, request=TradeRequest(action=1, magic=110022, order=0, symbol='BTCUSD', volume=0.91, price=105412.8, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=0, type_filling=1, type_time=0, expiration=0, comment='Close opposite position', position=1310675804, position_by=0))
+[RISK] Balance risked: $231.11 | SL distance: $250.00 | Lot: 0.92
+[OK] ORDER PLACED: ticket=1310905412, price=105411.0, sl=105161.0, lot=0.92
+[OK] SL ADJUSTED to 105172.15
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:35:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:40:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:35:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.92, entry: 105422.15
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:40:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:45:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:40:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.92, entry: 105422.15
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:45:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:50:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:45:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:50:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 15:55:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:50:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[TRADE] BTC-5M: new signal=SELL | prev=BUY | open=NONE
+[RISK] Balance risked: $230.53 | SL distance: $250.00 | Lot: 0.92
+[OK] ORDER PLACED: ticket=1310965445, price=104784.65, sl=105034.65, lot=0.92
+[OK] SL ADJUSTED to 105047.25
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 15:55:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:00:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 15:55:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[BACKFILL] BTC-5M: previous bar had SELL — attempting execution now.
+[RISK] Balance risked: $229.99 | SL distance: $250.00 | Lot: 0.91
+[OK] ORDER PLACED: ticket=1310977680, price=105052.0, sl=105302.0, lot=0.91
+[OK] SL ADJUSTED to 105305.4
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:00:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:05:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:00:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 105055.4
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:05:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:10:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:05:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 105055.4
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:10:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:15:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:10:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:15:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:20:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:15:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:20:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:25:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:20:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:25:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:30:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:25:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:30:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:35:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:30:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:35:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:40:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:35:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:40:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:45:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:40:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:45:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:50:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:45:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:50:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 16:55:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:50:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 16:55:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:00:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 16:55:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:00:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:05:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:00:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:05:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:10:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:05:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[TRADE] BTC-5M: new signal=BUY | prev=SELL | open=NONE
+[RISK] Balance risked: $229.46 | SL distance: $250.00 | Lot: 0.91
+[OK] ORDER PLACED: ticket=1311128242, price=105345.5, sl=105095.5, lot=0.91
+[OK] SL ADJUSTED to 105094.5
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:10:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:15:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:10:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:15:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:20:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:15:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:20:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:25:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:20:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:25:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:30:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:25:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:30:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:35:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:30:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:35:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:40:00 GMT ...
+MT5 Path Exists? True
+
+MT5 ACCOUNT CONNECTED! 
+ACCOUNT: 52526820 
+BALANCE: $91784.50
+
+[INFO] BTCUSD Lot Range: min=0.01, max=10.0, step=0.01
+{'custom': False, 'chart_mode': 0, 'select': True, 'visible': True, 'session_deals': 0, 'session_buy_orders': 0, 'session_sell_orders': 0, 'volume': 0, 'volumehigh': 0, 'volumelow': 0, 'time': 1762803435, 'digits': 2, 'spread': 1200, 'spread_float': True, 'ticks_bookdepth': 0, 'trade_calc_mode': 2, 'trade_mode': 4, 'start_time': 0, 'expiration_time': 0, 'trade_stops_level': 0, 'trade_freeze_level': 0, 'trade_exemode': 2, 'swap_mode': 5, 'swap_rollover3days': 5, 'margin_hedged_use_leg': False, 'expiration_mode': 15, 'filling_mode': 2, 'order_mode': 127, 'order_gtc_mode': 0, 'option_mode': 0, 'option_right': 0, 'bid': 105558.78, 'bidhigh': 106654.13, 'bidlow': 104087.37, 'ask': 105570.78, 'askhigh': 106669.44, 'asklow': 104118.09, 'last': 0.0, 'lasthigh': 0.0, 'lastlow': 0.0, 'volume_real': 0.0, 'volumehigh_real': 0.0, 'volumelow_real': 0.0, 'option_strike': 0.0, 'point': 0.01, 'trade_tick_value': 0.01, 'trade_tick_value_profit': 0.01, 'trade_tick_value_loss': 0.01, 'trade_tick_size': 0.01, 'trade_contract_size': 1.0, 'trade_accrued_interest': 0.0, 'trade_face_value': 0.0, 'trade_liquidity_rate': 0.0, 'volume_min': 0.01, 'volume_max': 10.0, 'volume_step': 0.01, 'volume_limit': 1000.0, 'swap_long': -20.0, 'swap_short': 0.0, 'margin_initial': 0.0, 'margin_maintenance': 0.0, 'session_volume': 0.0, 'session_turnover': 0.0, 'session_interest': 0.0, 'session_buy_orders_volume': 0.0, 'session_sell_orders_volume': 0.0, 'session_open': 104386.76, 'session_close': 104537.71, 'session_aw': 0.0, 'session_price_settlement': 0.0, 'session_price_limit_min': 0.0, 'session_price_limit_max': 0.0, 'margin_hedged': 0.0, 'price_change': 0.9767, 'price_volatility': 0.0, 'price_theoretical': 0.0, 'price_greeks_delta': 0.0, 'price_greeks_theta': 0.0, 'price_greeks_gamma': 0.0, 'price_greeks_vega': 0.0, 'price_greeks_rho': 0.0, 'price_greeks_omega': 0.0, 'price_sensitivity': 0.0, 'basis': '', 'category': '', 'currency_base': 'USD', 'currency_profit': 'USD', 'currency_margin': 'USD', 'bank': '', 'description': 'Bitcoin (USD)', 'exchange': '', 'formula': '', 'isin': '', 'name': 'BTCUSD', 'page': '', 'path': 'Crypto\\BTCUSD'}
+[INFO] Min stop distance enforced by broker ≈ $0.00
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:40:00 GMT ...
+
+[OK] New 5-min candle detected: 2025-11-10 17:35:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:40:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:45:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:40:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:45:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:50:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:45:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:50:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 17:55:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:50:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 17:55:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:00:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 17:55:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:00:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:05:00 GMT ...
+TIME REMAINING: 00:00
+[WAIT] No new candle yet. Latest: 17:55:00 | Retrying in 2 seconds...
+
+[OK] New 5-min candle detected: 2025-11-10 18:00:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:05:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:10:00 GMT ...
+TIME REMAINING: 00:00
+[WAIT] No new candle yet. Latest: 18:00:00 | Retrying in 2 seconds...
+
+[OK] New 5-min candle detected: 2025-11-10 18:05:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:10:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:15:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:10:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:15:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:20:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:15:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:20:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:25:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:20:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:25:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:30:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:25:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:30:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:35:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:30:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:35:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:40:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:35:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:40:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:45:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:40:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:45:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:50:00 GMT ...
+TIME REMAINING: 00:00
+[WAIT] No new candle yet. Latest: 18:40:00 | Retrying in 2 seconds...
+
+[OK] New 5-min candle detected: 2025-11-10 18:45:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:50:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 18:55:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:50:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 18:55:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:00:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 18:55:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105344.5
+[TRADE] BTC-5M: new signal=SELL | prev=NONE | open=BUY
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1071661392, order=1311319903, volume=0.91, price=105453.53, bid=105453.53, ask=105465.53, comment='Request executed', request_id=1241622628, retcode_external=0, request=TradeRequest(action=1, magic=110022, order=0, symbol='BTCUSD', volume=0.91, price=105453.83, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=1, type_filling=1, type_time=0, expiration=0, comment='Close opposite position', position=1311128242, position_by=0))
+[RISK] Balance risked: $229.71 | SL distance: $250.00 | Lot: 0.91
+[OK] ORDER PLACED: ticket=1311319991, price=105436.43, sl=105686.43, lot=0.91
+[OK] SL ADJUSTED to 105684.23
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:00:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:05:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:00:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 105434.23
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:05:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:10:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:05:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: SELL, volume: 0.91, entry: 105434.23
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:10:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:15:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:10:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:15:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:20:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:15:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:20:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:25:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:20:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:25:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:30:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:25:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:30:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:35:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:30:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:35:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:40:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:35:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:40:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:45:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:40:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[TRADE] BTC-5M: new signal=BUY | prev=SELL | open=NONE
+[RISK] Balance risked: $229.13 | SL distance: $250.00 | Lot: 0.91
+[OK] ORDER PLACED: ticket=1311380011, price=105788.17, sl=105538.17, lot=0.91
+[OK] SL ADJUSTED to 105539.37
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:45:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:50:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:45:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105789.37
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:50:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 19:55:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-10 19:50:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] OPEN POSITION: BUY, volume: 0.91, entry: 105789.37
+[INFO] No actionable signal.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:55:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[TIMEOUT] No new candle after 20 seconds. Skipping this cycle.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:55:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[TIMEOUT] No new candle after 20 seconds. Skipping this cycle.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 19:55:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[WAIT] No new candle yet. Latest: 19:50:00 | Retrying in 2 seconds...
+[TIMEOUT] No new candle after 20 seconds. Skipping this cycle.
+
+[+] IN SESSION: 14:00:00–20:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 20:00:00 GMT ...
+[INFO] SESSION ENDED BEFORE THE NEXT BAR CLOSE. HANDLING SESSION END...
+[ACTION] CLOSING OPEN POSITION AT SESSION END...
+[OK] POSITION CLOSED: OrderSendResult(retcode=10009, deal=1071734689, order=1311402913, volume=0.91, price=105823.5, bid=105823.5, ask=105835.5, comment='Request executed', request_id=1241622633, retcode_external=0, request=TradeRequest(action=1, magic=110022, order=0, symbol='BTCUSD', volume=0.91, price=105797.0, stoplimit=0.0, sl=0.0, tp=0.0, deviation=10, type=1, type_filling=1, type_time=0, expiration=0, comment='Close opposite position', position=1311380011, position_by=0))
+
+[*] OUTSIDE SESSION. NEXT SESSION: 2025-11-11 10:00:00 GMT
+[+] SESSION START REACHED. Waiting to enter... 
+[+] SESSION HAS STARTED!                         
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:00:00 GMT ...
+
+[OK] New 5-min candle detected: 2025-11-11 09:55:00
+[INFO] Ignoring pre-session bar. Waiting for first post-session-start candle...
+
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:00:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 10:05:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-11 10:00:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:05:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 10:10:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-11 10:05:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:10:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 10:15:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-11 10:10:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:15:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 10:20:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-11 10:15:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:20:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 10:25:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-11 10:20:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:25:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 10:30:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-11 10:25:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:30:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 10:35:00 GMT ...
+TIME REMAINING: 00:00
+
+[OK] New 5-min candle detected: 2025-11-11 10:30:00
+[OK] Retrieved 499 candles from OANDA.
+[INFO] No open position currently.
+[INFO] No actionable signal.
+
+[+] IN SESSION: 10:00:00–13:00:00 GMT
+
+[*] Waiting until next 5-min candle close at 10:35:00 GMT ...
+[SKIP] Just-closed candle already fetched. Waiting to the next close for a brand-new timestamp...
+
+[*] Waiting until 10:40:00 GMT ...

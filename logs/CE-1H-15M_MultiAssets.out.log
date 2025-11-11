@@ -1,0 +1,1202 @@
+MT5 Path Exists? True
+
+MT5 Account Connected! 
+Account: 52498249 
+Balance: 101619.79 USD
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+[INFO] BTCUSD Lot Range: min=0.01, max=10.0, step=0.01
+[INFO] STOXX50 Lot Range: min=0.1, max=250.0, step=0.1
+[INFO] USDJPY Lot Range: min=0.01, max=200.0, step=0.01
+[INFO] DE40 Lot Range: min=0.1, max=250.0, step=0.1
+[RISK] XAU-H1: lot=0.1 | SL=40 | TP=40 -> est ≈ 400.00 USD
+[RISK] BTC-H1: lot=0.1 | SL=4000 | TP=4000 -> est ≈ 400.00 USD
+[RISK] EU50-H1: lot=6.9 | SL=50 | TP=50 -> est ≈ 399.16 USD
+[RISK] USDJPY-H1: lot=0.31 | SL=2 | TP=2 -> est ≈ 402.40 USD
+[RISK] DE40-H1: lot=1.4 | SL=250 | TP=250 -> est ≈ 404.94 USD
+[RISK] XAU-M15: lot=0.2 | SL=20 | TP=15 -> est ≈ 400.00 USD
+[RISK] BTC-M15: lot=0.8 | SL=500 | TP=1750 -> est ≈ 400.00 USD
+
+[Engine] Multi-timeframe mode: watching for new H1 and M15 candles...
+
+[OK] XAU-H1: new H1 candle @ 2025-11-10 12:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 12:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 12:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 12:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-10 12:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 13:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 13:15
+
+[BACKFILL] BTC-M15: previous bar had BUY — attempting execution now.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 13:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 13:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 13:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 13:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 13:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 13:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-10 13:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 13:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 13:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 14:00
+
+[TRADE] XAU-M15: new signal=SELL | prev=NONE | open=NONE
+[OK] Order placed on XAUUSD: Ticket=1310664164 | Comment=CEB:XAU-M15
+[OK] BTC-M15: new M15 candle @ 2025-11-10 14:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 14:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 14:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 14:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 14:30
+
+[TRADE] BTC-M15: new signal=SELL | prev=BUY | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1310755702 | Comment=CEB:BTC-M15
+[OK] XAU-H1: new H1 candle @ 2025-11-10 14:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 14:00
+
+[TRADE] BTC-H1: new signal=SELL | prev=NONE | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1310810975 | Comment=CEB:BTC-H1
+[OK] EU50-H1: new H1 candle @ 2025-11-10 14:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 14:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-10 14:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 14:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 14:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 15:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 15:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 15:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 15:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 15:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 15:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 15:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 15:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 15:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 15:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-10 15:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 15:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 15:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 16:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 16:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 16:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 16:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 16:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 16:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 16:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 16:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 16:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 16:00
+
+[TRADE] USDJPY-H1: new signal=SELL | prev=NONE | open=BUY
+[OK] Position closed: 1311103781
+[OK] Order placed on USDJPY: Ticket=1311103843 | Comment=CEB:USDJPY-H1
+[OK] DE40-H1: new H1 candle @ 2025-11-10 16:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 16:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 16:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 17:00
+
+[TRADE] XAU-M15: new signal=BUY | prev=SELL | open=SELL
+[OK] Position closed: 1311138256
+[OK] Order placed on XAUUSD: Ticket=1311138275 | Comment=CEB:XAU-M15
+[OK] BTC-M15: new M15 candle @ 2025-11-10 17:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 17:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 17:15
+
+[INFO] BTC-M15: no actionable signal.
+MT5 Path Exists? True
+
+MT5 Account Connected! 
+Account: 52498249 
+Balance: 101013.19 USD
+
+[INFO] XAUUSD Lot Range: min=0.01, max=100.0, step=0.01
+[INFO] BTCUSD Lot Range: min=0.01, max=10.0, step=0.01
+[INFO] STOXX50 Lot Range: min=0.1, max=250.0, step=0.1
+[INFO] USDJPY Lot Range: min=0.01, max=200.0, step=0.01
+[INFO] DE40 Lot Range: min=0.1, max=250.0, step=0.1
+[RISK] XAU-H1: lot=0.1 | SL=40 | TP=40 -> est ≈ 400.00 USD
+[RISK] BTC-H1: lot=0.1 | SL=4000 | TP=4000 -> est ≈ 400.00 USD
+[RISK] EU50-H1: lot=6.9 | SL=50 | TP=50 -> est ≈ 398.56 USD
+[RISK] USDJPY-H1: lot=0.31 | SL=2 | TP=2 -> est ≈ 402.75 USD
+[RISK] DE40-H1: lot=1.4 | SL=250 | TP=250 -> est ≈ 404.34 USD
+[RISK] XAU-M15: lot=0.2 | SL=20 | TP=15 -> est ≈ 400.00 USD
+[RISK] BTC-M15: lot=0.8 | SL=500 | TP=1750 -> est ≈ 400.00 USD
+
+[Engine] Multi-timeframe mode: watching for new H1 and M15 candles...
+
+[OK] XAU-H1: new H1 candle @ 2025-11-10 16:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 16:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 16:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 16:00
+
+[TRADE] USDJPY-H1: new signal=SELL | prev=NONE | open=SELL
+[OK] DE40-H1: new H1 candle @ 2025-11-10 16:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 17:15
+
+[BACKFILL] XAU-M15: previous bar had BUY — attempting execution now.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 17:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 17:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 17:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 17:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 17:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 17:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 17:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-10 17:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 17:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 17:45
+
+[TRADE] BTC-M15: new signal=BUY | prev=NONE | open=SELL
+[OK] Position closed: 1311218971
+[OK] Order placed on BTCUSD: Ticket=1311218995 | Comment=CEB:BTC-M15
+[OK] XAU-M15: new M15 candle @ 2025-11-10 18:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 18:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 18:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 18:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 18:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 18:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 18:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 18:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 18:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-10 18:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 18:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 18:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 18:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 19:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 19:00
+
+[TRADE] BTC-M15: new signal=SELL | prev=BUY | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1311340667 | Comment=CEB:BTC-M15
+[OK] XAU-M15: new M15 candle @ 2025-11-10 19:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 19:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 19:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 19:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 19:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 19:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 19:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 19:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-10 19:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 19:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 19:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 20:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 20:00
+
+[TRADE] BTC-M15: new signal=BUY | prev=SELL | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1311424370 | Comment=CEB:BTC-M15
+[OK] XAU-M15: new M15 candle @ 2025-11-10 20:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 20:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 20:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 20:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 20:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 20:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-10 20:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 20:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-10 20:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 20:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 20:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 21:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 21:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 21:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 21:15
+
+[TRADE] BTC-M15: new signal=SELL | prev=BUY | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1311521304 | Comment=CEB:BTC-M15
+[OK] XAU-M15: new M15 candle @ 2025-11-10 21:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 21:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 21:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 21:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 21:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 21:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 21:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 22:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 22:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 22:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 22:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 22:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 22:45
+
+[TRADE] BTC-M15: new signal=BUY | prev=SELL | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1311570920 | Comment=CEB:BTC-M15
+[OK] XAU-M15: new M15 candle @ 2025-11-10 23:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 23:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 23:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 23:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 23:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 23:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-10 23:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-10 23:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-10 23:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-10 23:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-10 23:00
+
+[TRADE] USDJPY-H1: new signal=BUY | prev=SELL | open=SELL
+[OK] Position closed: 1311641214
+[OK] Order placed on USDJPY: Ticket=1311641255 | Comment=CEB:USDJPY-H1
+[OK] BTC-M15: new M15 candle @ 2025-11-11 00:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 00:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 00:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 00:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 00:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 00:30
+
+[TRADE] BTC-M15: new signal=SELL | prev=BUY | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1311718325 | Comment=CEB:BTC-M15
+[OK] XAU-H1: new H1 candle @ 2025-11-11 00:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 00:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-11 00:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 00:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 00:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 00:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 00:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 01:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 01:00
+
+[TRADE] BTC-M15: new signal=BUY | prev=SELL | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1311769351 | Comment=CEB:BTC-M15
+[OK] XAU-M15: new M15 candle @ 2025-11-11 01:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 01:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 01:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 01:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-11 01:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 01:00
+
+[TRADE] BTC-H1: new signal=BUY | prev=NONE | open=SELL
+[OK] Position closed: 1311837773
+[OK] Order placed on BTCUSD: Ticket=1311837814 | Comment=CEB:BTC-H1
+[OK] EU50-H1: new H1 candle @ 2025-11-11 01:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 01:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 01:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 01:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 01:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 02:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 02:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 02:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 02:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 02:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 02:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-11 02:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 02:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 02:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 02:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 02:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 02:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-11 02:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 03:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 03:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 03:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 03:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 03:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 03:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 03:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 03:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 03:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 03:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-11 03:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 03:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-11 03:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 04:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 04:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 04:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 04:15
+
+[TRADE] BTC-M15: new signal=SELL | prev=BUY | open=NONE
+[OK] Order placed on BTCUSD: Ticket=1311990159 | Comment=CEB:BTC-M15
+[OK] XAU-M15: new M15 candle @ 2025-11-11 04:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 04:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-11 04:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 04:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-11 04:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 04:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 04:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 04:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 04:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 05:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 05:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 05:15
+
+[TRADE] XAU-M15: new signal=SELL | prev=BUY | open=NONE
+[OK] Order placed on XAUUSD: Ticket=1312049512 | Comment=CEB:XAU-M15
+[OK] BTC-M15: new M15 candle @ 2025-11-11 05:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 05:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 05:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-11 05:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 05:00
+
+[TRADE] BTC-H1: new signal=SELL | prev=BUY | open=BUY
+[OK] Position closed: 1312087776
+[OK] Order placed on BTCUSD: Ticket=1312087795 | Comment=CEB:BTC-H1
+[OK] EU50-H1: new H1 candle @ 2025-11-11 05:00
+
+[TRADE] EU50-H1: new signal=SELL | prev=NONE | open=NONE
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[PENDING] EU50-H1: queued SELL execution (will retry).
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 05:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 05:00
+
+[TRADE] DE40-H1: new signal=SELL | prev=NONE | open=NONE
+[OK] Order placed on DE40: Ticket=1312087840 | Comment=CEB:DE40-H1
+[OK] XAU-M15: new M15 candle @ 2025-11-11 05:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 05:45
+
+[INFO] BTC-M15: no actionable signal.
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[OK] XAU-M15: new M15 candle @ 2025-11-11 06:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 06:00
+
+[INFO] BTC-M15: no actionable signal.
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[OK] XAU-M15: new M15 candle @ 2025-11-11 06:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 06:15
+
+[INFO] BTC-M15: no actionable signal.
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[OK] XAU-M15: new M15 candle @ 2025-11-11 06:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 06:30
+
+[INFO] BTC-M15: no actionable signal.
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[RETRY] EU50-H1: attempting pending SELL execution...
+[ERROR] Order failed on STOXX50: Retcode=10018, Comment=Market closed
+[OK] XAU-H1: new H1 candle @ 2025-11-11 06:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 06:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-11 06:00
+
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 06:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 06:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 06:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 06:45
+
+[INFO] BTC-M15: no actionable signal.
+[RETRY] EU50-H1: attempting pending SELL execution...
+[OK] Order placed on STOXX50: Ticket=1312161995 | Comment=CEB:EU50-H1
+[OK] EU50-H1: pending SELL executed.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 07:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 07:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 07:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 07:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 07:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 07:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-11 07:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 07:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-11 07:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 07:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 07:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 07:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 07:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 08:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 08:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 08:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 08:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 08:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 08:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-11 08:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 08:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-11 08:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 08:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 08:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 08:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 08:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 09:00
+
+[TRADE] XAU-M15: new signal=BUY | prev=SELL | open=SELL
+[OK] Position closed: 1312336713
+[OK] Order placed on XAUUSD: Ticket=1312336734 | Comment=CEB:XAU-M15
+[OK] BTC-M15: new M15 candle @ 2025-11-11 09:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 09:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 09:15
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 09:30
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 09:30
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 09:45
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 09:45
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-H1: new H1 candle @ 2025-11-11 09:00
+
+[INFO] XAU-H1: no actionable signal.
+[OK] BTC-H1: new H1 candle @ 2025-11-11 09:00
+
+[INFO] BTC-H1: no actionable signal.
+[OK] EU50-H1: new H1 candle @ 2025-11-11 09:00
+
+[INFO] EU50-H1: no actionable signal.
+[OK] USDJPY-H1: new H1 candle @ 2025-11-11 09:00
+
+[INFO] USDJPY-H1: no actionable signal.
+[OK] DE40-H1: new H1 candle @ 2025-11-11 09:00
+
+[INFO] DE40-H1: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 10:00
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 10:00
+
+[INFO] BTC-M15: no actionable signal.
+[OK] XAU-M15: new M15 candle @ 2025-11-11 10:15
+
+[INFO] XAU-M15: no actionable signal.
+[OK] BTC-M15: new M15 candle @ 2025-11-11 10:15
+
+[INFO] BTC-M15: no actionable signal.

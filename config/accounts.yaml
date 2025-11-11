@@ -4,7 +4,7 @@ algos:
 #    script_path: "CEHourly_BTC+XAU+EU50+UJ.py"
 
   EMA_VWAP_Scalp: # 52474888
-    script_path: "EMA-VWAP_Scalp.py"
+    script_path: "EMA-VWAP_Scalp-XAU+BTC.py"
 
   CE-1H-15M_MultiAssets: # 52498249
     script_path: "CE-1H-15M_MultiAssets.py"
